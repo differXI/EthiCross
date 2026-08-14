@@ -1,0 +1,121 @@
+{
+  "title": "Software Ethics",
+  "rows": 14,
+  "cols": 14,
+  "placements": [
+    {
+      "number": 1,
+      "dir": "across",
+      "word": "ACCOUNTABILITY",
+      "row": 0,
+      "col": 0,
+      "clue": "Taking responsibility for the ethical consequences of one's software and decisions."
+    },
+    {
+      "number": 1,
+      "dir": "down",
+      "word": "ACCESSIBILITY",
+      "row": 0,
+      "col": 0,
+      "clue": "Designing software so that people with disabilities can use it effectively."
+    },
+    {
+      "number": 6,
+      "dir": "across",
+      "word": "TRANSPARENCY",
+      "row": 11,
+      "col": 0,
+      "clue": "Openness about how a system works, what data it uses, and how it makes decisions."
+    },
+    {
+      "number": 2,
+      "dir": "across",
+      "word": "COPYRIGHT",
+      "row": 2,
+      "col": 0,
+      "clue": "Legal protection for the expression of original creative and written works."
+    },
+    {
+      "number": 3,
+      "dir": "across",
+      "word": "SECURITY",
+      "row": 4,
+      "col": 0,
+      "clue": "The practice of protecting systems, networks, and data from damage or attack."
+    },
+    {
+      "number": 4,
+      "dir": "down",
+      "word": "FAIRNESS",
+      "row": 6,
+      "col": 8,
+      "clue": "Treating all users and stakeholders impartially, without bias or unjust outcomes."
+    },
+    {
+      "number": 5,
+      "dir": "across",
+      "word": "PRIVACY",
+      "row": 7,
+      "col": 4,
+      "clue": "The protection of personal information from unauthorized access or misuse."
+    }
+  ],
+  "terms": {
+    "PRIVACY": {
+      "term": "PRIVACY",
+      "clue": "The protection of personal information from unauthorized access or misuse.",
+      "hint": "Think about protecting user data.",
+      "definition": "Protecting personal information from unauthorized collection, access, use, or disclosure.",
+      "importance": "Software systems often process sensitive user information, so developers have a responsibility to protect users' data.",
+      "example": "A mobile application should not collect a user's location data without a valid reason and appropriate user consent."
+    },
+    "SECURITY": {
+      "term": "SECURITY",
+      "clue": "The practice of protecting systems, networks, and data from damage or attack.",
+      "hint": "Think about guarding systems against attacks.",
+      "definition": "Protecting computer systems, networks, and data from threats such as unauthorized access, attacks, and damage.",
+      "importance": "Ethical developers must build software that keeps users safe from breaches and exploits.",
+      "example": "An e-commerce website should encrypt customer payment details so that credit card numbers cannot be read during checkout."
+    },
+    "FAIRNESS": {
+      "term": "FAIRNESS",
+      "clue": "Treating all users and stakeholders impartially, without bias or unjust outcomes.",
+      "hint": "Think about equal treatment for everyone.",
+      "definition": "Treating people and data fairly, without bias or unjust outcomes in the design of systems and decisions.",
+      "importance": "Algorithms and software decisions can unfairly affect people, so fairness must be designed in from the start.",
+      "example": "A hiring tool should not reject qualified candidates based on protected characteristics such as gender or ethnicity."
+    },
+    "ACCOUNTABILITY": {
+      "term": "ACCOUNTABILITY",
+      "clue": "Taking responsibility for the ethical consequences of one's software and decisions.",
+      "hint": "Think about owning your actions and their results.",
+      "definition": "Being answerable for the design, development, and impact of software, including its failures.",
+      "importance": "When software fails or causes harm, there must be someone who can be held to account.",
+      "example": "A team should document who is responsible for each part of a system so that failures can be traced and fixed."
+    },
+    "TRANSPARENCY": {
+      "term": "TRANSPARENCY",
+      "clue": "Openness about how a system works, what data it uses, and how it makes decisions.",
+      "hint": "Think about being open and clear about your system.",
+      "definition": "Clearly explaining how software behaves, what data it collects, and how it makes decisions.",
+      "importance": "Users can only make informed choices when they understand what the software does with their information.",
+      "example": "A social media app should clearly state in plain language how its recommendations are generated."
+    },
+    "COPYRIGHT": {
+      "term": "COPYRIGHT",
+      "clue": "Legal protection for the expression of original creative and written works.",
+      "hint": "Think about who owns the code and creative work.",
+      "definition": "The legal right that gives creators ownership of their original works, such as code, text, and images.",
+      "importance": "Developers must not copy others' code or materials without permission and must respect software licenses.",
+      "example": "Copying a library's source code into a project without checking its license can violate copyright law."
+    },
+    "ACCESSIBILITY": {
+      "term": "ACCESSIBILITY",
+      "clue": "Designing software so that people with disabilities can use it effectively.",
+      "hint": "Think about making software usable by everyone.",
+      "definition": "Designing products and services so that people with a wide range of abilities and disabilities can use them.",
+      "importance": "Excluding disabled users from software is a form of unfair access, so accessibility is an ethical responsibility.",
+      "example": "A website should provide text alternatives for images so that screen-reader users can understand the content."
+    }
+  }
+}
