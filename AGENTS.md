@@ -3,8 +3,7 @@
 ## Repo state
 
 - The project spec is `EthiCross-README.md` (note the non-standard filename; there is no `README.md`).
-- **Phase 1–4 prototype is implemented** in `client/` (Vite + React 19 + Tailwind v4). Backend (`server/`) is Phase 5 and does not exist yet.
-- The git repo has no commits yet.
+- Phase 1–4 prototype is implemented in `client/` (Vite + React 19 + Tailwind v4). Backend (`server/`) is Phase 5 and does not exist yet.
 
 ## Commands (run in `client/`)
 
@@ -25,11 +24,12 @@
 
 ## Code layout / how it works
 
-- `client/src/data/puzzle.json` — **generated file.** Contains terms + computed `placements` (word, row, col, dir, clue number) + grid `rows`/`cols`. Do not hand-edit placements; regenerate.
-- `scripts/build-grid.mjs` (repo root) — regenerates placements: `node scripts/build-grid.mjs`. It reads the terms from `puzzle.json` and rewrites the file with a solved crossword layout. Run it after adding/removing terms.
-- `client/src/lib/puzzle.js` — derives the board (cell→letters, clue numbering, across/down word lists) from `puzzle.json`.
-- Pages: `pages/Home.jsx`, `pages/Game.jsx` (all gameplay state), `pages/Result.jsx`. Components under `components/`. App switches pages with local state — no router.
-- Scoring/hints/timer are computed in `Game.jsx`; final results passed up via `onComplete`.
+- `client/src/data/terms.json` — the shared **terms bank** (70 ethics terms, each with `{ term, clue, hint, definition, importance, example }`). All three modes draw from it.
+- `client/src/data/levels.json` — **generated file.** 100 levels in 20 chapters of 5 (4→7 words, warm-up→expert) + computed `placements` + grid `rows`/`cols`. Do not hand-edit placements; regenerate. (`client/src/data/puzzle.json` is the legacy single-puzzle file, kept for reference.)
+- `scripts/build-levels.mjs` (repo root) — regenerates all 100 levels: `node scripts/build-levels.mjs`. Deterministic from `MASTER_SEED` (bump it to deal a fresh set); word slots per difficulty tier and chapter names live at the top of the script. Level picks balance word reuse and it keeps the most compact of up to 8 candidate layouts per level. (`scripts/build-grid.mjs` is the legacy single-puzzle builder.)
+- `client/src/lib/crossword.js` — shared grid engine (`buildGrid`, `buildGridRetry`, `numberPlacements`, seeded `makeRng`) used by both the build script and the app (daily puzzles are built in-browser, deterministically from the date).
+- `client/src/lib/puzzle.js` — mode data helpers (`terms`, `levels`, `puzzleFromLevel`, `buildDailyPuzzle`) plus board derivation (`decoratePuzzle`, cell→letters, clue numbering). `Game.jsx` receives one crossword via the `puzzleData` prop (`{ title, rows, cols, placements, terms }`).
+- Modes: `pages/Home.jsx` (mode select), `pages/Levels.jsx` (100-level map grouped by chapter, with locks/stars), `pages/Game.jsx` (grid gameplay for Levels + Daily), `pages/Endless.jsx` (hearts/streak survival), `pages/Daily.jsx` (1-play-per-day gate + countdown), `pages/Codex.jsx` (📚 Study Index: per-world term reader + search, with ✓ learned marks), `pages/Result.jsx` (generic: stars, badge, buttons). App switches screens with local state — no router. Progress persists in `localStorage` (`ethicross-levels-v1`, `ethicross-endless-best-v1`, `ethicross-daily-v1`, `ethicross-learned-v1`).
 
 ## Conventions / gotchas
 

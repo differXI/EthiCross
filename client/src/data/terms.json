@@ -1,0 +1,562 @@
+{
+  "PRIVACY": {
+    "term": "PRIVACY",
+    "clue": "The protection of personal information from unauthorized access or misuse.",
+    "hint": "Think about protecting user data.",
+    "definition": "Protecting personal information from unauthorized collection, access, use, or disclosure.",
+    "importance": "Software systems often process sensitive user information, so developers have a responsibility to protect users' data.",
+    "example": "A mobile application should not collect a user's location data without a valid reason and appropriate user consent."
+  },
+  "SECURITY": {
+    "term": "SECURITY",
+    "clue": "The practice of protecting systems, networks, and data from damage or attack.",
+    "hint": "Think about guarding systems against attacks.",
+    "definition": "Protecting computer systems, networks, and data from threats such as unauthorized access, attacks, and damage.",
+    "importance": "Ethical developers must build software that keeps users safe from breaches and exploits.",
+    "example": "An e-commerce website should encrypt customer payment details so that credit card numbers cannot be read during checkout."
+  },
+  "FAIRNESS": {
+    "term": "FAIRNESS",
+    "clue": "Treating all users and stakeholders impartially, without bias or unjust outcomes.",
+    "hint": "Think about equal treatment for everyone.",
+    "definition": "Treating people and data fairly, without bias or unjust outcomes in the design of systems and decisions.",
+    "importance": "Algorithms and software decisions can unfairly affect people, so fairness must be designed in from the start.",
+    "example": "A hiring tool should not reject qualified candidates based on protected characteristics such as gender or ethnicity."
+  },
+  "ACCOUNTABILITY": {
+    "term": "ACCOUNTABILITY",
+    "clue": "Taking responsibility for the ethical consequences of one's software and decisions.",
+    "hint": "Think about owning your actions and their results.",
+    "definition": "Being answerable for the design, development, and impact of software, including its failures.",
+    "importance": "When software fails or causes harm, there must be someone who can be held to account.",
+    "example": "A team should document who is responsible for each part of a system so that failures can be traced and fixed."
+  },
+  "TRANSPARENCY": {
+    "term": "TRANSPARENCY",
+    "clue": "Openness about how a system works, what data it uses, and how it makes decisions.",
+    "hint": "Think about being open and clear about your system.",
+    "definition": "Clearly explaining how software behaves, what data it collects, and how it makes decisions.",
+    "importance": "Users can only make informed choices when they understand what the software does with their information.",
+    "example": "A social media app should clearly state in plain language how its recommendations are generated."
+  },
+  "COPYRIGHT": {
+    "term": "COPYRIGHT",
+    "clue": "Legal protection for the expression of original creative and written works.",
+    "hint": "Think about who owns the code and creative work.",
+    "definition": "The legal right that gives creators ownership of their original works, such as code, text, and images.",
+    "importance": "Developers must not copy others' code or materials without permission and must respect software licenses.",
+    "example": "Copying a library's source code into a project without checking its license can violate copyright law."
+  },
+  "ACCESSIBILITY": {
+    "term": "ACCESSIBILITY",
+    "clue": "Designing software so that people with disabilities can use it effectively.",
+    "hint": "Think about making software usable by everyone.",
+    "definition": "Designing products and services so that people with a wide range of abilities and disabilities can use them.",
+    "importance": "Excluding disabled users from software is a form of unfair access, so accessibility is an ethical responsibility.",
+    "example": "A website should provide text alternatives for images so that screen-reader users can understand the content."
+  },
+  "CONSENT": {
+    "term": "CONSENT",
+    "clue": "Freely given permission from a user before collecting or using their data.",
+    "hint": "Think about asking users first.",
+    "definition": "Voluntary, informed agreement by a person to allow collection or use of their data.",
+    "importance": "Collecting data without permission violates user autonomy and erodes trust.",
+    "example": "An app must ask permission with a clear dialog before accessing the camera or contacts."
+  },
+  "SECRECY": {
+    "term": "SECRECY",
+    "clue": "Keeping sensitive information hidden from those who should not see it.",
+    "hint": "Think about keeping secrets safe.",
+    "definition": "The practice of preventing unauthorized people from learning sensitive information.",
+    "importance": "Leaked secrets such as passwords or keys can expose whole systems to attack.",
+    "example": "API keys and passwords should live in a secrets manager, never hard-coded in source files."
+  },
+  "ENCRYPTION": {
+    "term": "ENCRYPTION",
+    "clue": "Scrambling data so only authorized parties with the key can read it.",
+    "hint": "Think about secret codes for data.",
+    "definition": "Transforming readable data into ciphertext that can only be reversed with the correct key.",
+    "importance": "Encryption protects data in transit and at rest even if storage or networks are compromised.",
+    "example": "A chat app uses end-to-end encryption so messages cannot be read while travelling across the network."
+  },
+  "ANONYMITY": {
+    "term": "ANONYMITY",
+    "clue": "The state of acting or contributing data without revealing who you are.",
+    "hint": "Think about being nameless online.",
+    "definition": "A condition in which a person's identity is unknown or cannot be linked to their actions or data.",
+    "importance": "Anonymity can protect whistleblowers and research subjects, but it must be engineered carefully to resist re-identification.",
+    "example": "A survey tool strips names and IP addresses before publishing results."
+  },
+  "SURVEILLANCE": {
+    "term": "SURVEILLANCE",
+    "clue": "Close observation of users' behavior, often through tracking or monitoring software.",
+    "hint": "Think about watching users too closely.",
+    "definition": "Systematic monitoring or tracking of people, usually through data collection.",
+    "importance": "Unchecked surveillance in software can chill free expression and violate privacy rights.",
+    "example": "An employee-monitoring tool that logs every keystroke raises serious surveillance concerns."
+  },
+  "BREACH": {
+    "term": "BREACH",
+    "clue": "An incident where protected data is exposed to unauthorized parties.",
+    "hint": "Think about a leak of user data.",
+    "definition": "A security incident in which confidential data is accessed or disclosed without authorization.",
+    "importance": "Breaches harm users directly and destroy confidence in the software maker.",
+    "example": "A company must notify affected users quickly after a database breach exposes their emails."
+  },
+  "TRUST": {
+    "term": "TRUST",
+    "clue": "Users' belief that software will behave reliably and in their interest.",
+    "hint": "Think about what developers must earn from users.",
+    "definition": "Confidence that a system and its makers will act competently and honestly.",
+    "importance": "Trust is the foundation of adoption — once lost through misuse of data, it is very hard to rebuild.",
+    "example": "Publishing a clear privacy policy and keeping its promises builds trust with users."
+  },
+  "BIAS": {
+    "term": "BIAS",
+    "clue": "A systematic slant in data or algorithms that favors some people over others.",
+    "hint": "Think about unfair tilt in an algorithm.",
+    "definition": "A prejudice in data collection or model behavior that produces consistently skewed outcomes.",
+    "importance": "Biased systems can deny opportunities to whole groups of people at scale.",
+    "example": "A face-recognition model trained mostly on one demographic performs worse for everyone else."
+  },
+  "EQUITY": {
+    "term": "EQUITY",
+    "clue": "Giving people the resources they need so outcomes can be fair.",
+    "hint": "Think about fairness adjusted to need.",
+    "definition": "Distributing support according to need so that everyone has a genuine chance at a good outcome.",
+    "importance": "Equal treatment is not always fair when people start from different positions.",
+    "example": "Offering offline modes and low-bandwidth options gives users with poor connectivity an equitable experience."
+  },
+  "JUSTICE": {
+    "term": "JUSTICE",
+    "clue": "The moral principle that benefits and harms of technology should be shared fairly.",
+    "hint": "Think about what is morally right for society.",
+    "definition": "Fairness in how the advantages and risks of technology are distributed across society.",
+    "importance": "Software shapes access to jobs, credit, and information, so it must serve justice, not entrench inequality.",
+    "example": "A lending algorithm should be audited so it does not systematically deny loans to poorer neighborhoods."
+  },
+  "INCLUSION": {
+    "term": "INCLUSION",
+    "clue": "Actively involving people of all backgrounds in using and shaping software.",
+    "hint": "Think about leaving nobody out.",
+    "definition": "The practice of ensuring diverse people can participate in and benefit from technology.",
+    "importance": "Products designed by narrow groups tend to fail everyone else.",
+    "example": "Testing a health app with elderly users and rural users leads to a more inclusive design."
+  },
+  "DIVERSITY": {
+    "term": "DIVERSITY",
+    "clue": "Having many different kinds of people, views, and experiences represented.",
+    "hint": "Think about variety in teams and data.",
+    "definition": "Representation of differences such as culture, gender, age, ability, and perspective.",
+    "importance": "Diverse teams and datasets catch blind spots that homogeneous ones miss.",
+    "example": "A voice assistant trained on diverse accents understands far more users correctly."
+  },
+  "AUTONOMY": {
+    "term": "AUTONOMY",
+    "clue": "A person's right to make their own informed choices about technology.",
+    "hint": "Think about self-rule for users.",
+    "definition": "The capacity of individuals to control their own decisions, free from manipulation.",
+    "importance": "Dark patterns and hidden defaults strip users of autonomy and are ethically indefensible.",
+    "example": "A settings screen should let users opt out of personalization with one clear toggle."
+  },
+  "DIGNITY": {
+    "term": "DIGNITY",
+    "clue": "The inherent worth of every person that software must respect.",
+    "hint": "Think about treating every user as a person.",
+    "definition": "The respect owed to each human being simply for being human.",
+    "importance": "Systems that humiliate, dehumanize, or exploit users violate their dignity.",
+    "example": "A content-moderation workflow should protect reviewers from endless exposure to traumatic material."
+  },
+  "INTEGRITY": {
+    "term": "INTEGRITY",
+    "clue": "Acting honestly and consistently with moral principles, even when no one watches.",
+    "hint": "Think about doing the right thing always.",
+    "definition": "Adherence to honesty and strong moral principles in professional work.",
+    "importance": "Users and employers rely on engineers to report risks truthfully rather than hide them.",
+    "example": "An engineer refuses to fake test results to meet a deadline."
+  },
+  "HONESTY": {
+    "term": "HONESTY",
+    "clue": "Telling the truth about what software can and cannot do.",
+    "hint": "Think about never misleading users.",
+    "definition": "Truthfulness in claims, documentation, and communication about software.",
+    "importance": "Exaggerated claims about accuracy or safety can put people in danger.",
+    "example": "A vendor honestly discloses the error rate of its AI medical assistant."
+  },
+  "RESPONSIBILITY": {
+    "term": "RESPONSIBILITY",
+    "clue": "The duty to take care that one's software does not cause foreseeable harm.",
+    "hint": "Think about owning the impact of your code.",
+    "definition": "An obligation to consider and mitigate the consequences of one's professional actions.",
+    "importance": "Software reaches millions, so careless work can scale harm enormously.",
+    "example": "A developer adds input validation so a malformed request cannot corrupt the database."
+  },
+  "LOYALTY": {
+    "term": "LOYALTY",
+    "clue": "Acting in the best interests of clients and users who depend on you.",
+    "hint": "Think about serving your users faithfully.",
+    "definition": "Faithfulness to the interests of employers, clients, and users within ethical bounds.",
+    "importance": "Engineers hold privileged access to data and systems, which must be used for principals' benefit.",
+    "example": "A freelancer warns a client that a requested feature would secretly harvest user data."
+  },
+  "COMPETENCE": {
+    "term": "COMPETENCE",
+    "clue": "Having and maintaining the skills needed to do professional work well.",
+    "hint": "Think about staying skilled and qualified.",
+    "definition": "The ability to perform professional tasks to an accepted standard of skill and care.",
+    "importance": "Taking on work beyond one's skills risks failures that harm users.",
+    "example": "An engineer declines a cryptography task beyond their expertise and recommends a specialist."
+  },
+  "DISCLOSURE": {
+    "term": "DISCLOSURE",
+    "clue": "Openly revealing conflicts, risks, or limitations that others should know.",
+    "hint": "Think about revealing what others must know.",
+    "definition": "Proactively sharing material facts such as conflicts of interest or known defects.",
+    "importance": "Hidden risks deny users and clients the chance to protect themselves.",
+    "example": "A team discloses a known security flaw to customers along with a mitigation plan."
+  },
+  "COMPLIANCE": {
+    "term": "COMPLIANCE",
+    "clue": "Following the laws, standards, and policies that apply to software.",
+    "hint": "Think about following the rules.",
+    "definition": "Conforming to legal requirements, industry standards, and organizational policies.",
+    "importance": "Non-compliance can expose users to harm and organizations to legal liability.",
+    "example": "A startup documents GDPR compliance steps before launching in Europe."
+  },
+  "PLAGIARISM": {
+    "term": "PLAGIARISM",
+    "clue": "Presenting someone else's code or writing as if it were your own.",
+    "hint": "Think about copying without credit.",
+    "definition": "Using another person's work without attribution and passing it off as one's own.",
+    "importance": "Plagiarism steals credit from creators and can violate academic and professional codes.",
+    "example": "Submitting a Stack Overflow snippet as coursework without citation is plagiarism."
+  },
+  "LICENSE": {
+    "term": "LICENSE",
+    "clue": "The legal terms that state how software may be used, shared, or modified.",
+    "hint": "Think about permission slips for code.",
+    "definition": "A grant of rights from a copyright holder specifying allowed uses of a work.",
+    "importance": "Ignoring licenses can turn reuse of open code into unlawful distribution.",
+    "example": "A team checks whether a GPL library can be used inside a proprietary product."
+  },
+  "PATENT": {
+    "term": "PATENT",
+    "clue": "An exclusive legal right granted for a novel invention for a limited time.",
+    "hint": "Think about owning an invention.",
+    "definition": "A government-granted monopoly allowing an inventor to exclude others from making or using an invention.",
+    "importance": "Patents shape who can build on an idea, so engineers should understand their reach.",
+    "example": "A company patents a compression method, then licenses it to other firms."
+  },
+  "ATTRIBUTION": {
+    "term": "ATTRIBUTION",
+    "clue": "Giving proper credit to the creator of code, text, or media you reuse.",
+    "hint": "Think about naming the original author.",
+    "definition": "Acknowledging the source or author of reused material as a license or norm requires.",
+    "importance": "Attribution respects creators and lets others verify and build on sources.",
+    "example": "A README credits the icon set author with a link to their license."
+  },
+  "OPENNESS": {
+    "term": "OPENNESS",
+    "clue": "Sharing code, data, and methods so others can inspect and reuse them.",
+    "hint": "Think about open source spirit.",
+    "definition": "The practice of making software artifacts publicly available with permission to study and improve them.",
+    "importance": "Openness enables scrutiny, collaboration, and faster fixes of ethical flaws.",
+    "example": "A research lab releases its model weights and evaluation scripts openly."
+  },
+  "SAFETY": {
+    "term": "SAFETY",
+    "clue": "Designing software so it avoids injuring people or damaging property.",
+    "hint": "Think about protecting people from harm.",
+    "definition": "Freedom from unacceptable risk of harm caused by a system.",
+    "importance": "Software now drives cars and medical devices, where bugs can be lethal.",
+    "example": "An insulin-pump app limits maximum doses and requires confirmation for overrides."
+  },
+  "SUSTAINABILITY": {
+    "term": "SUSTAINABILITY",
+    "clue": "Building software that meets present needs without harming future generations.",
+    "hint": "Think about long-term care for people and planet.",
+    "definition": "Development that balances current goals with environmental and social impacts over time.",
+    "importance": "Wasteful computation and planned obsolescence burden the environment and poorer users.",
+    "example": "A team optimizes its data center jobs to cut energy use and extends support for older devices."
+  },
+  "AUDIT": {
+    "term": "AUDIT",
+    "clue": "A systematic independent review of a system, process, or decision.",
+    "hint": "Think about inspecting a system for problems.",
+    "definition": "A structured examination of software, data, or practices to check compliance, fairness, and safety.",
+    "importance": "Without audits, biased or unsafe behavior in complex systems can run unchecked for years.",
+    "example": "An outside team audits a hiring algorithm and finds it downgrades resumes with employment gaps."
+  },
+  "RISK": {
+    "term": "RISK",
+    "clue": "The possibility that building or deploying software causes harm or loss.",
+    "hint": "Think about what could go wrong.",
+    "definition": "Exposure to potential harm, failure, or loss arising from a system or decision.",
+    "importance": "Ethical engineering means naming risks honestly and reducing the biggest ones first.",
+    "example": "Before launch, the team lists risks: data leaks, outages, and misuse by bad actors."
+  },
+  "HARM": {
+    "term": "HARM",
+    "clue": "Injury, damage, or suffering caused to people by a system or decision.",
+    "hint": "Think about hurting users.",
+    "definition": "Negative impact on a person's wellbeing, rights, property, or opportunities.",
+    "importance": "The first duty of an engineer is to foresee and prevent harm their software could cause.",
+    "example": "A navigation bug that routes drivers onto a closed road risks real physical harm."
+  },
+  "MINIMIZATION": {
+    "term": "MINIMIZATION",
+    "clue": "Collecting only the data strictly needed, and keeping it no longer than necessary.",
+    "hint": "Think about taking as little data as possible.",
+    "definition": "The principle of limiting data collection and retention to what a purpose genuinely requires.",
+    "importance": "Data you never collect can never be leaked, stolen, or misused.",
+    "example": "A weather app asks only for approximate location instead of full GPS history."
+  },
+  "ERASURE": {
+    "term": "ERASURE",
+    "clue": "A user's right to have their personal data permanently deleted.",
+    "hint": "Think about the right to be forgotten.",
+    "definition": "The obligation to delete personal data when a user requests it or it is no longer needed.",
+    "importance": "People change; systems that never forget can punish users for their past forever.",
+    "example": "A social network must delete all of a user's posts and messages when the account is closed."
+  },
+  "MALWARE": {
+    "term": "MALWARE",
+    "clue": "Software deliberately designed to damage systems or steal from users.",
+    "hint": "Think about viruses and trojans.",
+    "definition": "Malicious software such as viruses, worms, ransomware, or spyware.",
+    "importance": "Writing or spreading malware is a direct violation of professional ethics and usually the law.",
+    "example": "A fake free game installer that secretly steals passwords is malware."
+  },
+  "PHISHING": {
+    "term": "PHISHING",
+    "clue": "Tricking people into revealing secrets by impersonating someone trustworthy.",
+    "hint": "Think about fake login emails.",
+    "definition": "Fraudulent messages that pose as legitimate senders to steal credentials or data.",
+    "importance": "Engineers must design systems that resist phishing instead of blaming users who fall for it.",
+    "example": "An email pretending to be the university IT desk asks students to reset passwords on a fake page."
+  },
+  "RANSOMWARE": {
+    "term": "RANSOMWARE",
+    "clue": "Malware that locks victims' files and demands payment for their release.",
+    "hint": "Think about kidnapped files.",
+    "definition": "Malicious software that encrypts a victim's data and extorts money for the key.",
+    "importance": "Poor security practices by developers leave hospitals and schools exposed to these attacks.",
+    "example": "A hospital must cancel surgeries after ransomware encrypts its patient records."
+  },
+  "BACKDOOR": {
+    "term": "BACKDOOR",
+    "clue": "A hidden way to bypass normal authentication in a system.",
+    "hint": "Think about a secret entrance for attackers.",
+    "definition": "An undocumented access path that circumvents security controls.",
+    "importance": "Deliberate backdoors, even for authorities, weaken security for every user.",
+    "example": "A developer leaves a master password in the code so support can log in as anyone."
+  },
+  "PATCH": {
+    "term": "PATCH",
+    "clue": "A small update that fixes a bug or closes a security hole.",
+    "hint": "Think about a quick fix release.",
+    "definition": "A software update that corrects defects or vulnerabilities.",
+    "importance": "Shipping patches promptly is a core duty once you know users are at risk.",
+    "example": "The vendor releases a patch within a day of learning attackers exploit a login flaw."
+  },
+  "VULNERABILITY": {
+    "term": "VULNERABILITY",
+    "clue": "A weakness in software that attackers can exploit to cause harm.",
+    "hint": "Think about a crack in the armor.",
+    "definition": "A flaw in design, code, or configuration that makes harmful exploitation possible.",
+    "importance": "Handling vulnerability reports responsibly separates ethical teams from negligent ones.",
+    "example": "A researcher reports a flaw privately and the team fixes it before announcing details."
+  },
+  "DEEPFAKE": {
+    "term": "DEEPFAKE",
+    "clue": "A realistic fake video or audio generated by AI to impersonate someone.",
+    "hint": "Think about AI face swaps.",
+    "definition": "Synthetic media that convincingly depicts events or speech that never happened.",
+    "importance": "Deepfakes enable fraud, defamation, and election manipulation at unprecedented realism.",
+    "example": "A fake video of a CEO announcing bankruptcy wipes millions off the company's value."
+  },
+  "PROFILING": {
+    "term": "PROFILING",
+    "clue": "Sorting people into categories from their data to predict or judge them.",
+    "hint": "Think about labeling people from data.",
+    "definition": "Automated classification of individuals based on behavior or personal data.",
+    "importance": "Profiles can lock people out of jobs, loans, or services based on invisible scores.",
+    "example": "An insurer raises premiums for drivers profiled as risky from phone-sensor data."
+  },
+  "TRACKING": {
+    "term": "TRACKING",
+    "clue": "Following users across apps and websites to record what they do.",
+    "hint": "Think about following users around the web.",
+    "definition": "Persistent collection of behavioral data about a person across services and time.",
+    "importance": "Invisible tracking strips users of control over who knows what about their lives.",
+    "example": "Hidden trackers in a pregnancy app sell visit data to advertisers."
+  },
+  "LEAK": {
+    "term": "LEAK",
+    "clue": "An accidental or deliberate release of confidential information.",
+    "hint": "Think about secrets slipping out.",
+    "definition": "Unauthorized disclosure of private data or information.",
+    "importance": "Engineers must design so that one mistake cannot turn into a mass leak.",
+    "example": "A misconfigured cloud folder leaks thousands of scanned passports to the public web."
+  },
+  "NUDGE": {
+    "term": "NUDGE",
+    "clue": "A subtle design push that steers users toward one choice over others.",
+    "hint": "Think about a gentle push in the interface.",
+    "definition": "Interface design that influences behavior without removing freedom of choice.",
+    "importance": "Nudges toward user wellbeing are defensible; nudges toward exploitation are manipulation.",
+    "example": "Pre-selecting the most expensive plan at checkout is a nudge against the user's interest."
+  },
+  "DECEPTION": {
+    "term": "DECEPTION",
+    "clue": "Misleading users through false statements or dishonest interface design.",
+    "hint": "Think about tricking users on purpose.",
+    "definition": "Causing users to hold false beliefs through lies, omission, or deceptive patterns.",
+    "importance": "Deception destroys the trust that software adoption depends on.",
+    "example": "A countdown timer that resets on every visit deceives shoppers about urgency."
+  },
+  "ADDICTION": {
+    "term": "ADDICTION",
+    "clue": "Compulsive overuse of an app engineered through addictive design tricks.",
+    "hint": "Think about infinite scroll harm.",
+    "definition": "Harmful dependence on software driven by engagement-maximizing design.",
+    "importance": "Optimizing purely for time-on-screen can damage mental health, sleep, and attention.",
+    "example": "Endless autoplay keeps teenagers watching hours past bedtime."
+  },
+  "MODERATION": {
+    "term": "MODERATION",
+    "clue": "Reviewing and controlling user content to keep a platform safe.",
+    "hint": "Think about removing harmful posts.",
+    "definition": "Enforcing community rules by reviewing, removing, or limiting user-generated content.",
+    "importance": "Without moderation, harassment and abuse drive vulnerable users off platforms.",
+    "example": "Reviewers remove instructions for wrongdoing while protecting newsworthy reporting."
+  },
+  "DIVIDE": {
+    "term": "DIVIDE",
+    "clue": "The gap between people who can access technology and those who cannot.",
+    "hint": "Think about the digital gap.",
+    "definition": "Unequal access to devices, connectivity, and digital skills across groups.",
+    "importance": "Software that assumes fast internet and new phones quietly excludes the poorest users.",
+    "example": "Requiring a smartphone app for welfare applications excludes people without one."
+  },
+  "AGENCY": {
+    "term": "AGENCY",
+    "clue": "A user's power to act, choose, and control their own experience.",
+    "hint": "Think about users being in charge.",
+    "definition": "The capacity of people to make meaningful, informed choices when using technology.",
+    "importance": "Design that removes agency turns users into products steered by someone else.",
+    "example": "Letting users export their data and leave preserves their agency."
+  },
+  "MONOPOLY": {
+    "term": "MONOPOLY",
+    "clue": "A single company dominating a market with no real alternatives.",
+    "hint": "Think about one giant owning everything.",
+    "definition": "Market control by one firm that can dictate terms to users and competitors.",
+    "importance": "Monopolies in software choke innovation and leave users with take-it-or-leave-it terms.",
+    "example": "An app store that takes a forced cut of every sale shows monopoly power."
+  },
+  "REGULATION": {
+    "term": "REGULATION",
+    "clue": "Laws and rules that set boundaries for how technology may be built and used.",
+    "hint": "Think about government rules for tech.",
+    "definition": "Binding legal requirements imposed on software makers by public authorities.",
+    "importance": "Regulation protects people where market incentives alone would permit harm.",
+    "example": "Data-protection law forces companies to report breaches within days."
+  },
+  "DILEMMA": {
+    "term": "DILEMMA",
+    "clue": "A situation where every available choice violates some value.",
+    "hint": "Think about a no-win ethical choice.",
+    "definition": "A conflict between moral duties where no option is fully satisfactory.",
+    "importance": "Engineers face dilemmas constantly; naming them honestly is the first step to resolving them.",
+    "example": "Removing harmful content quickly conflicts with reviewing it fairly — a classic dilemma."
+  },
+  "CODE": {
+    "term": "CODE",
+    "clue": "A written set of ethical rules for a profession, such as the ACM rules.",
+    "hint": "Think about ethics rulebooks.",
+    "definition": "A formal statement of duties and virtues expected of computing professionals.",
+    "importance": "Codes give engineers shared language and backing to refuse unethical requests.",
+    "example": "The ACM Code of Ethics tells members to avoid harm and respect privacy."
+  },
+  "REFUSAL": {
+    "term": "REFUSAL",
+    "clue": "Declining to build something you judge to be unethical.",
+    "hint": "Think about saying no to harmful work.",
+    "definition": "The conscientious decision not to participate in work that violates one's ethics.",
+    "importance": "Every harmful system was built by people who could have refused.",
+    "example": "An engineer refuses to build a tool for secretly scoring job applicants by ethnicity."
+  },
+  "CONFLICT": {
+    "term": "CONFLICT",
+    "clue": "A clash between your interests and your duty to users or clients.",
+    "hint": "Think about interests colliding.",
+    "definition": "A situation where personal or business interests compete with professional obligations.",
+    "importance": "Hidden conflicts quietly corrupt decisions that should serve users first.",
+    "example": "Recommending your own paid product while posing as a neutral advisor is a conflict."
+  },
+  "GOVERNANCE": {
+    "term": "GOVERNANCE",
+    "clue": "The structures and rules that steer how technology power is used.",
+    "hint": "Think about who controls the controllers.",
+    "definition": "Systems of oversight, policy, and accountability for organizations building technology.",
+    "importance": "Good governance catches ethical failures before they ship to millions.",
+    "example": "An AI ethics board reviews high-risk features before every release."
+  },
+  "LIABILITY": {
+    "term": "LIABILITY",
+    "clue": "Legal responsibility to pay for harm your software causes.",
+    "hint": "Think about who pays for failures.",
+    "definition": "The state of being legally answerable for damage caused by a product or action.",
+    "importance": "Liability gives companies a financial reason to take safety seriously.",
+    "example": "A vendor whose known bug deletes client data faces liability for the losses."
+  },
+  "COPYLEFT": {
+    "term": "COPYLEFT",
+    "clue": "A license rule that shared improvements must stay shared and open.",
+    "hint": "Think about share-alike licensing.",
+    "definition": "Licensing that requires derivatives of a work to be distributed under the same freedoms.",
+    "importance": "Copyleft keeps open code open, preventing anyone from enclosing community work.",
+    "example": "Code under the GPL must remain open-sourced when distributed in modified form."
+  },
+  "PIRACY": {
+    "term": "PIRACY",
+    "clue": "Illegally copying or distributing software and media.",
+    "hint": "Think about cracked software.",
+    "definition": "Unauthorized reproduction or distribution of copyrighted works.",
+    "importance": "Piracy deprives creators of income and exposes users to malware-laced copies.",
+    "example": "Downloading a cracked video editor funds criminal distributors and risks infection."
+  },
+  "FORK": {
+    "term": "FORK",
+    "clue": "Splitting an open project into an independent copy with its own direction.",
+    "hint": "Think about splitting a project path.",
+    "definition": "Creating a separate development line from an existing open-source project.",
+    "importance": "Forking keeps projects honest — abusive maintainers can simply be left behind.",
+    "example": "Contributors fork the editor after the owner adds telemetry nobody wants."
+  },
+  "COMMONS": {
+    "term": "COMMONS",
+    "clue": "Shared resources, like open knowledge and code, that everyone may use.",
+    "hint": "Think about shared treasures for all.",
+    "definition": "Cultural and informational resources held in common rather than owned privately.",
+    "importance": "Open-source software and open data are a commons developers should enrich, not just exploit.",
+    "example": "Wikipedia and public-domain textbooks are knowledge commons."
+  },
+  "STAKEHOLDER": {
+    "term": "STAKEHOLDER",
+    "clue": "Any person or group affected by a system, not just its owners.",
+    "hint": "Think about everyone affected.",
+    "definition": "An individual or group with an interest in, or impacted by, a project or decision.",
+    "importance": "Considering only paying customers blinds teams to harm suffered by everyone else.",
+    "example": "Neighbors recorded by doorbell cameras are stakeholders in the product's design."
+  },
+  "DEPENDENCY": {
+    "term": "DEPENDENCY",
+    "clue": "Outside code your project relies on, which can carry risks of its own.",
+    "hint": "Think about borrowed code risks.",
+    "definition": "An external library or component required for software to function.",
+    "importance": "Each dependency is trusted code — one compromised package can breach every app using it.",
+    "example": "A tiny logging dependency with a flaw exposes thousands of applications at once."
+  }
+}

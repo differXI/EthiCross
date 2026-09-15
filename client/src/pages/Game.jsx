@@ -1,13 +1,5 @@
 import { useEffect, useMemo, useState } from 'react'
-import {
-  puzzle,
-  placements,
-  acrossWords,
-  downWords,
-  buildCells,
-  wordAtCell,
-  numberByCell,
-} from '../lib/puzzle'
+import { decoratePuzzle, wordAtCell } from '../lib/puzzle'
 import CrosswordBoard from '../components/CrosswordBoard'
 import CluePanel from '../components/CluePanel'
 import HintButton from '../components/HintButton'
@@ -20,9 +12,12 @@ function formatTime(s) {
   return `${m}:${String(sec).padStart(2, '0')}`
 }
 
-export default function Game({ onComplete, onQuit }) {
-  const cells = useMemo(() => buildCells(placements), [])
-  const numbers = useMemo(() => numberByCell(), [])
+export default function Game({ puzzleData, onComplete, onQuit }) {
+  const { placements, acrossWords, downWords, cells, numbers } = useMemo(
+    () => decoratePuzzle(puzzleData),
+    [puzzleData],
+  )
+  const puzzle = puzzleData
   const total = placements.length
   const first = placements[0]
 
@@ -148,7 +143,7 @@ export default function Game({ onComplete, onQuit }) {
           <h1 className="text-2xl font-extrabold text-slate-900">
             Ethi<span className="text-blue-600">Cross</span>
           </h1>
-          <span className="text-sm font-medium text-slate-500">Software Ethics Crossword</span>
+          <span className="text-sm font-medium text-slate-500">{puzzleData.title}</span>
         </div>
         <div className="flex items-center gap-3 text-sm font-semibold text-slate-700">
           <span>

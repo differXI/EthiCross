@@ -1,0 +1,6614 @@
+{
+  "levels": [
+    {
+      "n": 1,
+      "id": "level-1",
+      "title": "First Steps 1",
+      "chapter": "First Steps",
+      "difficulty": "Warm-up",
+      "words": [
+        "ERASURE",
+        "TRUST",
+        "AGENCY",
+        "PATCH"
+      ],
+      "rows": 7,
+      "cols": 7,
+      "placements": [
+        {
+          "number": 4,
+          "dir": "across",
+          "word": "ERASURE",
+          "row": 3,
+          "col": 0,
+          "clue": "A user's right to have their personal data permanently deleted."
+        },
+        {
+          "number": 3,
+          "dir": "down",
+          "word": "AGENCY",
+          "row": 1,
+          "col": 6,
+          "clue": "A user's power to act, choose, and control their own experience."
+        },
+        {
+          "number": 2,
+          "dir": "down",
+          "word": "TRUST",
+          "row": 0,
+          "col": 3,
+          "clue": "Users' belief that software will behave reliably and in their interest."
+        },
+        {
+          "number": 1,
+          "dir": "across",
+          "word": "PATCH",
+          "row": 0,
+          "col": 1,
+          "clue": "A small update that fixes a bug or closes a security hole."
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "id": "level-2",
+      "title": "First Steps 2",
+      "chapter": "First Steps",
+      "difficulty": "Warm-up",
+      "words": [
+        "BREACH",
+        "REFUSAL",
+        "HARM",
+        "FORK"
+      ],
+      "rows": 6,
+      "cols": 7,
+      "placements": [
+        {
+          "number": 2,
+          "dir": "across",
+          "word": "REFUSAL",
+          "row": 2,
+          "col": 0,
+          "clue": "Declining to build something you judge to be unethical."
+        },
+        {
+          "number": 1,
+          "dir": "down",
+          "word": "HARM",
+          "row": 0,
+          "col": 0,
+          "clue": "Injury, damage, or suffering caused to people by a system or decision."
+        },
+        {
+          "number": 3,
+          "dir": "down",
+          "word": "FORK",
+          "row": 2,
+          "col": 2,
+          "clue": "Splitting an open project into an independent copy with its own direction."
+        },
+        {
+          "number": 4,
+          "dir": "across",
+          "word": "BREACH",
+          "row": 4,
+          "col": 1,
+          "clue": "An incident where protected data is exposed to unauthorized parties."
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "id": "level-3",
+      "title": "First Steps 3",
+      "chapter": "First Steps",
+      "difficulty": "Warm-up",
+      "words": [
+        "DIGNITY",
+        "PIRACY",
+        "DIVIDE",
+        "LEAK"
+      ],
+      "rows": 6,
+      "cols": 7,
+      "placements": [
+        {
+          "number": 3,
+          "dir": "across",
+          "word": "DIGNITY",
+          "row": 1,
+          "col": 0,
+          "clue": "The inherent worth of every person that software must respect."
+        },
+        {
+          "number": 1,
+          "dir": "down",
+          "word": "PIRACY",
+          "row": 0,
+          "col": 1,
+          "clue": "Illegally copying or distributing software and media."
+        },
+        {
+          "number": 2,
+          "dir": "down",
+          "word": "DIVIDE",
+          "row": 0,
+          "col": 4,
+          "clue": "The gap between people who can access technology and those who cannot."
+        },
+        {
+          "number": 4,
+          "dir": "across",
+          "word": "LEAK",
+          "row": 5,
+          "col": 3,
+          "clue": "An accidental or deliberate release of confidential information."
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "id": "level-4",
+      "title": "First Steps 4",
+      "chapter": "First Steps",
+      "difficulty": "Warm-up",
+      "words": [
+        "CONSENT",
+        "LOYALTY",
+        "PRIVACY",
+        "CODE"
+      ],
+      "rows": 7,
+      "cols": 7,
+      "placements": [
+        {
+          "number": 4,
+          "dir": "across",
+          "word": "CONSENT",
+          "row": 5,
+          "col": 0,
+          "clue": "Freely given permission from a user before collecting or using their data."
+        },
+        {
+          "number": 2,
+          "dir": "down",
+          "word": "LOYALTY",
+          "row": 0,
+          "col": 6,
+          "clue": "Acting in the best interests of clients and users who depend on you."
+        },
+        {
+          "number": 1,
+          "dir": "down",
+          "word": "PRIVACY",
+          "row": 0,
+          "col": 0,
+          "clue": "The protection of personal information from unauthorized access or misuse."
+        },
+        {
+          "number": 3,
+          "dir": "down",
+          "word": "CODE",
+          "row": 2,
+          "col": 4,
+          "clue": "A written set of ethical rules for a profession, such as the ACM rules."
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "id": "level-5",
+      "title": "First Steps 5",
+      "chapter": "First Steps",
+      "difficulty": "Warm-up",
+      "words": [
+        "HONESTY",
+        "BIAS",
+        "RISK",
+        "JUSTICE"
+      ],
+      "rows": 7,
+      "cols": 7,
+      "placements": [
+        {
+          "number": 4,
+          "dir": "across",
+          "word": "HONESTY",
+          "row": 6,
+          "col": 0,
+          "clue": "Telling the truth about what software can and cannot do."
+        },
+        {
+          "number": 1,
+          "dir": "down",
+          "word": "JUSTICE",
+          "row": 0,
+          "col": 3,
+          "clue": "The moral principle that benefits and harms of technology should be shared fairly."
+        },
+        {
+          "number": 2,
+          "dir": "across",
+          "word": "RISK",
+          "row": 2,
+          "col": 1,
+          "clue": "The possibility that building or deploying software causes harm or loss."
+        },
+        {
+          "number": 3,
+          "dir": "across",
+          "word": "BIAS",
+          "row": 4,
+          "col": 2,
+          "clue": "A systematic slant in data or algorithms that favors some people over others."
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "id": "level-6",
+      "title": "Honest Code 1",
+      "chapter": "Honest Code",
+      "difficulty": "Warm-up",
+      "words": [
+        "DILEMMA",
+        "NUDGE",
+        "AUDIT",
+        "MALWARE"
+      ],
+      "rows": 7,
+      "cols": 7,
+      "placements": [
+        {
+          "number": 3,
+          "dir": "across",
+          "word": "DILEMMA",
+          "row": 2,
+          "col": 0,
+          "clue": "A situation where every available choice violates some value."
+        },
+        {
+          "number": 2,
+          "dir": "down",
+          "word": "MALWARE",
+          "row": 0,
+          "col": 2,
+          "clue": "Software deliberately designed to damage systems or steal from users."
+        },
+        {
+          "number": 1,
+          "dir": "down",
+          "word": "NUDGE",
+          "row": 0,
+          "col": 0,
+          "clue": "A subtle design push that steers users toward one choice over others."
+        },
+        {
+          "number": 4,
+          "dir": "down",
+          "word": "AUDIT",
+          "row": 2,
+          "col": 6,
+          "clue": "A systematic independent review of a system, process, or decision."
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "id": "level-7",
+      "title": "Honest Code 2",
+      "chapter": "Honest Code",
+      "difficulty": "Warm-up",
+      "words": [
+        "SAFETY",
+        "SECRECY",
+        "COMMONS",
+        "LICENSE"
+      ],
+      "rows": 9,
+      "cols": 7,
+      "placements": [
+        {
+          "number": 1,
+          "dir": "across",
+          "word": "SECRECY",
+          "row": 0,
+          "col": 0,
+          "clue": "Keeping sensitive information hidden from those who should not see it."
+        },
+        {
+          "number": 2,
+          "dir": "down",
+          "word": "COMMONS",
+          "row": 0,
+          "col": 5,
+          "clue": "Shared resources, like open knowledge and code, that everyone may use."
+        },
+        {
+          "number": 4,
+          "dir": "across",
+          "word": "LICENSE",
+          "row": 6,
+          "col": 0,
+          "clue": "The legal terms that state how software may be used, shared, or modified."
+        },
+        {
+          "number": 3,
+          "dir": "down",
+          "word": "SAFETY",
+          "row": 3,
+          "col": 3,
+          "clue": "Designing software so it avoids injuring people or damaging property."
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "id": "level-8",
+      "title": "Honest Code 3",
+      "chapter": "Honest Code",
+      "difficulty": "Warm-up",
+      "words": [
+        "EQUITY",
+        "PATENT",
+        "CONSENT",
+        "AGENCY"
+      ],
+      "rows": 6,
+      "cols": 7,
+      "placements": [
+        {
+          "number": 4,
+          "dir": "across",
+          "word": "CONSENT",
+          "row": 4,
+          "col": 0,
+          "clue": "Freely given permission from a user before collecting or using their data."
+        },
+        {
+          "number": 3,
+          "dir": "down",
+          "word": "EQUITY",
+          "row": 0,
+          "col": 6,
+          "clue": "Giving people the resources they need so outcomes can be fair."
+        },
+        {
+          "number": 2,
+          "dir": "down",
+          "word": "PATENT",
+          "row": 0,
+          "col": 2,
+          "clue": "An exclusive legal right granted for a novel invention for a limited time."
+        },
+        {
+          "number": 1,
+          "dir": "down",
+          "word": "AGENCY",
+          "row": 0,
+          "col": 0,
+          "clue": "A user's power to act, choose, and control their own experience."
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "id": "level-9",
+      "title": "Honest Code 4",
+      "chapter": "Honest Code",
+      "difficulty": "Warm-up",
+      "words": [
+        "PATCH",
+        "PATENT",
+        "DIGNITY",
+        "AUDIT"
+      ],
+      "rows": 7,
+      "cols": 7,
+      "placements": [
+        {
+          "number": 4,
+          "dir": "across",
+          "word": "DIGNITY",
+          "row": 4,
+          "col": 0,
+          "clue": "The inherent worth of every person that software must respect."
+        },
+        {
+          "number": 1,
+          "dir": "down",
+          "word": "PATENT",
+          "row": 0,
+          "col": 3,
+          "clue": "An exclusive legal right granted for a novel invention for a limited time."
+        },
+        {
+          "number": 2,
+          "dir": "across",
+          "word": "PATCH",
+          "row": 1,
+          "col": 2,
+          "clue": "A small update that fixes a bug or closes a security hole."
+        },
+        {
+          "number": 3,
+          "dir": "down",
+          "word": "AUDIT",
+          "row": 2,
+          "col": 0,
+          "clue": "A systematic independent review of a system, process, or decision."
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "id": "level-10",
+      "title": "Honest Code 5",
+      "chapter": "Honest Code",
+      "difficulty": "Warm-up",
+      "words": [
+        "BIAS",
+        "SAFETY",
+        "EQUITY",
+        "MALWARE"
+      ],
+      "rows": 6,
+      "cols": 7,
+      "placements": [
+        {
+          "number": 3,
+          "dir": "across",
+          "word": "MALWARE",
+          "row": 3,
+          "col": 0,
+          "clue": "Software deliberately designed to damage systems or steal from users."
+        },
+        {
+          "number": 2,
+          "dir": "down",
+          "word": "SAFETY",
+          "row": 0,
+          "col": 6,
+          "clue": "Designing software so it avoids injuring people or damaging property."
+        },
+        {
+          "number": 4,
+          "dir": "across",
+          "word": "EQUITY",
+          "row": 5,
+          "col": 1,
+          "clue": "Giving people the resources they need so outcomes can be fair."
+        },
+        {
+          "number": 1,
+          "dir": "across",
+          "word": "BIAS",
+          "row": 0,
+          "col": 3,
+          "clue": "A systematic slant in data or algorithms that favors some people over others."
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "id": "level-11",
+      "title": "Data Trails 1",
+      "chapter": "Data Trails",
+      "difficulty": "Warm-up",
+      "words": [
+        "LEAK",
+        "HARM",
+        "CODE",
+        "COMMONS"
+      ],
+      "rows": 6,
+      "cols": 7,
+      "placements": [
+        {
+          "number": 4,
+          "dir": "across",
+          "word": "COMMONS",
+          "row": 3,
+          "col": 0,
+          "clue": "Shared resources, like open knowledge and code, that everyone may use."
+        },
+        {
+          "number": 3,
+          "dir": "down",
+          "word": "CODE",
+          "row": 2,
+          "col": 4,
+          "clue": "A written set of ethical rules for a profession, such as the ACM rules."
+        },
+        {
+          "number": 1,
+          "dir": "down",
+          "word": "HARM",
+          "row": 0,
+          "col": 2,
+          "clue": "Injury, damage, or suffering caused to people by a system or decision."
+        },
+        {
+          "number": 2,
+          "dir": "across",
+          "word": "LEAK",
+          "row": 1,
+          "col": 0,
+          "clue": "An accidental or deliberate release of confidential information."
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "id": "level-12",
+      "title": "Data Trails 2",
+      "chapter": "Data Trails",
+      "difficulty": "Warm-up",
+      "words": [
+        "RISK",
+        "SECRECY",
+        "ERASURE",
+        "FORK"
+      ],
+      "rows": 7,
+      "cols": 7,
+      "placements": [
+        {
+          "number": 4,
+          "dir": "across",
+          "word": "SECRECY",
+          "row": 5,
+          "col": 0,
+          "clue": "Keeping sensitive information hidden from those who should not see it."
+        },
+        {
+          "number": 1,
+          "dir": "down",
+          "word": "ERASURE",
+          "row": 0,
+          "col": 3,
+          "clue": "A user's right to have their personal data permanently deleted."
+        },
+        {
+          "number": 3,
+          "dir": "across",
+          "word": "RISK",
+          "row": 3,
+          "col": 1,
+          "clue": "The possibility that building or deploying software causes harm or loss."
+        },
+        {
+          "number": 2,
+          "dir": "across",
+          "word": "FORK",
+          "row": 1,
+          "col": 1,
+          "clue": "Splitting an open project into an independent copy with its own direction."
+        }
+      ]
+    },
+    {
+      "n": 13,
+      "id": "level-13",
+      "title": "Data Trails 3",
+      "chapter": "Data Trails",
+      "difficulty": "Warm-up",
+      "words": [
+        "JUSTICE",
+        "TRUST",
+        "DIVIDE",
+        "NUDGE"
+      ],
+      "rows": 7,
+      "cols": 7,
+      "placements": [
+        {
+          "number": 3,
+          "dir": "across",
+          "word": "JUSTICE",
+          "row": 2,
+          "col": 0,
+          "clue": "The moral principle that benefits and harms of technology should be shared fairly."
+        },
+        {
+          "number": 2,
+          "dir": "down",
+          "word": "DIVIDE",
+          "row": 1,
+          "col": 4,
+          "clue": "The gap between people who can access technology and those who cannot."
+        },
+        {
+          "number": 1,
+          "dir": "down",
+          "word": "TRUST",
+          "row": 0,
+          "col": 1,
+          "clue": "Users' belief that software will behave reliably and in their interest."
+        },
+        {
+          "number": 4,
+          "dir": "across",
+          "word": "NUDGE",
+          "row": 5,
+          "col": 2,
+          "clue": "A subtle design push that steers users toward one choice over others."
+        }
+      ]
+    },
+    {
+      "n": 14,
+      "id": "level-14",
+      "title": "Data Trails 4",
+      "chapter": "Data Trails",
+      "difficulty": "Warm-up",
+      "words": [
+        "PRIVACY",
+        "LOYALTY",
+        "PIRACY",
+        "HONESTY"
+      ],
+      "rows": 8,
+      "cols": 7,
+      "placements": [
+        {
+          "number": 3,
+          "dir": "across",
+          "word": "PRIVACY",
+          "row": 3,
+          "col": 0,
+          "clue": "The protection of personal information from unauthorized access or misuse."
+        },
+        {
+          "number": 2,
+          "dir": "down",
+          "word": "LOYALTY",
+          "row": 1,
+          "col": 6,
+          "clue": "Acting in the best interests of clients and users who depend on you."
+        },
+        {
+          "number": 4,
+          "dir": "across",
+          "word": "HONESTY",
+          "row": 7,
+          "col": 0,
+          "clue": "Telling the truth about what software can and cannot do."
+        },
+        {
+          "number": 1,
+          "dir": "down",
+          "word": "PIRACY",
+          "row": 0,
+          "col": 4,
+          "clue": "Illegally copying or distributing software and media."
+        }
+      ]
+    },
+    {
+      "n": 15,
+      "id": "level-15",
+      "title": "Data Trails 5",
+      "chapter": "Data Trails",
+      "difficulty": "Warm-up",
+      "words": [
+        "DILEMMA",
+        "LICENSE",
+        "REFUSAL",
+        "BREACH"
+      ],
+      "rows": 7,
+      "cols": 8,
+      "placements": [
+        {
+          "number": 1,
+          "dir": "across",
+          "word": "DILEMMA",
+          "row": 0,
+          "col": 0,
+          "clue": "A situation where every available choice violates some value."
+        },
+        {
+          "number": 2,
+          "dir": "down",
+          "word": "LICENSE",
+          "row": 0,
+          "col": 2,
+          "clue": "The legal terms that state how software may be used, shared, or modified."
+        },
+        {
+          "number": 3,
+          "dir": "across",
+          "word": "REFUSAL",
+          "row": 3,
+          "col": 1,
+          "clue": "Declining to build something you judge to be unethical."
+        },
+        {
+          "number": 4,
+          "dir": "across",
+          "word": "BREACH",
+          "row": 6,
+          "col": 0,
+          "clue": "An incident where protected data is exposed to unauthorized parties."
+        }
+      ]
+    },
+    {
+      "n": 16,
+      "id": "level-16",
+      "title": "Secret Keepers 1",
+      "chapter": "Secret Keepers",
+      "difficulty": "Easy",
+      "words": [
+        "PATENT",
+        "HARM",
+        "REFUSAL",
+        "TRACKING",
+        "CONFLICT"
+      ],
+      "rows": 10,
+      "cols": 8,
+      "placements": [
+        {
+          "number": 2,
+          "dir": "across",
+          "word": "TRACKING",
+          "row": 2,
+          "col": 0,
+          "clue": "Following users across apps and websites to record what they do."
+        },
+        {
+          "number": 3,
+          "dir": "down",
+          "word": "CONFLICT",
+          "row": 2,
+          "col": 3,
+          "clue": "A clash between your interests and your duty to users or clients."
+        },
+        {
+          "number": 5,
+          "dir": "across",
+          "word": "REFUSAL",
+          "row": 5,
+          "col": 1,
+          "clue": "Declining to build something you judge to be unethical."
+        },
+        {
+          "number": 4,
+          "dir": "down",
+          "word": "PATENT",
+          "row": 4,
+          "col": 6,
+          "clue": "An exclusive legal right granted for a novel invention for a limited time."
+        },
+        {
+          "number": 1,
+          "dir": "down",
+          "word": "HARM",
+          "row": 0,
+          "col": 1,
+          "clue": "Injury, damage, or suffering caused to people by a system or decision."
+        }
+      ]
+    },
+    {
+      "n": 17,
+      "id": "level-17",
+      "title": "Secret Keepers 2",
+      "chapter": "Secret Keepers",
+      "difficulty": "Easy",
+      "words": [
+        "FORK",
+        "CODE",
+        "BREACH",
+        "SECURITY",
+        "OPENNESS"
+      ],
+      "rows": 8,
+      "cols": 9,
+      "placements": [
+        {
+          "number": 5,
+          "dir": "across",
+          "word": "SECURITY",
+          "row": 6,
+          "col": 1,
+          "clue": "The practice of protecting systems, networks, and data from damage or attack."
+        },
+        {
+          "number": 2,
+          "dir": "down",
+          "word": "OPENNESS",
+          "row": 0,
+          "col": 1,
+          "clue": "Sharing code, data, and methods so others can inspect and reuse them."
+        },
+        {
+          "number": 3,
+          "dir": "down",
+          "word": "BREACH",
+          "row": 2,
+          "col": 3,
+          "clue": "An incident where protected data is exposed to unauthorized parties."
+        },
+        {
+          "number": 4,
+          "dir": "down",
+          "word": "FORK",
+          "row": 4,
+          "col": 5,
+          "clue": "Splitting an open project into an independent copy with its own direction."
+        },
+        {
+          "number": 1,
+          "dir": "across",
+          "word": "CODE",
+          "row": 0,
+          "col": 0,
+          "clue": "A written set of ethical rules for a profession, such as the ACM rules."
+        }
+      ]
+    },
+    {
+      "n": 18,
+      "id": "level-18",
+      "title": "Secret Keepers 3",
+      "chapter": "Secret Keepers",
+      "difficulty": "Easy",
+      "words": [
+        "LOYALTY",
+        "CONSENT",
+        "BIAS",
+        "AUTONOMY",
+        "DIVERSITY"
+      ],
+      "rows": 9,
+      "cols": 9,
+      "placements": [
+        {
+          "number": 4,
+          "dir": "across",
+          "word": "DIVERSITY",
+          "row": 3,
+          "col": 0,
+          "clue": "Having many different kinds of people, views, and experiences represented."
+        },
+        {
+          "number": 2,
+          "dir": "down",
+          "word": "AUTONOMY",
+          "row": 1,
+          "col": 7,
+          "clue": "A person's right to make their own informed choices about technology."
+        },
+        {
+          "number": 5,
+          "dir": "across",
+          "word": "LOYALTY",
+          "row": 8,
+          "col": 1,
+          "clue": "Acting in the best interests of clients and users who depend on you."
+        },
+        {
+          "number": 1,
+          "dir": "down",
+          "word": "CONSENT",
+          "row": 0,
+          "col": 5,
+          "clue": "Freely given permission from a user before collecting or using their data."
+        },
+        {
+          "number": 3,
+          "dir": "down",
+          "word": "BIAS",
+          "row": 2,
+          "col": 1,
+          "clue": "A systematic slant in data or algorithms that favors some people over others."
+        }
+      ]
+    },
+    {
+      "n": 19,
+      "id": "level-19",
+      "title": "Secret Keepers 4",
+      "chapter": "Secret Keepers",
+      "difficulty": "Easy",
+      "words": [
+        "PATCH",
+        "PIRACY",
+        "RISK",
+        "PHISHING",
+        "COMPETENCE"
+      ],
+      "rows": 8,
+      "cols": 10,
+      "placements": [
+        {
+          "number": 5,
+          "dir": "across",
+          "word": "COMPETENCE",
+          "row": 6,
+          "col": 0,
+          "clue": "Having and maintaining the skills needed to do professional work well."
+        },
+        {
+          "number": 1,
+          "dir": "down",
+          "word": "PHISHING",
+          "row": 0,
+          "col": 7,
+          "clue": "Tricking people into revealing secrets by impersonating someone trustworthy."
+        },
+        {
+          "number": 2,
+          "dir": "across",
+          "word": "PATCH",
+          "row": 1,
+          "col": 3,
+          "clue": "A small update that fixes a bug or closes a security hole."
+        },
+        {
+          "number": 3,
+          "dir": "down",
+          "word": "PIRACY",
+          "row": 2,
+          "col": 0,
+          "clue": "Illegally copying or distributing software and media."
+        },
+        {
+          "number": 4,
+          "dir": "across",
+          "word": "RISK",
+          "row": 4,
+          "col": 0,
+          "clue": "The possibility that building or deploying software causes harm or loss."
+        }
+      ]
+    },
+    {
+      "n": 20,
+      "id": "level-20",
+      "title": "Secret Keepers 5",
+      "chapter": "Secret Keepers",
+      "difficulty": "Easy",
+      "words": [
+        "PRIVACY",
+        "NUDGE",
+        "HONESTY",
+        "ENCRYPTION",
+        "MONOPOLY"
+      ],
+      "rows": 9,
+      "cols": 10,
+      "placements": [
+        {
+          "number": 5,
+          "dir": "across",
+          "word": "ENCRYPTION",
+          "row": 6,
+          "col": 0,
+          "clue": "Scrambling data so only authorized parties with the key can read it."
+        },
+        {
+          "number": 3,
+          "dir": "down",
+          "word": "MONOPOLY",
+          "row": 1,
+          "col": 8,
+          "clue": "A single company dominating a market with no real alternatives."
+        },
+        {
+          "number": 1,
+          "dir": "down",
+          "word": "PRIVACY",
+          "row": 0,
+          "col": 4,
+          "clue": "The protection of personal information from unauthorized access or misuse."
+        },
+        {
+          "number": 2,
+          "dir": "down",
+          "word": "HONESTY",
+          "row": 1,
+          "col": 6,
+          "clue": "Telling the truth about what software can and cannot do."
+        },
+        {
+          "number": 4,
+          "dir": "down",
+          "word": "NUDGE",
+          "row": 2,
+          "col": 0,
+          "clue": "A subtle design push that steers users toward one choice over others."
+        }
+      ]
+    },
+    {
+      "n": 21,
+      "id": "level-21",
+      "title": "Fair Play 1",
+      "chapter": "Fair Play",
+      "difficulty": "Easy",
+      "words": [
+        "DIVIDE",
+        "MALWARE",
+        "AUDIT",
+        "DECEPTION",
+        "DEEPFAKE"
+      ],
+      "rows": 8,
+      "cols": 9,
+      "placements": [
+        {
+          "number": 3,
+          "dir": "across",
+          "word": "DECEPTION",
+          "row": 2,
+          "col": 0,
+          "clue": "Misleading users through false statements or dishonest interface design."
+        },
+        {
+          "number": 2,
+          "dir": "down",
+          "word": "DEEPFAKE",
+          "row": 0,
+          "col": 3,
+          "clue": "A realistic fake video or audio generated by AI to impersonate someone."
+        },
+        {
+          "number": 4,
+          "dir": "across",
+          "word": "MALWARE",
+          "row": 5,
+          "col": 2,
+          "clue": "Software deliberately designed to damage systems or steal from users."
+        },
+        {
+          "number": 2,
+          "dir": "across",
+          "word": "DIVIDE",
+          "row": 0,
+          "col": 3,
+          "clue": "The gap between people who can access technology and those who cannot."
+        },
+        {
+          "number": 1,
+          "dir": "down",
+          "word": "AUDIT",
+          "row": 0,
+          "col": 0,
+          "clue": "A systematic independent review of a system, process, or decision."
+        }
+      ]
+    },
+    {
+      "n": 22,
+      "id": "level-22",
+      "title": "Fair Play 2",
+      "chapter": "Fair Play",
+      "difficulty": "Easy",
+      "words": [
+        "EQUITY",
+        "TRUST",
+        "LICENSE",
+        "FAIRNESS",
+        "INCLUSION"
+      ],
+      "rows": 9,
+      "cols": 9,
+      "placements": [
+        {
+          "number": 4,
+          "dir": "across",
+          "word": "INCLUSION",
+          "row": 4,
+          "col": 0,
+          "clue": "Actively involving people of all backgrounds in using and shaping software."
+        },
+        {
+          "number": 1,
+          "dir": "down",
+          "word": "FAIRNESS",
+          "row": 0,
+          "col": 8,
+          "clue": "Treating all users and stakeholders impartially, without bias or unjust outcomes."
+        },
+        {
+          "number": 2,
+          "dir": "down",
+          "word": "LICENSE",
+          "row": 2,
+          "col": 2,
+          "clue": "The legal terms that state how software may be used, shared, or modified."
+        },
+        {
+          "number": 5,
+          "dir": "across",
+          "word": "EQUITY",
+          "row": 8,
+          "col": 2,
+          "clue": "Giving people the resources they need so outcomes can be fair."
+        },
+        {
+          "number": 3,
+          "dir": "down",
+          "word": "TRUST",
+          "row": 2,
+          "col": 4,
+          "clue": "Users' belief that software will behave reliably and in their interest."
+        }
+      ]
+    },
+    {
+      "n": 23,
+      "id": "level-23",
+      "title": "Fair Play 3",
+      "chapter": "Fair Play",
+      "difficulty": "Easy",
+      "words": [
+        "JUSTICE",
+        "AGENCY",
+        "DILEMMA",
+        "COPYLEFT",
+        "ANONYMITY"
+      ],
+      "rows": 11,
+      "cols": 9,
+      "placements": [
+        {
+          "number": 5,
+          "dir": "across",
+          "word": "ANONYMITY",
+          "row": 6,
+          "col": 0,
+          "clue": "The state of acting or contributing data without revealing who you are."
+        },
+        {
+          "number": 4,
+          "dir": "down",
+          "word": "COPYLEFT",
+          "row": 3,
+          "col": 8,
+          "clue": "A license rule that shared improvements must stay shared and open."
+        },
+        {
+          "number": 2,
+          "dir": "down",
+          "word": "JUSTICE",
+          "row": 2,
+          "col": 6,
+          "clue": "The moral principle that benefits and harms of technology should be shared fairly."
+        },
+        {
+          "number": 1,
+          "dir": "down",
+          "word": "DILEMMA",
+          "row": 0,
+          "col": 0,
+          "clue": "A situation where every available choice violates some value."
+        },
+        {
+          "number": 3,
+          "dir": "down",
+          "word": "AGENCY",
+          "row": 3,
+          "col": 3,
+          "clue": "A user's power to act, choose, and control their own experience."
+        }
+      ]
+    },
+    {
+      "n": 24,
+      "id": "level-24",
+      "title": "Fair Play 4",
+      "chapter": "Fair Play",
+      "difficulty": "Easy",
+      "words": [
+        "DIGNITY",
+        "LEAK",
+        "ERASURE",
+        "LIABILITY",
+        "BACKDOOR"
+      ],
+      "rows": 9,
+      "cols": 9,
+      "placements": [
+        {
+          "number": 2,
+          "dir": "across",
+          "word": "LIABILITY",
+          "row": 1,
+          "col": 0,
+          "clue": "Legal responsibility to pay for harm your software causes."
+        },
+        {
+          "number": 3,
+          "dir": "down",
+          "word": "BACKDOOR",
+          "row": 1,
+          "col": 3,
+          "clue": "A hidden way to bypass normal authentication in a system."
+        },
+        {
+          "number": 1,
+          "dir": "down",
+          "word": "DIGNITY",
+          "row": 0,
+          "col": 6,
+          "clue": "The inherent worth of every person that software must respect."
+        },
+        {
+          "number": 5,
+          "dir": "across",
+          "word": "ERASURE",
+          "row": 8,
+          "col": 2,
+          "clue": "A user's right to have their personal data permanently deleted."
+        },
+        {
+          "number": 4,
+          "dir": "across",
+          "word": "LEAK",
+          "row": 4,
+          "col": 0,
+          "clue": "An accidental or deliberate release of confidential information."
+        }
+      ]
+    },
+    {
+      "n": 25,
+      "id": "level-25",
+      "title": "Fair Play 5",
+      "chapter": "Fair Play",
+      "difficulty": "Easy",
+      "words": [
+        "COMMONS",
+        "SAFETY",
+        "SECRECY",
+        "COPYRIGHT",
+        "PLAGIARISM"
+      ],
+      "rows": 9,
+      "cols": 11,
+      "placements": [
+        {
+          "number": 3,
+          "dir": "across",
+          "word": "PLAGIARISM",
+          "row": 6,
+          "col": 1,
+          "clue": "Presenting someone else's code or writing as if it were your own."
+        },
+        {
+          "number": 1,
+          "dir": "down",
+          "word": "COPYRIGHT",
+          "row": 0,
+          "col": 4,
+          "clue": "Legal protection for the expression of original creative and written works."
+        },
+        {
+          "number": 1,
+          "dir": "across",
+          "word": "COMMONS",
+          "row": 0,
+          "col": 4,
+          "clue": "Shared resources, like open knowledge and code, that everyone may use."
+        },
+        {
+          "number": 2,
+          "dir": "across",
+          "word": "SECRECY",
+          "row": 4,
+          "col": 1,
+          "clue": "Keeping sensitive information hidden from those who should not see it."
+        },
+        {
+          "number": 4,
+          "dir": "across",
+          "word": "SAFETY",
+          "row": 8,
+          "col": 0,
+          "clue": "Designing software so it avoids injuring people or damaging property."
+        }
+      ]
+    },
+    {
+      "n": 26,
+      "id": "level-26",
+      "title": "Many Voices 1",
+      "chapter": "Many Voices",
+      "difficulty": "Easy",
+      "words": [
+        "LOYALTY",
+        "BIAS",
+        "DILEMMA",
+        "REGULATION",
+        "PROFILING"
+      ],
+      "rows": 9,
+      "cols": 10,
+      "placements": [
+        {
+          "number": 5,
+          "dir": "across",
+          "word": "REGULATION",
+          "row": 8,
+          "col": 0,
+          "clue": "Laws and rules that set boundaries for how technology may be built and used."
+        },
+        {
+          "number": 1,
+          "dir": "down",
+          "word": "PROFILING",
+          "row": 0,
+          "col": 2,
+          "clue": "Sorting people into categories from their data to predict or judge them."
+        },
+        {
+          "number": 3,
+          "dir": "across",
+          "word": "LOYALTY",
+          "row": 2,
+          "col": 1,
+          "clue": "Acting in the best interests of clients and users who depend on you."
+        },
+        {
+          "number": 4,
+          "dir": "across",
+          "word": "DILEMMA",
+          "row": 6,
+          "col": 1,
+          "clue": "A situation where every available choice violates some value."
+        },
+        {
+          "number": 2,
+          "dir": "down",
+          "word": "BIAS",
+          "row": 0,
+          "col": 4,
+          "clue": "A systematic slant in data or algorithms that favors some people over others."
+        }
+      ]
+    },
+    {
+      "n": 27,
+      "id": "level-27",
+      "title": "Many Voices 2",
+      "chapter": "Many Voices",
+      "difficulty": "Easy",
+      "words": [
+        "PATCH",
+        "PRIVACY",
+        "ERASURE",
+        "GOVERNANCE",
+        "ADDICTION"
+      ],
+      "rows": 9,
+      "cols": 10,
+      "placements": [
+        {
+          "number": 1,
+          "dir": "across",
+          "word": "GOVERNANCE",
+          "row": 0,
+          "col": 0,
+          "clue": "The structures and rules that steer how technology power is used."
+        },
+        {
+          "number": 2,
+          "dir": "down",
+          "word": "ADDICTION",
+          "row": 0,
+          "col": 6,
+          "clue": "Compulsive overuse of an app engineered through addictive design tricks."
+        },
+        {
+          "number": 4,
+          "dir": "across",
+          "word": "PRIVACY",
+          "row": 4,
+          "col": 1,
+          "clue": "The protection of personal information from unauthorized access or misuse."
+        },
+        {
+          "number": 3,
+          "dir": "down",
+          "word": "ERASURE",
+          "row": 0,
+          "col": 9,
+          "clue": "A user's right to have their personal data permanently deleted."
+        },
+        {
+          "number": 4,
+          "dir": "down",
+          "word": "PATCH",
+          "row": 4,
+          "col": 1,
+          "clue": "A small update that fixes a bug or closes a security hole."
+        }
+      ]
+    },
+    {
+      "n": 28,
+      "id": "level-28",
+      "title": "Many Voices 3",
+      "chapter": "Many Voices",
+      "difficulty": "Easy",
+      "words": [
+        "DIVIDE",
+        "DIGNITY",
+        "TRUST",
+        "INTEGRITY",
+        "MODERATION"
+      ],
+      "rows": 9,
+      "cols": 10,
+      "placements": [
+        {
+          "number": 4,
+          "dir": "across",
+          "word": "MODERATION",
+          "row": 1,
+          "col": 0,
+          "clue": "Reviewing and controlling user content to keep a platform safe."
+        },
+        {
+          "number": 3,
+          "dir": "down",
+          "word": "INTEGRITY",
+          "row": 0,
+          "col": 9,
+          "clue": "Acting honestly and consistently with moral principles, even when no one watches."
+        },
+        {
+          "number": 2,
+          "dir": "down",
+          "word": "DIGNITY",
+          "row": 0,
+          "col": 7,
+          "clue": "The inherent worth of every person that software must respect."
+        },
+        {
+          "number": 5,
+          "dir": "down",
+          "word": "DIVIDE",
+          "row": 1,
+          "col": 2,
+          "clue": "The gap between people who can access technology and those who cannot."
+        },
+        {
+          "number": 1,
+          "dir": "down",
+          "word": "TRUST",
+          "row": 0,
+          "col": 4,
+          "clue": "Users' belief that software will behave reliably and in their interest."
+        }
+      ]
+    },
+    {
+      "n": 29,
+      "id": "level-29",
+      "title": "Many Voices 4",
+      "chapter": "Many Voices",
+      "difficulty": "Easy",
+      "words": [
+        "PATENT",
+        "COMMONS",
+        "CONSENT",
+        "RANSOMWARE",
+        "COMPLIANCE"
+      ],
+      "rows": 10,
+      "cols": 10,
+      "placements": [
+        {
+          "number": 4,
+          "dir": "across",
+          "word": "RANSOMWARE",
+          "row": 6,
+          "col": 0,
+          "clue": "Malware that locks victims' files and demands payment for their release."
+        },
+        {
+          "number": 1,
+          "dir": "down",
+          "word": "COMPLIANCE",
+          "row": 0,
+          "col": 1,
+          "clue": "Following the laws, standards, and policies that apply to software."
+        },
+        {
+          "number": 2,
+          "dir": "down",
+          "word": "COMMONS",
+          "row": 2,
+          "col": 4,
+          "clue": "Shared resources, like open knowledge and code, that everyone may use."
+        },
+        {
+          "number": 5,
+          "dir": "across",
+          "word": "CONSENT",
+          "row": 8,
+          "col": 1,
+          "clue": "Freely given permission from a user before collecting or using their data."
+        },
+        {
+          "number": 3,
+          "dir": "down",
+          "word": "PATENT",
+          "row": 3,
+          "col": 9,
+          "clue": "An exclusive legal right granted for a novel invention for a limited time."
+        }
+      ]
+    },
+    {
+      "n": 30,
+      "id": "level-30",
+      "title": "Many Voices 5",
+      "chapter": "Many Voices",
+      "difficulty": "Easy",
+      "words": [
+        "HARM",
+        "LICENSE",
+        "EQUITY",
+        "DEPENDENCY",
+        "DISCLOSURE"
+      ],
+      "rows": 9,
+      "cols": 10,
+      "placements": [
+        {
+          "number": 4,
+          "dir": "across",
+          "word": "DEPENDENCY",
+          "row": 6,
+          "col": 0,
+          "clue": "Outside code your project relies on, which can carry risks of its own."
+        },
+        {
+          "number": 3,
+          "dir": "down",
+          "word": "LICENSE",
+          "row": 2,
+          "col": 4,
+          "clue": "The legal terms that state how software may be used, shared, or modified."
+        },
+        {
+          "number": 2,
+          "dir": "across",
+          "word": "DISCLOSURE",
+          "row": 2,
+          "col": 0,
+          "clue": "Openly revealing conflicts, risks, or limitations that others should know."
+        },
+        {
+          "number": 1,
+          "dir": "down",
+          "word": "HARM",
+          "row": 0,
+          "col": 8,
+          "clue": "Injury, damage, or suffering caused to people by a system or decision."
+        },
+        {
+          "number": 5,
+          "dir": "across",
+          "word": "EQUITY",
+          "row": 8,
+          "col": 4,
+          "clue": "Giving people the resources they need so outcomes can be fair."
+        }
+      ]
+    },
+    {
+      "n": 31,
+      "id": "level-31",
+      "title": "Free Choice 1",
+      "chapter": "Free Choice",
+      "difficulty": "Easy",
+      "words": [
+        "SECRECY",
+        "CODE",
+        "NUDGE",
+        "PROFILING",
+        "DECEPTION"
+      ],
+      "rows": 9,
+      "cols": 9,
+      "placements": [
+        {
+          "number": 5,
+          "dir": "across",
+          "word": "PROFILING",
+          "row": 6,
+          "col": 0,
+          "clue": "Sorting people into categories from their data to predict or judge them."
+        },
+        {
+          "number": 2,
+          "dir": "down",
+          "word": "DECEPTION",
+          "row": 0,
+          "col": 4,
+          "clue": "Misleading users through false statements or dishonest interface design."
+        },
+        {
+          "number": 3,
+          "dir": "across",
+          "word": "SECRECY",
+          "row": 3,
+          "col": 0,
+          "clue": "Keeping sensitive information hidden from those who should not see it."
+        },
+        {
+          "number": 4,
+          "dir": "down",
+          "word": "NUDGE",
+          "row": 3,
+          "col": 8,
+          "clue": "A subtle design push that steers users toward one choice over others."
+        },
+        {
+          "number": 1,
+          "dir": "down",
+          "word": "CODE",
+          "row": 0,
+          "col": 1,
+          "clue": "A written set of ethical rules for a profession, such as the ACM rules."
+        }
+      ]
+    },
+    {
+      "n": 32,
+      "id": "level-32",
+      "title": "Free Choice 2",
+      "chapter": "Free Choice",
+      "difficulty": "Easy",
+      "words": [
+        "SAFETY",
+        "REFUSAL",
+        "RISK",
+        "GOVERNANCE",
+        "COPYLEFT"
+      ],
+      "rows": 8,
+      "cols": 10,
+      "placements": [
+        {
+          "number": 4,
+          "dir": "across",
+          "word": "GOVERNANCE",
+          "row": 5,
+          "col": 0,
+          "clue": "The structures and rules that steer how technology power is used."
+        },
+        {
+          "number": 1,
+          "dir": "down",
+          "word": "COPYLEFT",
+          "row": 0,
+          "col": 3,
+          "clue": "A license rule that shared improvements must stay shared and open."
+        },
+        {
+          "number": 2,
+          "dir": "down",
+          "word": "REFUSAL",
+          "row": 0,
+          "col": 6,
+          "clue": "Declining to build something you judge to be unethical."
+        },
+        {
+          "number": 3,
+          "dir": "down",
+          "word": "SAFETY",
+          "row": 2,
+          "col": 9,
+          "clue": "Designing software so it avoids injuring people or damaging property."
+        },
+        {
+          "number": 2,
+          "dir": "across",
+          "word": "RISK",
+          "row": 0,
+          "col": 6,
+          "clue": "The possibility that building or deploying software causes harm or loss."
+        }
+      ]
+    },
+    {
+      "n": 33,
+      "id": "level-33",
+      "title": "Free Choice 3",
+      "chapter": "Free Choice",
+      "difficulty": "Easy",
+      "words": [
+        "FORK",
+        "BREACH",
+        "AGENCY",
+        "COPYRIGHT",
+        "AUTONOMY"
+      ],
+      "rows": 8,
+      "cols": 9,
+      "placements": [
+        {
+          "number": 5,
+          "dir": "across",
+          "word": "COPYRIGHT",
+          "row": 5,
+          "col": 0,
+          "clue": "Legal protection for the expression of original creative and written works."
+        },
+        {
+          "number": 1,
+          "dir": "down",
+          "word": "AUTONOMY",
+          "row": 0,
+          "col": 1,
+          "clue": "A person's right to make their own informed choices about technology."
+        },
+        {
+          "number": 3,
+          "dir": "down",
+          "word": "BREACH",
+          "row": 0,
+          "col": 7,
+          "clue": "An incident where protected data is exposed to unauthorized parties."
+        },
+        {
+          "number": 2,
+          "dir": "down",
+          "word": "AGENCY",
+          "row": 0,
+          "col": 3,
+          "clue": "A user's power to act, choose, and control their own experience."
+        },
+        {
+          "number": 4,
+          "dir": "across",
+          "word": "FORK",
+          "row": 1,
+          "col": 5,
+          "clue": "Splitting an open project into an independent copy with its own direction."
+        }
+      ]
+    },
+    {
+      "n": 34,
+      "id": "level-34",
+      "title": "Free Choice 4",
+      "chapter": "Free Choice",
+      "difficulty": "Easy",
+      "words": [
+        "MALWARE",
+        "LEAK",
+        "AUDIT",
+        "FAIRNESS",
+        "INTEGRITY"
+      ],
+      "rows": 9,
+      "cols": 9,
+      "placements": [
+        {
+          "number": 5,
+          "dir": "across",
+          "word": "INTEGRITY",
+          "row": 6,
+          "col": 0,
+          "clue": "Acting honestly and consistently with moral principles, even when no one watches."
+        },
+        {
+          "number": 2,
+          "dir": "down",
+          "word": "FAIRNESS",
+          "row": 1,
+          "col": 3,
+          "clue": "Treating all users and stakeholders impartially, without bias or unjust outcomes."
+        },
+        {
+          "number": 3,
+          "dir": "across",
+          "word": "MALWARE",
+          "row": 2,
+          "col": 2,
+          "clue": "Software deliberately designed to damage systems or steal from users."
+        },
+        {
+          "number": 4,
+          "dir": "down",
+          "word": "AUDIT",
+          "row": 3,
+          "col": 0,
+          "clue": "A systematic independent review of a system, process, or decision."
+        },
+        {
+          "number": 1,
+          "dir": "down",
+          "word": "LEAK",
+          "row": 0,
+          "col": 6,
+          "clue": "An accidental or deliberate release of confidential information."
+        }
+      ]
+    },
+    {
+      "n": 35,
+      "id": "level-35",
+      "title": "Free Choice 5",
+      "chapter": "Free Choice",
+      "difficulty": "Easy",
+      "words": [
+        "HONESTY",
+        "JUSTICE",
+        "PIRACY",
+        "BACKDOOR",
+        "OPENNESS"
+      ],
+      "rows": 8,
+      "cols": 9,
+      "placements": [
+        {
+          "number": 1,
+          "dir": "across",
+          "word": "BACKDOOR",
+          "row": 0,
+          "col": 0,
+          "clue": "A hidden way to bypass normal authentication in a system."
+        },
+        {
+          "number": 2,
+          "dir": "down",
+          "word": "OPENNESS",
+          "row": 0,
+          "col": 6,
+          "clue": "Sharing code, data, and methods so others can inspect and reuse them."
+        },
+        {
+          "number": 5,
+          "dir": "across",
+          "word": "HONESTY",
+          "row": 6,
+          "col": 2,
+          "clue": "Telling the truth about what software can and cannot do."
+        },
+        {
+          "number": 4,
+          "dir": "across",
+          "word": "JUSTICE",
+          "row": 2,
+          "col": 0,
+          "clue": "The moral principle that benefits and harms of technology should be shared fairly."
+        },
+        {
+          "number": 3,
+          "dir": "down",
+          "word": "PIRACY",
+          "row": 1,
+          "col": 8,
+          "clue": "Illegally copying or distributing software and media."
+        }
+      ]
+    },
+    {
+      "n": 36,
+      "id": "level-36",
+      "title": "Duty Calls 1",
+      "chapter": "Duty Calls",
+      "difficulty": "Tricky",
+      "words": [
+        "DIVIDE",
+        "PIRACY",
+        "DIVERSITY",
+        "INCLUSION",
+        "DEEPFAKE",
+        "MINIMIZATION"
+      ],
+      "rows": 11,
+      "cols": 12,
+      "placements": [
+        {
+          "number": 6,
+          "dir": "across",
+          "word": "MINIMIZATION",
+          "row": 8,
+          "col": 0,
+          "clue": "Collecting only the data strictly needed, and keeping it no longer than necessary."
+        },
+        {
+          "number": 3,
+          "dir": "down",
+          "word": "DIVERSITY",
+          "row": 2,
+          "col": 9,
+          "clue": "Having many different kinds of people, views, and experiences represented."
+        },
+        {
+          "number": 4,
+          "dir": "across",
+          "word": "INCLUSION",
+          "row": 3,
+          "col": 3,
+          "clue": "Actively involving people of all backgrounds in using and shaping software."
+        },
+        {
+          "number": 5,
+          "dir": "across",
+          "word": "DEEPFAKE",
+          "row": 5,
+          "col": 2,
+          "clue": "A realistic fake video or audio generated by AI to impersonate someone."
+        },
+        {
+          "number": 1,
+          "dir": "down",
+          "word": "DIVIDE",
+          "row": 0,
+          "col": 3,
+          "clue": "The gap between people who can access technology and those who cannot."
+        },
+        {
+          "number": 2,
+          "dir": "across",
+          "word": "PIRACY",
+          "row": 1,
+          "col": 2,
+          "clue": "Illegally copying or distributing software and media."
+        }
+      ]
+    },
+    {
+      "n": 37,
+      "id": "level-37",
+      "title": "Duty Calls 2",
+      "chapter": "Duty Calls",
+      "difficulty": "Tricky",
+      "words": [
+        "BREACH",
+        "CODE",
+        "DISCLOSURE",
+        "PLAGIARISM",
+        "LIABILITY",
+        "ATTRIBUTION"
+      ],
+      "rows": 12,
+      "cols": 11,
+      "placements": [
+        {
+          "number": 5,
+          "dir": "across",
+          "word": "ATTRIBUTION",
+          "row": 7,
+          "col": 0,
+          "clue": "Giving proper credit to the creator of code, text, or media you reuse."
+        },
+        {
+          "number": 3,
+          "dir": "down",
+          "word": "DISCLOSURE",
+          "row": 2,
+          "col": 9,
+          "clue": "Openly revealing conflicts, risks, or limitations that others should know."
+        },
+        {
+          "number": 2,
+          "dir": "down",
+          "word": "PLAGIARISM",
+          "row": 1,
+          "col": 3,
+          "clue": "Presenting someone else's code or writing as if it were your own."
+        },
+        {
+          "number": 1,
+          "dir": "down",
+          "word": "LIABILITY",
+          "row": 0,
+          "col": 7,
+          "clue": "Legal responsibility to pay for harm your software causes."
+        },
+        {
+          "number": 4,
+          "dir": "across",
+          "word": "BREACH",
+          "row": 3,
+          "col": 0,
+          "clue": "An incident where protected data is exposed to unauthorized parties."
+        },
+        {
+          "number": 6,
+          "dir": "across",
+          "word": "CODE",
+          "row": 11,
+          "col": 6,
+          "clue": "A written set of ethical rules for a profession, such as the ACM rules."
+        }
+      ]
+    },
+    {
+      "n": 38,
+      "id": "level-38",
+      "title": "Duty Calls 3",
+      "chapter": "Duty Calls",
+      "difficulty": "Tricky",
+      "words": [
+        "PATCH",
+        "JUSTICE",
+        "CONFLICT",
+        "ANONYMITY",
+        "COMPETENCE",
+        "STAKEHOLDER"
+      ],
+      "rows": 11,
+      "cols": 11,
+      "placements": [
+        {
+          "number": 5,
+          "dir": "across",
+          "word": "STAKEHOLDER",
+          "row": 4,
+          "col": 0,
+          "clue": "Any person or group affected by a system, not just its owners."
+        },
+        {
+          "number": 2,
+          "dir": "down",
+          "word": "COMPETENCE",
+          "row": 0,
+          "col": 9,
+          "clue": "Having and maintaining the skills needed to do professional work well."
+        },
+        {
+          "number": 3,
+          "dir": "down",
+          "word": "ANONYMITY",
+          "row": 2,
+          "col": 6,
+          "clue": "The state of acting or contributing data without revealing who you are."
+        },
+        {
+          "number": 1,
+          "dir": "across",
+          "word": "CONFLICT",
+          "row": 0,
+          "col": 3,
+          "clue": "A clash between your interests and your duty to users or clients."
+        },
+        {
+          "number": 6,
+          "dir": "across",
+          "word": "JUSTICE",
+          "row": 9,
+          "col": 3,
+          "clue": "The moral principle that benefits and harms of technology should be shared fairly."
+        },
+        {
+          "number": 4,
+          "dir": "down",
+          "word": "PATCH",
+          "row": 3,
+          "col": 2,
+          "clue": "A small update that fixes a bug or closes a security hole."
+        }
+      ]
+    },
+    {
+      "n": 39,
+      "id": "level-39",
+      "title": "Duty Calls 4",
+      "chapter": "Duty Calls",
+      "difficulty": "Tricky",
+      "words": [
+        "LICENSE",
+        "DILEMMA",
+        "DEPENDENCY",
+        "MONOPOLY",
+        "REGULATION",
+        "SURVEILLANCE"
+      ],
+      "rows": 12,
+      "cols": 13,
+      "placements": [
+        {
+          "number": 5,
+          "dir": "across",
+          "word": "SURVEILLANCE",
+          "row": 5,
+          "col": 1,
+          "clue": "Close observation of users' behavior, often through tracking or monitoring software."
+        },
+        {
+          "number": 4,
+          "dir": "down",
+          "word": "DEPENDENCY",
+          "row": 2,
+          "col": 12,
+          "clue": "Outside code your project relies on, which can carry risks of its own."
+        },
+        {
+          "number": 3,
+          "dir": "down",
+          "word": "REGULATION",
+          "row": 1,
+          "col": 8,
+          "clue": "Laws and rules that set boundaries for how technology may be built and used."
+        },
+        {
+          "number": 6,
+          "dir": "across",
+          "word": "MONOPOLY",
+          "row": 9,
+          "col": 3,
+          "clue": "A single company dominating a market with no real alternatives."
+        },
+        {
+          "number": 1,
+          "dir": "down",
+          "word": "LICENSE",
+          "row": 0,
+          "col": 1,
+          "clue": "The legal terms that state how software may be used, shared, or modified."
+        },
+        {
+          "number": 2,
+          "dir": "across",
+          "word": "DILEMMA",
+          "row": 1,
+          "col": 0,
+          "clue": "A situation where every available choice violates some value."
+        }
+      ]
+    },
+    {
+      "n": 40,
+      "id": "level-40",
+      "title": "Duty Calls 5",
+      "chapter": "Duty Calls",
+      "difficulty": "Tricky",
+      "words": [
+        "RISK",
+        "NUDGE",
+        "RANSOMWARE",
+        "MODERATION",
+        "SECURITY",
+        "TRANSPARENCY"
+      ],
+      "rows": 10,
+      "cols": 12,
+      "placements": [
+        {
+          "number": 1,
+          "dir": "across",
+          "word": "TRANSPARENCY",
+          "row": 0,
+          "col": 0,
+          "clue": "Openness about how a system works, what data it uses, and how it makes decisions."
+        },
+        {
+          "number": 2,
+          "dir": "down",
+          "word": "RANSOMWARE",
+          "row": 0,
+          "col": 1,
+          "clue": "Malware that locks victims' files and demands payment for their release."
+        },
+        {
+          "number": 5,
+          "dir": "across",
+          "word": "MODERATION",
+          "row": 4,
+          "col": 0,
+          "clue": "Reviewing and controlling user content to keep a platform safe."
+        },
+        {
+          "number": 3,
+          "dir": "down",
+          "word": "SECURITY",
+          "row": 0,
+          "col": 4,
+          "clue": "The practice of protecting systems, networks, and data from damage or attack."
+        },
+        {
+          "number": 6,
+          "dir": "down",
+          "word": "NUDGE",
+          "row": 4,
+          "col": 9,
+          "clue": "A subtle design push that steers users toward one choice over others."
+        },
+        {
+          "number": 4,
+          "dir": "down",
+          "word": "RISK",
+          "row": 3,
+          "col": 7,
+          "clue": "The possibility that building or deploying software causes harm or loss."
+        }
+      ]
+    },
+    {
+      "n": 41,
+      "id": "level-41",
+      "title": "Pro Standards 1",
+      "chapter": "Pro Standards",
+      "difficulty": "Tricky",
+      "words": [
+        "LOYALTY",
+        "COMMONS",
+        "COMPLIANCE",
+        "ENCRYPTION",
+        "TRACKING",
+        "VULNERABILITY"
+      ],
+      "rows": 12,
+      "cols": 13,
+      "placements": [
+        {
+          "number": 6,
+          "dir": "across",
+          "word": "VULNERABILITY",
+          "row": 5,
+          "col": 0,
+          "clue": "A weakness in software that attackers can exploit to cause harm."
+        },
+        {
+          "number": 1,
+          "dir": "down",
+          "word": "COMPLIANCE",
+          "row": 0,
+          "col": 8,
+          "clue": "Following the laws, standards, and policies that apply to software."
+        },
+        {
+          "number": 4,
+          "dir": "down",
+          "word": "ENCRYPTION",
+          "row": 1,
+          "col": 12,
+          "clue": "Scrambling data so only authorized parties with the key can read it."
+        },
+        {
+          "number": 5,
+          "dir": "down",
+          "word": "TRACKING",
+          "row": 4,
+          "col": 5,
+          "clue": "Following users across apps and websites to record what they do."
+        },
+        {
+          "number": 2,
+          "dir": "down",
+          "word": "LOYALTY",
+          "row": 1,
+          "col": 2,
+          "clue": "Acting in the best interests of clients and users who depend on you."
+        },
+        {
+          "number": 3,
+          "dir": "across",
+          "word": "COMMONS",
+          "row": 1,
+          "col": 4,
+          "clue": "Shared resources, like open knowledge and code, that everyone may use."
+        }
+      ]
+    },
+    {
+      "n": 42,
+      "id": "level-42",
+      "title": "Pro Standards 2",
+      "chapter": "Pro Standards",
+      "difficulty": "Tricky",
+      "words": [
+        "REFUSAL",
+        "CONSENT",
+        "PHISHING",
+        "ADDICTION",
+        "DEPENDENCY",
+        "RESPONSIBILITY"
+      ],
+      "rows": 11,
+      "cols": 14,
+      "placements": [
+        {
+          "number": 5,
+          "dir": "across",
+          "word": "RESPONSIBILITY",
+          "row": 5,
+          "col": 0,
+          "clue": "The duty to take care that one's software does not cause foreseeable harm."
+        },
+        {
+          "number": 4,
+          "dir": "down",
+          "word": "DEPENDENCY",
+          "row": 1,
+          "col": 5,
+          "clue": "Outside code your project relies on, which can carry risks of its own."
+        },
+        {
+          "number": 2,
+          "dir": "down",
+          "word": "ADDICTION",
+          "row": 0,
+          "col": 12,
+          "clue": "Compulsive overuse of an app engineered through addictive design tricks."
+        },
+        {
+          "number": 1,
+          "dir": "down",
+          "word": "PHISHING",
+          "row": 0,
+          "col": 9,
+          "clue": "Tricking people into revealing secrets by impersonating someone trustworthy."
+        },
+        {
+          "number": 3,
+          "dir": "down",
+          "word": "REFUSAL",
+          "row": 1,
+          "col": 2,
+          "clue": "Declining to build something you judge to be unethical."
+        },
+        {
+          "number": 6,
+          "dir": "across",
+          "word": "CONSENT",
+          "row": 9,
+          "col": 5,
+          "clue": "Freely given permission from a user before collecting or using their data."
+        }
+      ]
+    },
+    {
+      "n": 43,
+      "id": "level-43",
+      "title": "Pro Standards 3",
+      "chapter": "Pro Standards",
+      "difficulty": "Tricky",
+      "words": [
+        "SECRECY",
+        "MALWARE",
+        "COPYLEFT",
+        "SECURITY",
+        "COMPLIANCE",
+        "ACCOUNTABILITY"
+      ],
+      "rows": 10,
+      "cols": 14,
+      "placements": [
+        {
+          "number": 6,
+          "dir": "across",
+          "word": "ACCOUNTABILITY",
+          "row": 8,
+          "col": 0,
+          "clue": "Taking responsibility for the ethical consequences of one's software and decisions."
+        },
+        {
+          "number": 1,
+          "dir": "down",
+          "word": "COMPLIANCE",
+          "row": 0,
+          "col": 2,
+          "clue": "Following the laws, standards, and policies that apply to software."
+        },
+        {
+          "number": 3,
+          "dir": "down",
+          "word": "COPYLEFT",
+          "row": 1,
+          "col": 6,
+          "clue": "A license rule that shared improvements must stay shared and open."
+        },
+        {
+          "number": 4,
+          "dir": "down",
+          "word": "SECURITY",
+          "row": 2,
+          "col": 12,
+          "clue": "The practice of protecting systems, networks, and data from damage or attack."
+        },
+        {
+          "number": 2,
+          "dir": "across",
+          "word": "SECRECY",
+          "row": 1,
+          "col": 4,
+          "clue": "Keeping sensitive information hidden from those who should not see it."
+        },
+        {
+          "number": 5,
+          "dir": "across",
+          "word": "MALWARE",
+          "row": 5,
+          "col": 4,
+          "clue": "Software deliberately designed to damage systems or steal from users."
+        }
+      ]
+    },
+    {
+      "n": 44,
+      "id": "level-44",
+      "title": "Pro Standards 4",
+      "chapter": "Pro Standards",
+      "difficulty": "Tricky",
+      "words": [
+        "EQUITY",
+        "PRIVACY",
+        "MONOPOLY",
+        "ADDICTION",
+        "ANONYMITY",
+        "ACCESSIBILITY"
+      ],
+      "rows": 9,
+      "cols": 13,
+      "placements": [
+        {
+          "number": 5,
+          "dir": "across",
+          "word": "ACCESSIBILITY",
+          "row": 6,
+          "col": 0,
+          "clue": "Designing software so that people with disabilities can use it effectively."
+        },
+        {
+          "number": 2,
+          "dir": "down",
+          "word": "ADDICTION",
+          "row": 0,
+          "col": 10,
+          "clue": "Compulsive overuse of an app engineered through addictive design tricks."
+        },
+        {
+          "number": 1,
+          "dir": "down",
+          "word": "ANONYMITY",
+          "row": 0,
+          "col": 8,
+          "clue": "The state of acting or contributing data without revealing who you are."
+        },
+        {
+          "number": 6,
+          "dir": "across",
+          "word": "MONOPOLY",
+          "row": 8,
+          "col": 1,
+          "clue": "A single company dominating a market with no real alternatives."
+        },
+        {
+          "number": 3,
+          "dir": "down",
+          "word": "PRIVACY",
+          "row": 0,
+          "col": 12,
+          "clue": "The protection of personal information from unauthorized access or misuse."
+        },
+        {
+          "number": 4,
+          "dir": "across",
+          "word": "EQUITY",
+          "row": 4,
+          "col": 3,
+          "clue": "Giving people the resources they need so outcomes can be fair."
+        }
+      ]
+    },
+    {
+      "n": 45,
+      "id": "level-45",
+      "title": "Pro Standards 5",
+      "chapter": "Pro Standards",
+      "difficulty": "Tricky",
+      "words": [
+        "AUDIT",
+        "ERASURE",
+        "REGULATION",
+        "DISCLOSURE",
+        "GOVERNANCE",
+        "SUSTAINABILITY"
+      ],
+      "rows": 10,
+      "cols": 14,
+      "placements": [
+        {
+          "number": 6,
+          "dir": "across",
+          "word": "SUSTAINABILITY",
+          "row": 6,
+          "col": 0,
+          "clue": "Building software that meets present needs without harming future generations."
+        },
+        {
+          "number": 3,
+          "dir": "down",
+          "word": "REGULATION",
+          "row": 0,
+          "col": 12,
+          "clue": "Laws and rules that set boundaries for how technology may be built and used."
+        },
+        {
+          "number": 1,
+          "dir": "down",
+          "word": "DISCLOSURE",
+          "row": 0,
+          "col": 2,
+          "clue": "Openly revealing conflicts, risks, or limitations that others should know."
+        },
+        {
+          "number": 2,
+          "dir": "down",
+          "word": "GOVERNANCE",
+          "row": 0,
+          "col": 4,
+          "clue": "The structures and rules that steer how technology power is used."
+        },
+        {
+          "number": 4,
+          "dir": "down",
+          "word": "ERASURE",
+          "row": 3,
+          "col": 0,
+          "clue": "A user's right to have their personal data permanently deleted."
+        },
+        {
+          "number": 5,
+          "dir": "down",
+          "word": "AUDIT",
+          "row": 3,
+          "col": 9,
+          "clue": "A systematic independent review of a system, process, or decision."
+        }
+      ]
+    },
+    {
+      "n": 46,
+      "id": "level-46",
+      "title": "Share Alike 1",
+      "chapter": "Share Alike",
+      "difficulty": "Tricky",
+      "words": [
+        "AGENCY",
+        "HONESTY",
+        "PHISHING",
+        "COMPETENCE",
+        "AUTONOMY",
+        "STAKEHOLDER"
+      ],
+      "rows": 10,
+      "cols": 11,
+      "placements": [
+        {
+          "number": 5,
+          "dir": "across",
+          "word": "STAKEHOLDER",
+          "row": 4,
+          "col": 0,
+          "clue": "Any person or group affected by a system, not just its owners."
+        },
+        {
+          "number": 1,
+          "dir": "down",
+          "word": "COMPETENCE",
+          "row": 0,
+          "col": 4,
+          "clue": "Having and maintaining the skills needed to do professional work well."
+        },
+        {
+          "number": 2,
+          "dir": "down",
+          "word": "PHISHING",
+          "row": 1,
+          "col": 0,
+          "clue": "Tricking people into revealing secrets by impersonating someone trustworthy."
+        },
+        {
+          "number": 3,
+          "dir": "down",
+          "word": "AUTONOMY",
+          "row": 1,
+          "col": 6,
+          "clue": "A person's right to make their own informed choices about technology."
+        },
+        {
+          "number": 4,
+          "dir": "down",
+          "word": "HONESTY",
+          "row": 1,
+          "col": 9,
+          "clue": "Telling the truth about what software can and cannot do."
+        },
+        {
+          "number": 6,
+          "dir": "down",
+          "word": "AGENCY",
+          "row": 4,
+          "col": 2,
+          "clue": "A user's power to act, choose, and control their own experience."
+        }
+      ]
+    },
+    {
+      "n": 47,
+      "id": "level-47",
+      "title": "Share Alike 2",
+      "chapter": "Share Alike",
+      "difficulty": "Tricky",
+      "words": [
+        "PATENT",
+        "DIGNITY",
+        "INCLUSION",
+        "TRACKING",
+        "COPYRIGHT",
+        "TRANSPARENCY"
+      ],
+      "rows": 9,
+      "cols": 12,
+      "placements": [
+        {
+          "number": 6,
+          "dir": "across",
+          "word": "TRANSPARENCY",
+          "row": 8,
+          "col": 0,
+          "clue": "Openness about how a system works, what data it uses, and how it makes decisions."
+        },
+        {
+          "number": 3,
+          "dir": "down",
+          "word": "INCLUSION",
+          "row": 0,
+          "col": 9,
+          "clue": "Actively involving people of all backgrounds in using and shaping software."
+        },
+        {
+          "number": 1,
+          "dir": "down",
+          "word": "COPYRIGHT",
+          "row": 0,
+          "col": 0,
+          "clue": "Legal protection for the expression of original creative and written works."
+        },
+        {
+          "number": 5,
+          "dir": "across",
+          "word": "TRACKING",
+          "row": 6,
+          "col": 4,
+          "clue": "Following users across apps and websites to record what they do."
+        },
+        {
+          "number": 2,
+          "dir": "across",
+          "word": "DIGNITY",
+          "row": 0,
+          "col": 5,
+          "clue": "The inherent worth of every person that software must respect."
+        },
+        {
+          "number": 4,
+          "dir": "across",
+          "word": "PATENT",
+          "row": 2,
+          "col": 0,
+          "clue": "An exclusive legal right granted for a novel invention for a limited time."
+        }
+      ]
+    },
+    {
+      "n": 48,
+      "id": "level-48",
+      "title": "Share Alike 3",
+      "chapter": "Share Alike",
+      "difficulty": "Tricky",
+      "words": [
+        "SAFETY",
+        "LEAK",
+        "DIVERSITY",
+        "RANSOMWARE",
+        "LIABILITY",
+        "ATTRIBUTION"
+      ],
+      "rows": 10,
+      "cols": 11,
+      "placements": [
+        {
+          "number": 6,
+          "dir": "across",
+          "word": "ATTRIBUTION",
+          "row": 4,
+          "col": 0,
+          "clue": "Giving proper credit to the creator of code, text, or media you reuse."
+        },
+        {
+          "number": 3,
+          "dir": "down",
+          "word": "RANSOMWARE",
+          "row": 0,
+          "col": 9,
+          "clue": "Malware that locks victims' files and demands payment for their release."
+        },
+        {
+          "number": 1,
+          "dir": "down",
+          "word": "DIVERSITY",
+          "row": 0,
+          "col": 3,
+          "clue": "Having many different kinds of people, views, and experiences represented."
+        },
+        {
+          "number": 4,
+          "dir": "down",
+          "word": "LIABILITY",
+          "row": 1,
+          "col": 5,
+          "clue": "Legal responsibility to pay for harm your software causes."
+        },
+        {
+          "number": 2,
+          "dir": "down",
+          "word": "SAFETY",
+          "row": 0,
+          "col": 7,
+          "clue": "Designing software so it avoids injuring people or damaging property."
+        },
+        {
+          "number": 5,
+          "dir": "down",
+          "word": "LEAK",
+          "row": 2,
+          "col": 0,
+          "clue": "An accidental or deliberate release of confidential information."
+        }
+      ]
+    },
+    {
+      "n": 49,
+      "id": "level-49",
+      "title": "Share Alike 4",
+      "chapter": "Share Alike",
+      "difficulty": "Tricky",
+      "words": [
+        "TRUST",
+        "FORK",
+        "ENCRYPTION",
+        "OPENNESS",
+        "PROFILING",
+        "SURVEILLANCE"
+      ],
+      "rows": 11,
+      "cols": 13,
+      "placements": [
+        {
+          "number": 3,
+          "dir": "across",
+          "word": "SURVEILLANCE",
+          "row": 2,
+          "col": 0,
+          "clue": "Close observation of users' behavior, often through tracking or monitoring software."
+        },
+        {
+          "number": 2,
+          "dir": "down",
+          "word": "ENCRYPTION",
+          "row": 1,
+          "col": 9,
+          "clue": "Scrambling data so only authorized parties with the key can read it."
+        },
+        {
+          "number": 5,
+          "dir": "across",
+          "word": "PROFILING",
+          "row": 8,
+          "col": 3,
+          "clue": "Sorting people into categories from their data to predict or judge them."
+        },
+        {
+          "number": 6,
+          "dir": "across",
+          "word": "OPENNESS",
+          "row": 10,
+          "col": 5,
+          "clue": "Sharing code, data, and methods so others can inspect and reuse them."
+        },
+        {
+          "number": 1,
+          "dir": "down",
+          "word": "TRUST",
+          "row": 0,
+          "col": 1,
+          "clue": "Users' belief that software will behave reliably and in their interest."
+        },
+        {
+          "number": 4,
+          "dir": "down",
+          "word": "FORK",
+          "row": 6,
+          "col": 4,
+          "clue": "Splitting an open project into an independent copy with its own direction."
+        }
+      ]
+    },
+    {
+      "n": 50,
+      "id": "level-50",
+      "title": "Share Alike 5",
+      "chapter": "Share Alike",
+      "difficulty": "Tricky",
+      "words": [
+        "HARM",
+        "BIAS",
+        "INTEGRITY",
+        "BACKDOOR",
+        "CONFLICT",
+        "ACCOUNTABILITY"
+      ],
+      "rows": 11,
+      "cols": 14,
+      "placements": [
+        {
+          "number": 2,
+          "dir": "across",
+          "word": "ACCOUNTABILITY",
+          "row": 2,
+          "col": 0,
+          "clue": "Taking responsibility for the ethical consequences of one's software and decisions."
+        },
+        {
+          "number": 3,
+          "dir": "down",
+          "word": "INTEGRITY",
+          "row": 2,
+          "col": 9,
+          "clue": "Acting honestly and consistently with moral principles, even when no one watches."
+        },
+        {
+          "number": 1,
+          "dir": "down",
+          "word": "BACKDOOR",
+          "row": 0,
+          "col": 1,
+          "clue": "A hidden way to bypass normal authentication in a system."
+        },
+        {
+          "number": 5,
+          "dir": "across",
+          "word": "CONFLICT",
+          "row": 5,
+          "col": 0,
+          "clue": "A clash between your interests and your duty to users or clients."
+        },
+        {
+          "number": 6,
+          "dir": "across",
+          "word": "HARM",
+          "row": 7,
+          "col": 7,
+          "clue": "Injury, damage, or suffering caused to people by a system or decision."
+        },
+        {
+          "number": 4,
+          "dir": "down",
+          "word": "BIAS",
+          "row": 4,
+          "col": 5,
+          "clue": "A systematic slant in data or algorithms that favors some people over others."
+        }
+      ]
+    },
+    {
+      "n": 51,
+      "id": "level-51",
+      "title": "Net Dangers 1",
+      "chapter": "Net Dangers",
+      "difficulty": "Tricky",
+      "words": [
+        "DILEMMA",
+        "ERASURE",
+        "DEEPFAKE",
+        "DECEPTION",
+        "MODERATION",
+        "SUSTAINABILITY"
+      ],
+      "rows": 10,
+      "cols": 14,
+      "placements": [
+        {
+          "number": 6,
+          "dir": "across",
+          "word": "SUSTAINABILITY",
+          "row": 7,
+          "col": 0,
+          "clue": "Building software that meets present needs without harming future generations."
+        },
+        {
+          "number": 2,
+          "dir": "down",
+          "word": "MODERATION",
+          "row": 0,
+          "col": 5,
+          "clue": "Reviewing and controlling user content to keep a platform safe."
+        },
+        {
+          "number": 3,
+          "dir": "down",
+          "word": "DECEPTION",
+          "row": 1,
+          "col": 9,
+          "clue": "Misleading users through false statements or dishonest interface design."
+        },
+        {
+          "number": 4,
+          "dir": "down",
+          "word": "DEEPFAKE",
+          "row": 2,
+          "col": 7,
+          "clue": "A realistic fake video or audio generated by AI to impersonate someone."
+        },
+        {
+          "number": 1,
+          "dir": "across",
+          "word": "DILEMMA",
+          "row": 0,
+          "col": 1,
+          "clue": "A situation where every available choice violates some value."
+        },
+        {
+          "number": 5,
+          "dir": "down",
+          "word": "ERASURE",
+          "row": 3,
+          "col": 1,
+          "clue": "A user's right to have their personal data permanently deleted."
+        }
+      ]
+    },
+    {
+      "n": 52,
+      "id": "level-52",
+      "title": "Net Dangers 2",
+      "chapter": "Net Dangers",
+      "difficulty": "Tricky",
+      "words": [
+        "FORK",
+        "BIAS",
+        "PLAGIARISM",
+        "FAIRNESS",
+        "COPYRIGHT",
+        "VULNERABILITY"
+      ],
+      "rows": 10,
+      "cols": 13,
+      "placements": [
+        {
+          "number": 4,
+          "dir": "across",
+          "word": "VULNERABILITY",
+          "row": 4,
+          "col": 0,
+          "clue": "A weakness in software that attackers can exploit to cause harm."
+        },
+        {
+          "number": 5,
+          "dir": "down",
+          "word": "BIAS",
+          "row": 4,
+          "col": 7,
+          "clue": "A systematic slant in data or algorithms that favors some people over others."
+        },
+        {
+          "number": 1,
+          "dir": "down",
+          "word": "PLAGIARISM",
+          "row": 0,
+          "col": 10,
+          "clue": "Presenting someone else's code or writing as if it were your own."
+        },
+        {
+          "number": 3,
+          "dir": "down",
+          "word": "FORK",
+          "row": 2,
+          "col": 5,
+          "clue": "Splitting an open project into an independent copy with its own direction."
+        },
+        {
+          "number": 2,
+          "dir": "down",
+          "word": "COPYRIGHT",
+          "row": 1,
+          "col": 12,
+          "clue": "Legal protection for the expression of original creative and written works."
+        },
+        {
+          "number": 6,
+          "dir": "across",
+          "word": "FAIRNESS",
+          "row": 7,
+          "col": 1,
+          "clue": "Treating all users and stakeholders impartially, without bias or unjust outcomes."
+        }
+      ]
+    },
+    {
+      "n": 53,
+      "id": "level-53",
+      "title": "Net Dangers 3",
+      "chapter": "Net Dangers",
+      "difficulty": "Tricky",
+      "words": [
+        "BREACH",
+        "AGENCY",
+        "DECEPTION",
+        "SECURITY",
+        "ADDICTION",
+        "MINIMIZATION"
+      ],
+      "rows": 11,
+      "cols": 12,
+      "placements": [
+        {
+          "number": 6,
+          "dir": "across",
+          "word": "MINIMIZATION",
+          "row": 8,
+          "col": 0,
+          "clue": "Collecting only the data strictly needed, and keeping it no longer than necessary."
+        },
+        {
+          "number": 1,
+          "dir": "down",
+          "word": "DECEPTION",
+          "row": 0,
+          "col": 2,
+          "clue": "Misleading users through false statements or dishonest interface design."
+        },
+        {
+          "number": 2,
+          "dir": "down",
+          "word": "ADDICTION",
+          "row": 2,
+          "col": 5,
+          "clue": "Compulsive overuse of an app engineered through addictive design tricks."
+        },
+        {
+          "number": 3,
+          "dir": "down",
+          "word": "SECURITY",
+          "row": 3,
+          "col": 9,
+          "clue": "The practice of protecting systems, networks, and data from damage or attack."
+        },
+        {
+          "number": 4,
+          "dir": "down",
+          "word": "BREACH",
+          "row": 5,
+          "col": 7,
+          "clue": "An incident where protected data is exposed to unauthorized parties."
+        },
+        {
+          "number": 5,
+          "dir": "down",
+          "word": "AGENCY",
+          "row": 5,
+          "col": 11,
+          "clue": "A user's power to act, choose, and control their own experience."
+        }
+      ]
+    },
+    {
+      "n": 54,
+      "id": "level-54",
+      "title": "Net Dangers 4",
+      "chapter": "Net Dangers",
+      "difficulty": "Tricky",
+      "words": [
+        "DIVIDE",
+        "CONSENT",
+        "FAIRNESS",
+        "ENCRYPTION",
+        "OPENNESS",
+        "ACCESSIBILITY"
+      ],
+      "rows": 10,
+      "cols": 13,
+      "placements": [
+        {
+          "number": 5,
+          "dir": "across",
+          "word": "ACCESSIBILITY",
+          "row": 7,
+          "col": 0,
+          "clue": "Designing software so that people with disabilities can use it effectively."
+        },
+        {
+          "number": 2,
+          "dir": "down",
+          "word": "ENCRYPTION",
+          "row": 0,
+          "col": 8,
+          "clue": "Scrambling data so only authorized parties with the key can read it."
+        },
+        {
+          "number": 1,
+          "dir": "down",
+          "word": "FAIRNESS",
+          "row": 0,
+          "col": 4,
+          "clue": "Treating all users and stakeholders impartially, without bias or unjust outcomes."
+        },
+        {
+          "number": 6,
+          "dir": "across",
+          "word": "OPENNESS",
+          "row": 9,
+          "col": 4,
+          "clue": "Sharing code, data, and methods so others can inspect and reuse them."
+        },
+        {
+          "number": 4,
+          "dir": "across",
+          "word": "CONSENT",
+          "row": 5,
+          "col": 0,
+          "clue": "Freely given permission from a user before collecting or using their data."
+        },
+        {
+          "number": 3,
+          "dir": "across",
+          "word": "DIVIDE",
+          "row": 2,
+          "col": 1,
+          "clue": "The gap between people who can access technology and those who cannot."
+        }
+      ]
+    },
+    {
+      "n": 55,
+      "id": "level-55",
+      "title": "Net Dangers 5",
+      "chapter": "Net Dangers",
+      "difficulty": "Tricky",
+      "words": [
+        "AUDIT",
+        "PIRACY",
+        "DIVERSITY",
+        "DEEPFAKE",
+        "AUTONOMY",
+        "RESPONSIBILITY"
+      ],
+      "rows": 11,
+      "cols": 14,
+      "placements": [
+        {
+          "number": 5,
+          "dir": "across",
+          "word": "RESPONSIBILITY",
+          "row": 5,
+          "col": 0,
+          "clue": "The duty to take care that one's software does not cause foreseeable harm."
+        },
+        {
+          "number": 2,
+          "dir": "down",
+          "word": "DIVERSITY",
+          "row": 2,
+          "col": 1,
+          "clue": "Having many different kinds of people, views, and experiences represented."
+        },
+        {
+          "number": 3,
+          "dir": "down",
+          "word": "DEEPFAKE",
+          "row": 2,
+          "col": 3,
+          "clue": "A realistic fake video or audio generated by AI to impersonate someone."
+        },
+        {
+          "number": 6,
+          "dir": "across",
+          "word": "AUTONOMY",
+          "row": 7,
+          "col": 3,
+          "clue": "A person's right to make their own informed choices about technology."
+        },
+        {
+          "number": 1,
+          "dir": "down",
+          "word": "PIRACY",
+          "row": 0,
+          "col": 13,
+          "clue": "Illegally copying or distributing software and media."
+        },
+        {
+          "number": 4,
+          "dir": "down",
+          "word": "AUDIT",
+          "row": 2,
+          "col": 11,
+          "clue": "A systematic independent review of a system, process, or decision."
+        }
+      ]
+    },
+    {
+      "n": 56,
+      "id": "level-56",
+      "title": "Watchful Eyes 1",
+      "chapter": "Watchful Eyes",
+      "difficulty": "Tricky",
+      "words": [
+        "NUDGE",
+        "COMMONS",
+        "REGULATION",
+        "MONOPOLY",
+        "GOVERNANCE",
+        "TRANSPARENCY"
+      ],
+      "rows": 10,
+      "cols": 12,
+      "placements": [
+        {
+          "number": 5,
+          "dir": "across",
+          "word": "TRANSPARENCY",
+          "row": 6,
+          "col": 0,
+          "clue": "Openness about how a system works, what data it uses, and how it makes decisions."
+        },
+        {
+          "number": 1,
+          "dir": "down",
+          "word": "REGULATION",
+          "row": 0,
+          "col": 0,
+          "clue": "Laws and rules that set boundaries for how technology may be built and used."
+        },
+        {
+          "number": 3,
+          "dir": "down",
+          "word": "GOVERNANCE",
+          "row": 0,
+          "col": 6,
+          "clue": "The structures and rules that steer how technology power is used."
+        },
+        {
+          "number": 4,
+          "dir": "across",
+          "word": "MONOPOLY",
+          "row": 1,
+          "col": 3,
+          "clue": "A single company dominating a market with no real alternatives."
+        },
+        {
+          "number": 2,
+          "dir": "down",
+          "word": "COMMONS",
+          "row": 0,
+          "col": 4,
+          "clue": "Shared resources, like open knowledge and code, that everyone may use."
+        },
+        {
+          "number": 6,
+          "dir": "across",
+          "word": "NUDGE",
+          "row": 9,
+          "col": 2,
+          "clue": "A subtle design push that steers users toward one choice over others."
+        }
+      ]
+    },
+    {
+      "n": 57,
+      "id": "level-57",
+      "title": "Watchful Eyes 2",
+      "chapter": "Watchful Eyes",
+      "difficulty": "Tricky",
+      "words": [
+        "SAFETY",
+        "HARM",
+        "DISCLOSURE",
+        "BACKDOOR",
+        "COMPLIANCE",
+        "STAKEHOLDER"
+      ],
+      "rows": 11,
+      "cols": 11,
+      "placements": [
+        {
+          "number": 6,
+          "dir": "across",
+          "word": "STAKEHOLDER",
+          "row": 9,
+          "col": 0,
+          "clue": "Any person or group affected by a system, not just its owners."
+        },
+        {
+          "number": 2,
+          "dir": "down",
+          "word": "DISCLOSURE",
+          "row": 0,
+          "col": 9,
+          "clue": "Openly revealing conflicts, risks, or limitations that others should know."
+        },
+        {
+          "number": 1,
+          "dir": "down",
+          "word": "COMPLIANCE",
+          "row": 0,
+          "col": 4,
+          "clue": "Following the laws, standards, and policies that apply to software."
+        },
+        {
+          "number": 4,
+          "dir": "down",
+          "word": "BACKDOOR",
+          "row": 3,
+          "col": 6,
+          "clue": "A hidden way to bypass normal authentication in a system."
+        },
+        {
+          "number": 5,
+          "dir": "down",
+          "word": "SAFETY",
+          "row": 5,
+          "col": 1,
+          "clue": "Designing software so it avoids injuring people or damaging property."
+        },
+        {
+          "number": 3,
+          "dir": "across",
+          "word": "HARM",
+          "row": 2,
+          "col": 1,
+          "clue": "Injury, damage, or suffering caused to people by a system or decision."
+        }
+      ]
+    },
+    {
+      "n": 58,
+      "id": "level-58",
+      "title": "Watchful Eyes 3",
+      "chapter": "Watchful Eyes",
+      "difficulty": "Tricky",
+      "words": [
+        "SECRECY",
+        "TRUST",
+        "MODERATION",
+        "LIABILITY",
+        "COMPETENCE",
+        "ATTRIBUTION"
+      ],
+      "rows": 11,
+      "cols": 11,
+      "placements": [
+        {
+          "number": 5,
+          "dir": "across",
+          "word": "ATTRIBUTION",
+          "row": 5,
+          "col": 0,
+          "clue": "Giving proper credit to the creator of code, text, or media you reuse."
+        },
+        {
+          "number": 1,
+          "dir": "down",
+          "word": "MODERATION",
+          "row": 0,
+          "col": 0,
+          "clue": "Reviewing and controlling user content to keep a platform safe."
+        },
+        {
+          "number": 3,
+          "dir": "down",
+          "word": "COMPETENCE",
+          "row": 0,
+          "col": 7,
+          "clue": "Having and maintaining the skills needed to do professional work well."
+        },
+        {
+          "number": 4,
+          "dir": "down",
+          "word": "LIABILITY",
+          "row": 2,
+          "col": 5,
+          "clue": "Legal responsibility to pay for harm your software causes."
+        },
+        {
+          "number": 2,
+          "dir": "across",
+          "word": "SECRECY",
+          "row": 0,
+          "col": 2,
+          "clue": "Keeping sensitive information hidden from those who should not see it."
+        },
+        {
+          "number": 6,
+          "dir": "down",
+          "word": "TRUST",
+          "row": 5,
+          "col": 2,
+          "clue": "Users' belief that software will behave reliably and in their interest."
+        }
+      ]
+    },
+    {
+      "n": 59,
+      "id": "level-59",
+      "title": "Watchful Eyes 4",
+      "chapter": "Watchful Eyes",
+      "difficulty": "Tricky",
+      "words": [
+        "REFUSAL",
+        "LEAK",
+        "ANONYMITY",
+        "DEPENDENCY",
+        "TRACKING",
+        "SURVEILLANCE"
+      ],
+      "rows": 11,
+      "cols": 12,
+      "placements": [
+        {
+          "number": 5,
+          "dir": "across",
+          "word": "SURVEILLANCE",
+          "row": 6,
+          "col": 0,
+          "clue": "Close observation of users' behavior, often through tracking or monitoring software."
+        },
+        {
+          "number": 1,
+          "dir": "down",
+          "word": "DEPENDENCY",
+          "row": 0,
+          "col": 4,
+          "clue": "Outside code your project relies on, which can carry risks of its own."
+        },
+        {
+          "number": 6,
+          "dir": "across",
+          "word": "ANONYMITY",
+          "row": 9,
+          "col": 0,
+          "clue": "The state of acting or contributing data without revealing who you are."
+        },
+        {
+          "number": 4,
+          "dir": "down",
+          "word": "TRACKING",
+          "row": 3,
+          "col": 10,
+          "clue": "Following users across apps and websites to record what they do."
+        },
+        {
+          "number": 2,
+          "dir": "across",
+          "word": "REFUSAL",
+          "row": 1,
+          "col": 3,
+          "clue": "Declining to build something you judge to be unethical."
+        },
+        {
+          "number": 3,
+          "dir": "across",
+          "word": "LEAK",
+          "row": 3,
+          "col": 3,
+          "clue": "An accidental or deliberate release of confidential information."
+        }
+      ]
+    },
+    {
+      "n": 60,
+      "id": "level-60",
+      "title": "Watchful Eyes 5",
+      "chapter": "Watchful Eyes",
+      "difficulty": "Tricky",
+      "words": [
+        "PATCH",
+        "RISK",
+        "PHISHING",
+        "COPYLEFT",
+        "PLAGIARISM",
+        "SUSTAINABILITY"
+      ],
+      "rows": 10,
+      "cols": 14,
+      "placements": [
+        {
+          "number": 6,
+          "dir": "across",
+          "word": "SUSTAINABILITY",
+          "row": 5,
+          "col": 0,
+          "clue": "Building software that meets present needs without harming future generations."
+        },
+        {
+          "number": 1,
+          "dir": "down",
+          "word": "PLAGIARISM",
+          "row": 0,
+          "col": 4,
+          "clue": "Presenting someone else's code or writing as if it were your own."
+        },
+        {
+          "number": 2,
+          "dir": "down",
+          "word": "PHISHING",
+          "row": 2,
+          "col": 0,
+          "clue": "Tricking people into revealing secrets by impersonating someone trustworthy."
+        },
+        {
+          "number": 4,
+          "dir": "down",
+          "word": "COPYLEFT",
+          "row": 2,
+          "col": 13,
+          "clue": "A license rule that shared improvements must stay shared and open."
+        },
+        {
+          "number": 3,
+          "dir": "across",
+          "word": "PATCH",
+          "row": 2,
+          "col": 3,
+          "clue": "A small update that fixes a bug or closes a security hole."
+        },
+        {
+          "number": 5,
+          "dir": "down",
+          "word": "RISK",
+          "row": 4,
+          "col": 11,
+          "clue": "The possibility that building or deploying software causes harm or loss."
+        }
+      ]
+    },
+    {
+      "n": 61,
+      "id": "level-61",
+      "title": "Mind Games 1",
+      "chapter": "Mind Games",
+      "difficulty": "Hard",
+      "words": [
+        "CODE",
+        "PATENT",
+        "CONFLICT",
+        "RANSOMWARE",
+        "PROFILING",
+        "MINIMIZATION",
+        "ACCOUNTABILITY"
+      ],
+      "rows": 12,
+      "cols": 14,
+      "placements": [
+        {
+          "number": 6,
+          "dir": "across",
+          "word": "ACCOUNTABILITY",
+          "row": 7,
+          "col": 0,
+          "clue": "Taking responsibility for the ethical consequences of one's software and decisions."
+        },
+        {
+          "number": 1,
+          "dir": "down",
+          "word": "MINIMIZATION",
+          "row": 0,
+          "col": 0,
+          "clue": "Collecting only the data strictly needed, and keeping it no longer than necessary."
+        },
+        {
+          "number": 3,
+          "dir": "down",
+          "word": "RANSOMWARE",
+          "row": 0,
+          "col": 7,
+          "clue": "Malware that locks victims' files and demands payment for their release."
+        },
+        {
+          "number": 2,
+          "dir": "down",
+          "word": "PROFILING",
+          "row": 0,
+          "col": 5,
+          "clue": "Sorting people into categories from their data to predict or judge them."
+        },
+        {
+          "number": 4,
+          "dir": "down",
+          "word": "CONFLICT",
+          "row": 3,
+          "col": 10,
+          "clue": "A clash between your interests and your duty to users or clients."
+        },
+        {
+          "number": 5,
+          "dir": "down",
+          "word": "PATENT",
+          "row": 5,
+          "col": 12,
+          "clue": "An exclusive legal right granted for a novel invention for a limited time."
+        },
+        {
+          "number": 7,
+          "dir": "down",
+          "word": "CODE",
+          "row": 7,
+          "col": 2,
+          "clue": "A written set of ethical rules for a profession, such as the ACM rules."
+        }
+      ]
+    },
+    {
+      "n": 62,
+      "id": "level-62",
+      "title": "Mind Games 2",
+      "chapter": "Mind Games",
+      "difficulty": "Hard",
+      "words": [
+        "HONESTY",
+        "EQUITY",
+        "INTEGRITY",
+        "INCLUSION",
+        "TRACKING",
+        "ACCESSIBILITY",
+        "VULNERABILITY"
+      ],
+      "rows": 13,
+      "cols": 13,
+      "placements": [
+        {
+          "number": 6,
+          "dir": "across",
+          "word": "ACCESSIBILITY",
+          "row": 8,
+          "col": 0,
+          "clue": "Designing software so that people with disabilities can use it effectively."
+        },
+        {
+          "number": 1,
+          "dir": "down",
+          "word": "VULNERABILITY",
+          "row": 0,
+          "col": 10,
+          "clue": "A weakness in software that attackers can exploit to cause harm."
+        },
+        {
+          "number": 2,
+          "dir": "down",
+          "word": "INTEGRITY",
+          "row": 2,
+          "col": 6,
+          "clue": "Acting honestly and consistently with moral principles, even when no one watches."
+        },
+        {
+          "number": 4,
+          "dir": "down",
+          "word": "INCLUSION",
+          "row": 3,
+          "col": 4,
+          "clue": "Actively involving people of all backgrounds in using and shaping software."
+        },
+        {
+          "number": 5,
+          "dir": "down",
+          "word": "TRACKING",
+          "row": 5,
+          "col": 2,
+          "clue": "Following users across apps and websites to record what they do."
+        },
+        {
+          "number": 3,
+          "dir": "down",
+          "word": "HONESTY",
+          "row": 2,
+          "col": 12,
+          "clue": "Telling the truth about what software can and cannot do."
+        },
+        {
+          "number": 7,
+          "dir": "across",
+          "word": "EQUITY",
+          "row": 12,
+          "col": 5,
+          "clue": "Giving people the resources they need so outcomes can be fair."
+        }
+      ]
+    },
+    {
+      "n": 63,
+      "id": "level-63",
+      "title": "Mind Games 3",
+      "chapter": "Mind Games",
+      "difficulty": "Hard",
+      "words": [
+        "PRIVACY",
+        "DIGNITY",
+        "GOVERNANCE",
+        "BACKDOOR",
+        "MONOPOLY",
+        "RESPONSIBILITY",
+        "MINIMIZATION"
+      ],
+      "rows": 12,
+      "cols": 14,
+      "placements": [
+        {
+          "number": 6,
+          "dir": "across",
+          "word": "RESPONSIBILITY",
+          "row": 9,
+          "col": 0,
+          "clue": "The duty to take care that one's software does not cause foreseeable harm."
+        },
+        {
+          "number": 1,
+          "dir": "down",
+          "word": "MINIMIZATION",
+          "row": 0,
+          "col": 7,
+          "clue": "Collecting only the data strictly needed, and keeping it no longer than necessary."
+        },
+        {
+          "number": 7,
+          "dir": "across",
+          "word": "GOVERNANCE",
+          "row": 11,
+          "col": 0,
+          "clue": "The structures and rules that steer how technology power is used."
+        },
+        {
+          "number": 5,
+          "dir": "down",
+          "word": "BACKDOOR",
+          "row": 4,
+          "col": 4,
+          "clue": "A hidden way to bypass normal authentication in a system."
+        },
+        {
+          "number": 3,
+          "dir": "down",
+          "word": "MONOPOLY",
+          "row": 3,
+          "col": 10,
+          "clue": "A single company dominating a market with no real alternatives."
+        },
+        {
+          "number": 4,
+          "dir": "down",
+          "word": "PRIVACY",
+          "row": 3,
+          "col": 13,
+          "clue": "The protection of personal information from unauthorized access or misuse."
+        },
+        {
+          "number": 2,
+          "dir": "across",
+          "word": "DIGNITY",
+          "row": 1,
+          "col": 3,
+          "clue": "The inherent worth of every person that software must respect."
+        }
+      ]
+    },
+    {
+      "n": 64,
+      "id": "level-64",
+      "title": "Mind Games 4",
+      "chapter": "Mind Games",
+      "difficulty": "Hard",
+      "words": [
+        "LICENSE",
+        "MALWARE",
+        "AUTONOMY",
+        "PROFILING",
+        "DISCLOSURE",
+        "STAKEHOLDER",
+        "VULNERABILITY"
+      ],
+      "rows": 11,
+      "cols": 14,
+      "placements": [
+        {
+          "number": 7,
+          "dir": "across",
+          "word": "VULNERABILITY",
+          "row": 10,
+          "col": 0,
+          "clue": "A weakness in software that attackers can exploit to cause harm."
+        },
+        {
+          "number": 2,
+          "dir": "down",
+          "word": "STAKEHOLDER",
+          "row": 0,
+          "col": 5,
+          "clue": "Any person or group affected by a system, not just its owners."
+        },
+        {
+          "number": 6,
+          "dir": "across",
+          "word": "DISCLOSURE",
+          "row": 6,
+          "col": 0,
+          "clue": "Openly revealing conflicts, risks, or limitations that others should know."
+        },
+        {
+          "number": 1,
+          "dir": "down",
+          "word": "PROFILING",
+          "row": 0,
+          "col": 1,
+          "clue": "Sorting people into categories from their data to predict or judge them."
+        },
+        {
+          "number": 5,
+          "dir": "down",
+          "word": "AUTONOMY",
+          "row": 3,
+          "col": 12,
+          "clue": "A person's right to make their own informed choices about technology."
+        },
+        {
+          "number": 4,
+          "dir": "down",
+          "word": "LICENSE",
+          "row": 0,
+          "col": 9,
+          "clue": "The legal terms that state how software may be used, shared, or modified."
+        },
+        {
+          "number": 3,
+          "dir": "across",
+          "word": "MALWARE",
+          "row": 0,
+          "col": 7,
+          "clue": "Software deliberately designed to damage systems or steal from users."
+        }
+      ]
+    },
+    {
+      "n": 65,
+      "id": "level-65",
+      "title": "Mind Games 5",
+      "chapter": "Mind Games",
+      "difficulty": "Hard",
+      "words": [
+        "LOYALTY",
+        "JUSTICE",
+        "INCLUSION",
+        "COMPETENCE",
+        "PHISHING",
+        "TRANSPARENCY",
+        "SURVEILLANCE"
+      ],
+      "rows": 13,
+      "cols": 13,
+      "placements": [
+        {
+          "number": 7,
+          "dir": "across",
+          "word": "TRANSPARENCY",
+          "row": 12,
+          "col": 0,
+          "clue": "Openness about how a system works, what data it uses, and how it makes decisions."
+        },
+        {
+          "number": 3,
+          "dir": "down",
+          "word": "SURVEILLANCE",
+          "row": 1,
+          "col": 8,
+          "clue": "Close observation of users' behavior, often through tracking or monitoring software."
+        },
+        {
+          "number": 4,
+          "dir": "across",
+          "word": "COMPETENCE",
+          "row": 5,
+          "col": 2,
+          "clue": "Having and maintaining the skills needed to do professional work well."
+        },
+        {
+          "number": 6,
+          "dir": "across",
+          "word": "INCLUSION",
+          "row": 10,
+          "col": 0,
+          "clue": "Actively involving people of all backgrounds in using and shaping software."
+        },
+        {
+          "number": 2,
+          "dir": "across",
+          "word": "PHISHING",
+          "row": 1,
+          "col": 5,
+          "clue": "Tricking people into revealing secrets by impersonating someone trustworthy."
+        },
+        {
+          "number": 5,
+          "dir": "across",
+          "word": "LOYALTY",
+          "row": 7,
+          "col": 4,
+          "clue": "Acting in the best interests of clients and users who depend on you."
+        },
+        {
+          "number": 1,
+          "dir": "down",
+          "word": "JUSTICE",
+          "row": 0,
+          "col": 2,
+          "clue": "The moral principle that benefits and harms of technology should be shared fairly."
+        }
+      ]
+    },
+    {
+      "n": 66,
+      "id": "level-66",
+      "title": "Power Plays 1",
+      "chapter": "Power Plays",
+      "difficulty": "Hard",
+      "words": [
+        "DIVIDE",
+        "TRUST",
+        "FAIRNESS",
+        "PLAGIARISM",
+        "INTEGRITY",
+        "ACCOUNTABILITY",
+        "ACCESSIBILITY"
+      ],
+      "rows": 13,
+      "cols": 14,
+      "placements": [
+        {
+          "number": 4,
+          "dir": "across",
+          "word": "ACCOUNTABILITY",
+          "row": 2,
+          "col": 0,
+          "clue": "Taking responsibility for the ethical consequences of one's software and decisions."
+        },
+        {
+          "number": 2,
+          "dir": "down",
+          "word": "ACCESSIBILITY",
+          "row": 0,
+          "col": 2,
+          "clue": "Designing software so that people with disabilities can use it effectively."
+        },
+        {
+          "number": 1,
+          "dir": "down",
+          "word": "PLAGIARISM",
+          "row": 0,
+          "col": 0,
+          "clue": "Presenting someone else's code or writing as if it were your own."
+        },
+        {
+          "number": 7,
+          "dir": "across",
+          "word": "INTEGRITY",
+          "row": 10,
+          "col": 2,
+          "clue": "Acting honestly and consistently with moral principles, even when no one watches."
+        },
+        {
+          "number": 3,
+          "dir": "down",
+          "word": "FAIRNESS",
+          "row": 0,
+          "col": 9,
+          "clue": "Treating all users and stakeholders impartially, without bias or unjust outcomes."
+        },
+        {
+          "number": 6,
+          "dir": "down",
+          "word": "DIVIDE",
+          "row": 5,
+          "col": 5,
+          "clue": "The gap between people who can access technology and those who cannot."
+        },
+        {
+          "number": 5,
+          "dir": "down",
+          "word": "TRUST",
+          "row": 2,
+          "col": 12,
+          "clue": "Users' belief that software will behave reliably and in their interest."
+        }
+      ]
+    },
+    {
+      "n": 67,
+      "id": "level-67",
+      "title": "Power Plays 2",
+      "chapter": "Power Plays",
+      "difficulty": "Hard",
+      "words": [
+        "SAFETY",
+        "LOYALTY",
+        "COPYLEFT",
+        "OPENNESS",
+        "MODERATION",
+        "RESPONSIBILITY",
+        "ATTRIBUTION"
+      ],
+      "rows": 12,
+      "cols": 14,
+      "placements": [
+        {
+          "number": 5,
+          "dir": "across",
+          "word": "RESPONSIBILITY",
+          "row": 6,
+          "col": 0,
+          "clue": "The duty to take care that one's software does not cause foreseeable harm."
+        },
+        {
+          "number": 2,
+          "dir": "down",
+          "word": "ATTRIBUTION",
+          "row": 1,
+          "col": 8,
+          "clue": "Giving proper credit to the creator of code, text, or media you reuse."
+        },
+        {
+          "number": 4,
+          "dir": "across",
+          "word": "MODERATION",
+          "row": 3,
+          "col": 2,
+          "clue": "Reviewing and controlling user content to keep a platform safe."
+        },
+        {
+          "number": 3,
+          "dir": "down",
+          "word": "COPYLEFT",
+          "row": 2,
+          "col": 10,
+          "clue": "A license rule that shared improvements must stay shared and open."
+        },
+        {
+          "number": 7,
+          "dir": "across",
+          "word": "OPENNESS",
+          "row": 11,
+          "col": 5,
+          "clue": "Sharing code, data, and methods so others can inspect and reuse them."
+        },
+        {
+          "number": 1,
+          "dir": "down",
+          "word": "LOYALTY",
+          "row": 0,
+          "col": 13,
+          "clue": "Acting in the best interests of clients and users who depend on you."
+        },
+        {
+          "number": 6,
+          "dir": "down",
+          "word": "SAFETY",
+          "row": 6,
+          "col": 2,
+          "clue": "Designing software so it avoids injuring people or damaging property."
+        }
+      ]
+    },
+    {
+      "n": 68,
+      "id": "level-68",
+      "title": "Power Plays 3",
+      "chapter": "Power Plays",
+      "difficulty": "Hard",
+      "words": [
+        "LICENSE",
+        "SECRECY",
+        "COPYRIGHT",
+        "ADDICTION",
+        "DEEPFAKE",
+        "SUSTAINABILITY",
+        "RANSOMWARE"
+      ],
+      "rows": 13,
+      "cols": 14,
+      "placements": [
+        {
+          "number": 2,
+          "dir": "across",
+          "word": "SUSTAINABILITY",
+          "row": 1,
+          "col": 0,
+          "clue": "Building software that meets present needs without harming future generations."
+        },
+        {
+          "number": 1,
+          "dir": "down",
+          "word": "RANSOMWARE",
+          "row": 0,
+          "col": 4,
+          "clue": "Malware that locks victims' files and demands payment for their release."
+        },
+        {
+          "number": 3,
+          "dir": "across",
+          "word": "COPYRIGHT",
+          "row": 4,
+          "col": 3,
+          "clue": "Legal protection for the expression of original creative and written works."
+        },
+        {
+          "number": 5,
+          "dir": "across",
+          "word": "ADDICTION",
+          "row": 7,
+          "col": 4,
+          "clue": "Compulsive overuse of an app engineered through addictive design tricks."
+        },
+        {
+          "number": 6,
+          "dir": "across",
+          "word": "DEEPFAKE",
+          "row": 9,
+          "col": 3,
+          "clue": "A realistic fake video or audio generated by AI to impersonate someone."
+        },
+        {
+          "number": 4,
+          "dir": "down",
+          "word": "LICENSE",
+          "row": 6,
+          "col": 10,
+          "clue": "The legal terms that state how software may be used, shared, or modified."
+        },
+        {
+          "number": 7,
+          "dir": "across",
+          "word": "SECRECY",
+          "row": 12,
+          "col": 6,
+          "clue": "Keeping sensitive information hidden from those who should not see it."
+        }
+      ]
+    },
+    {
+      "n": 69,
+      "id": "level-69",
+      "title": "Power Plays 4",
+      "chapter": "Power Plays",
+      "difficulty": "Hard",
+      "words": [
+        "HONESTY",
+        "PIRACY",
+        "LIABILITY",
+        "COMPLIANCE",
+        "SECURITY",
+        "ATTRIBUTION",
+        "DEPENDENCY"
+      ],
+      "rows": 12,
+      "cols": 11,
+      "placements": [
+        {
+          "number": 6,
+          "dir": "across",
+          "word": "ATTRIBUTION",
+          "row": 7,
+          "col": 0,
+          "clue": "Giving proper credit to the creator of code, text, or media you reuse."
+        },
+        {
+          "number": 2,
+          "dir": "down",
+          "word": "COMPLIANCE",
+          "row": 1,
+          "col": 0,
+          "clue": "Following the laws, standards, and policies that apply to software."
+        },
+        {
+          "number": 1,
+          "dir": "down",
+          "word": "DEPENDENCY",
+          "row": 0,
+          "col": 10,
+          "clue": "Outside code your project relies on, which can carry risks of its own."
+        },
+        {
+          "number": 7,
+          "dir": "across",
+          "word": "LIABILITY",
+          "row": 9,
+          "col": 2,
+          "clue": "Legal responsibility to pay for harm your software causes."
+        },
+        {
+          "number": 4,
+          "dir": "down",
+          "word": "SECURITY",
+          "row": 4,
+          "col": 6,
+          "clue": "The practice of protecting systems, networks, and data from damage or attack."
+        },
+        {
+          "number": 3,
+          "dir": "across",
+          "word": "HONESTY",
+          "row": 4,
+          "col": 2,
+          "clue": "Telling the truth about what software can and cannot do."
+        },
+        {
+          "number": 5,
+          "dir": "down",
+          "word": "PIRACY",
+          "row": 6,
+          "col": 4,
+          "clue": "Illegally copying or distributing software and media."
+        }
+      ]
+    },
+    {
+      "n": 70,
+      "id": "level-70",
+      "title": "Power Plays 5",
+      "chapter": "Power Plays",
+      "difficulty": "Hard",
+      "words": [
+        "AUDIT",
+        "CODE",
+        "ENCRYPTION",
+        "DIVERSITY",
+        "DECEPTION",
+        "ACCESSIBILITY",
+        "CONFLICT"
+      ],
+      "rows": 13,
+      "cols": 13,
+      "placements": [
+        {
+          "number": 6,
+          "dir": "across",
+          "word": "ACCESSIBILITY",
+          "row": 5,
+          "col": 0,
+          "clue": "Designing software so that people with disabilities can use it effectively."
+        },
+        {
+          "number": 4,
+          "dir": "down",
+          "word": "ENCRYPTION",
+          "row": 3,
+          "col": 2,
+          "clue": "Scrambling data so only authorized parties with the key can read it."
+        },
+        {
+          "number": 5,
+          "dir": "down",
+          "word": "DIVERSITY",
+          "row": 4,
+          "col": 6,
+          "clue": "Having many different kinds of people, views, and experiences represented."
+        },
+        {
+          "number": 2,
+          "dir": "down",
+          "word": "DECEPTION",
+          "row": 0,
+          "col": 11,
+          "clue": "Misleading users through false statements or dishonest interface design."
+        },
+        {
+          "number": 3,
+          "dir": "across",
+          "word": "CONFLICT",
+          "row": 2,
+          "col": 5,
+          "clue": "A clash between your interests and your duty to users or clients."
+        },
+        {
+          "number": 6,
+          "dir": "down",
+          "word": "AUDIT",
+          "row": 5,
+          "col": 0,
+          "clue": "A systematic independent review of a system, process, or decision."
+        },
+        {
+          "number": 1,
+          "dir": "across",
+          "word": "CODE",
+          "row": 0,
+          "col": 9,
+          "clue": "A written set of ethical rules for a profession, such as the ACM rules."
+        }
+      ]
+    },
+    {
+      "n": 71,
+      "id": "level-71",
+      "title": "Hard Calls 1",
+      "chapter": "Hard Calls",
+      "difficulty": "Hard",
+      "words": [
+        "FORK",
+        "PATENT",
+        "REGULATION",
+        "ANONYMITY",
+        "DISCLOSURE",
+        "TRANSPARENCY",
+        "VULNERABILITY"
+      ],
+      "rows": 12,
+      "cols": 13,
+      "placements": [
+        {
+          "number": 3,
+          "dir": "across",
+          "word": "VULNERABILITY",
+          "row": 3,
+          "col": 0,
+          "clue": "A weakness in software that attackers can exploit to cause harm."
+        },
+        {
+          "number": 1,
+          "dir": "down",
+          "word": "TRANSPARENCY",
+          "row": 0,
+          "col": 3,
+          "clue": "Openness about how a system works, what data it uses, and how it makes decisions."
+        },
+        {
+          "number": 2,
+          "dir": "across",
+          "word": "REGULATION",
+          "row": 1,
+          "col": 3,
+          "clue": "Laws and rules that set boundaries for how technology may be built and used."
+        },
+        {
+          "number": 7,
+          "dir": "across",
+          "word": "DISCLOSURE",
+          "row": 10,
+          "col": 0,
+          "clue": "Openly revealing conflicts, risks, or limitations that others should know."
+        },
+        {
+          "number": 4,
+          "dir": "across",
+          "word": "ANONYMITY",
+          "row": 6,
+          "col": 3,
+          "clue": "The state of acting or contributing data without revealing who you are."
+        },
+        {
+          "number": 5,
+          "dir": "across",
+          "word": "PATENT",
+          "row": 8,
+          "col": 0,
+          "clue": "An exclusive legal right granted for a novel invention for a limited time."
+        },
+        {
+          "number": 6,
+          "dir": "down",
+          "word": "FORK",
+          "row": 8,
+          "col": 8,
+          "clue": "Splitting an open project into an independent copy with its own direction."
+        }
+      ]
+    },
+    {
+      "n": 72,
+      "id": "level-72",
+      "title": "Hard Calls 2",
+      "chapter": "Hard Calls",
+      "difficulty": "Hard",
+      "words": [
+        "MALWARE",
+        "RISK",
+        "ANONYMITY",
+        "REGULATION",
+        "COMPLIANCE",
+        "RESPONSIBILITY",
+        "SURVEILLANCE"
+      ],
+      "rows": 13,
+      "cols": 14,
+      "placements": [
+        {
+          "number": 5,
+          "dir": "across",
+          "word": "RESPONSIBILITY",
+          "row": 5,
+          "col": 0,
+          "clue": "The duty to take care that one's software does not cause foreseeable harm."
+        },
+        {
+          "number": 2,
+          "dir": "down",
+          "word": "SURVEILLANCE",
+          "row": 1,
+          "col": 1,
+          "clue": "Close observation of users' behavior, often through tracking or monitoring software."
+        },
+        {
+          "number": 7,
+          "dir": "across",
+          "word": "REGULATION",
+          "row": 12,
+          "col": 0,
+          "clue": "Laws and rules that set boundaries for how technology may be built and used."
+        },
+        {
+          "number": 1,
+          "dir": "down",
+          "word": "COMPLIANCE",
+          "row": 0,
+          "col": 7,
+          "clue": "Following the laws, standards, and policies that apply to software."
+        },
+        {
+          "number": 3,
+          "dir": "down",
+          "word": "ANONYMITY",
+          "row": 2,
+          "col": 5,
+          "clue": "The state of acting or contributing data without revealing who you are."
+        },
+        {
+          "number": 4,
+          "dir": "down",
+          "word": "MALWARE",
+          "row": 3,
+          "col": 10,
+          "clue": "Software deliberately designed to damage systems or steal from users."
+        },
+        {
+          "number": 6,
+          "dir": "across",
+          "word": "RISK",
+          "row": 8,
+          "col": 10,
+          "clue": "The possibility that building or deploying software causes harm or loss."
+        }
+      ]
+    },
+    {
+      "n": 73,
+      "id": "level-73",
+      "title": "Hard Calls 3",
+      "chapter": "Hard Calls",
+      "difficulty": "Hard",
+      "words": [
+        "PRIVACY",
+        "JUSTICE",
+        "CONFLICT",
+        "PHISHING",
+        "LIABILITY",
+        "STAKEHOLDER",
+        "MINIMIZATION"
+      ],
+      "rows": 14,
+      "cols": 12,
+      "placements": [
+        {
+          "number": 5,
+          "dir": "across",
+          "word": "MINIMIZATION",
+          "row": 5,
+          "col": 0,
+          "clue": "Collecting only the data strictly needed, and keeping it no longer than necessary."
+        },
+        {
+          "number": 4,
+          "dir": "down",
+          "word": "STAKEHOLDER",
+          "row": 3,
+          "col": 7,
+          "clue": "Any person or group affected by a system, not just its owners."
+        },
+        {
+          "number": 6,
+          "dir": "across",
+          "word": "LIABILITY",
+          "row": 10,
+          "col": 2,
+          "clue": "Legal responsibility to pay for harm your software causes."
+        },
+        {
+          "number": 2,
+          "dir": "down",
+          "word": "CONFLICT",
+          "row": 0,
+          "col": 5,
+          "clue": "A clash between your interests and your duty to users or clients."
+        },
+        {
+          "number": 3,
+          "dir": "down",
+          "word": "PHISHING",
+          "row": 0,
+          "col": 9,
+          "clue": "Tricking people into revealing secrets by impersonating someone trustworthy."
+        },
+        {
+          "number": 1,
+          "dir": "across",
+          "word": "PRIVACY",
+          "row": 0,
+          "col": 0,
+          "clue": "The protection of personal information from unauthorized access or misuse."
+        },
+        {
+          "number": 7,
+          "dir": "across",
+          "word": "JUSTICE",
+          "row": 12,
+          "col": 1,
+          "clue": "The moral principle that benefits and harms of technology should be shared fairly."
+        }
+      ]
+    },
+    {
+      "n": 74,
+      "id": "level-74",
+      "title": "Hard Calls 4",
+      "chapter": "Hard Calls",
+      "difficulty": "Hard",
+      "words": [
+        "ERASURE",
+        "BIAS",
+        "ENCRYPTION",
+        "DEEPFAKE",
+        "SECURITY",
+        "ACCOUNTABILITY",
+        "SUSTAINABILITY"
+      ],
+      "rows": 14,
+      "cols": 14,
+      "placements": [
+        {
+          "number": 7,
+          "dir": "across",
+          "word": "ACCOUNTABILITY",
+          "row": 9,
+          "col": 0,
+          "clue": "Taking responsibility for the ethical consequences of one's software and decisions."
+        },
+        {
+          "number": 2,
+          "dir": "down",
+          "word": "SUSTAINABILITY",
+          "row": 0,
+          "col": 11,
+          "clue": "Building software that meets present needs without harming future generations."
+        },
+        {
+          "number": 1,
+          "dir": "down",
+          "word": "ENCRYPTION",
+          "row": 0,
+          "col": 5,
+          "clue": "Scrambling data so only authorized parties with the key can read it."
+        },
+        {
+          "number": 6,
+          "dir": "across",
+          "word": "DEEPFAKE",
+          "row": 5,
+          "col": 2,
+          "clue": "A realistic fake video or audio generated by AI to impersonate someone."
+        },
+        {
+          "number": 5,
+          "dir": "down",
+          "word": "SECURITY",
+          "row": 4,
+          "col": 9,
+          "clue": "The practice of protecting systems, networks, and data from damage or attack."
+        },
+        {
+          "number": 3,
+          "dir": "across",
+          "word": "ERASURE",
+          "row": 1,
+          "col": 7,
+          "clue": "A user's right to have their personal data permanently deleted."
+        },
+        {
+          "number": 4,
+          "dir": "down",
+          "word": "BIAS",
+          "row": 3,
+          "col": 7,
+          "clue": "A systematic slant in data or algorithms that favors some people over others."
+        }
+      ]
+    },
+    {
+      "n": 75,
+      "id": "level-75",
+      "title": "Hard Calls 5",
+      "chapter": "Hard Calls",
+      "difficulty": "Hard",
+      "words": [
+        "NUDGE",
+        "PATCH",
+        "OPENNESS",
+        "DECEPTION",
+        "RANSOMWARE",
+        "ATTRIBUTION",
+        "TRACKING"
+      ],
+      "rows": 11,
+      "cols": 12,
+      "placements": [
+        {
+          "number": 6,
+          "dir": "across",
+          "word": "ATTRIBUTION",
+          "row": 7,
+          "col": 1,
+          "clue": "Giving proper credit to the creator of code, text, or media you reuse."
+        },
+        {
+          "number": 1,
+          "dir": "down",
+          "word": "RANSOMWARE",
+          "row": 0,
+          "col": 1,
+          "clue": "Malware that locks victims' files and demands payment for their release."
+        },
+        {
+          "number": 3,
+          "dir": "down",
+          "word": "DECEPTION",
+          "row": 2,
+          "col": 8,
+          "clue": "Misleading users through false statements or dishonest interface design."
+        },
+        {
+          "number": 4,
+          "dir": "across",
+          "word": "OPENNESS",
+          "row": 3,
+          "col": 3,
+          "clue": "Sharing code, data, and methods so others can inspect and reuse them."
+        },
+        {
+          "number": 7,
+          "dir": "across",
+          "word": "TRACKING",
+          "row": 10,
+          "col": 2,
+          "clue": "Following users across apps and websites to record what they do."
+        },
+        {
+          "number": 5,
+          "dir": "across",
+          "word": "NUDGE",
+          "row": 5,
+          "col": 4,
+          "clue": "A subtle design push that steers users toward one choice over others."
+        },
+        {
+          "number": 2,
+          "dir": "across",
+          "word": "PATCH",
+          "row": 1,
+          "col": 0,
+          "clue": "A small update that fixes a bug or closes a security hole."
+        }
+      ]
+    },
+    {
+      "n": 76,
+      "id": "level-76",
+      "title": "Deep Systems 1",
+      "chapter": "Deep Systems",
+      "difficulty": "Hard",
+      "words": [
+        "LEAK",
+        "HARM",
+        "BACKDOOR",
+        "AUTONOMY",
+        "DEPENDENCY",
+        "TRANSPARENCY",
+        "DIVERSITY"
+      ],
+      "rows": 13,
+      "cols": 12,
+      "placements": [
+        {
+          "number": 7,
+          "dir": "across",
+          "word": "TRANSPARENCY",
+          "row": 10,
+          "col": 0,
+          "clue": "Openness about how a system works, what data it uses, and how it makes decisions."
+        },
+        {
+          "number": 6,
+          "dir": "down",
+          "word": "LEAK",
+          "row": 9,
+          "col": 8,
+          "clue": "An accidental or deliberate release of confidential information."
+        },
+        {
+          "number": 2,
+          "dir": "down",
+          "word": "DEPENDENCY",
+          "row": 3,
+          "col": 3,
+          "clue": "Outside code your project relies on, which can carry risks of its own."
+        },
+        {
+          "number": 5,
+          "dir": "down",
+          "word": "HARM",
+          "row": 9,
+          "col": 6,
+          "clue": "Injury, damage, or suffering caused to people by a system or decision."
+        },
+        {
+          "number": 3,
+          "dir": "down",
+          "word": "AUTONOMY",
+          "row": 3,
+          "col": 11,
+          "clue": "A person's right to make their own informed choices about technology."
+        },
+        {
+          "number": 4,
+          "dir": "across",
+          "word": "DIVERSITY",
+          "row": 4,
+          "col": 0,
+          "clue": "Having many different kinds of people, views, and experiences represented."
+        },
+        {
+          "number": 1,
+          "dir": "down",
+          "word": "BACKDOOR",
+          "row": 0,
+          "col": 0,
+          "clue": "A hidden way to bypass normal authentication in a system."
+        }
+      ]
+    },
+    {
+      "n": 77,
+      "id": "level-77",
+      "title": "Deep Systems 2",
+      "chapter": "Deep Systems",
+      "difficulty": "Hard",
+      "words": [
+        "REFUSAL",
+        "COMMONS",
+        "MONOPOLY",
+        "COPYLEFT",
+        "MODERATION",
+        "ACCESSIBILITY",
+        "PLAGIARISM"
+      ],
+      "rows": 12,
+      "cols": 13,
+      "placements": [
+        {
+          "number": 6,
+          "dir": "across",
+          "word": "ACCESSIBILITY",
+          "row": 8,
+          "col": 0,
+          "clue": "Designing software so that people with disabilities can use it effectively."
+        },
+        {
+          "number": 5,
+          "dir": "down",
+          "word": "MODERATION",
+          "row": 2,
+          "col": 11,
+          "clue": "Reviewing and controlling user content to keep a platform safe."
+        },
+        {
+          "number": 2,
+          "dir": "down",
+          "word": "PLAGIARISM",
+          "row": 0,
+          "col": 5,
+          "clue": "Presenting someone else's code or writing as if it were your own."
+        },
+        {
+          "number": 4,
+          "dir": "down",
+          "word": "MONOPOLY",
+          "row": 2,
+          "col": 9,
+          "clue": "A single company dominating a market with no real alternatives."
+        },
+        {
+          "number": 1,
+          "dir": "across",
+          "word": "COPYLEFT",
+          "row": 0,
+          "col": 3,
+          "clue": "A license rule that shared improvements must stay shared and open."
+        },
+        {
+          "number": 3,
+          "dir": "across",
+          "word": "REFUSAL",
+          "row": 2,
+          "col": 0,
+          "clue": "Declining to build something you judge to be unethical."
+        },
+        {
+          "number": 7,
+          "dir": "across",
+          "word": "COMMONS",
+          "row": 11,
+          "col": 6,
+          "clue": "Shared resources, like open knowledge and code, that everyone may use."
+        }
+      ]
+    },
+    {
+      "n": 78,
+      "id": "level-78",
+      "title": "Deep Systems 3",
+      "chapter": "Deep Systems",
+      "difficulty": "Hard",
+      "words": [
+        "CONSENT",
+        "DILEMMA",
+        "PROFILING",
+        "INTEGRITY",
+        "INCLUSION",
+        "SURVEILLANCE",
+        "VULNERABILITY"
+      ],
+      "rows": 13,
+      "cols": 13,
+      "placements": [
+        {
+          "number": 7,
+          "dir": "across",
+          "word": "VULNERABILITY",
+          "row": 8,
+          "col": 0,
+          "clue": "A weakness in software that attackers can exploit to cause harm."
+        },
+        {
+          "number": 2,
+          "dir": "down",
+          "word": "SURVEILLANCE",
+          "row": 0,
+          "col": 6,
+          "clue": "Close observation of users' behavior, often through tracking or monitoring software."
+        },
+        {
+          "number": 5,
+          "dir": "down",
+          "word": "PROFILING",
+          "row": 4,
+          "col": 8,
+          "clue": "Sorting people into categories from their data to predict or judge them."
+        },
+        {
+          "number": 3,
+          "dir": "across",
+          "word": "INTEGRITY",
+          "row": 2,
+          "col": 1,
+          "clue": "Acting honestly and consistently with moral principles, even when no one watches."
+        },
+        {
+          "number": 4,
+          "dir": "down",
+          "word": "INCLUSION",
+          "row": 4,
+          "col": 1,
+          "clue": "Actively involving people of all backgrounds in using and shaping software."
+        },
+        {
+          "number": 1,
+          "dir": "across",
+          "word": "CONSENT",
+          "row": 0,
+          "col": 3,
+          "clue": "Freely given permission from a user before collecting or using their data."
+        },
+        {
+          "number": 6,
+          "dir": "down",
+          "word": "DILEMMA",
+          "row": 5,
+          "col": 4,
+          "clue": "A situation where every available choice violates some value."
+        }
+      ]
+    },
+    {
+      "n": 79,
+      "id": "level-79",
+      "title": "Deep Systems 4",
+      "chapter": "Deep Systems",
+      "difficulty": "Hard",
+      "words": [
+        "DIGNITY",
+        "AGENCY",
+        "COPYRIGHT",
+        "ADDICTION",
+        "GOVERNANCE",
+        "RESPONSIBILITY",
+        "FAIRNESS"
+      ],
+      "rows": 13,
+      "cols": 14,
+      "placements": [
+        {
+          "number": 5,
+          "dir": "across",
+          "word": "RESPONSIBILITY",
+          "row": 4,
+          "col": 0,
+          "clue": "The duty to take care that one's software does not cause foreseeable harm."
+        },
+        {
+          "number": 4,
+          "dir": "down",
+          "word": "GOVERNANCE",
+          "row": 3,
+          "col": 4,
+          "clue": "The structures and rules that steer how technology power is used."
+        },
+        {
+          "number": 7,
+          "dir": "across",
+          "word": "COPYRIGHT",
+          "row": 11,
+          "col": 4,
+          "clue": "Legal protection for the expression of original creative and written works."
+        },
+        {
+          "number": 2,
+          "dir": "down",
+          "word": "ADDICTION",
+          "row": 1,
+          "col": 7,
+          "clue": "Compulsive overuse of an app engineered through addictive design tricks."
+        },
+        {
+          "number": 6,
+          "dir": "across",
+          "word": "FAIRNESS",
+          "row": 9,
+          "col": 3,
+          "clue": "Treating all users and stakeholders impartially, without bias or unjust outcomes."
+        },
+        {
+          "number": 1,
+          "dir": "down",
+          "word": "DIGNITY",
+          "row": 0,
+          "col": 11,
+          "clue": "The inherent worth of every person that software must respect."
+        },
+        {
+          "number": 3,
+          "dir": "down",
+          "word": "AGENCY",
+          "row": 2,
+          "col": 1,
+          "clue": "A user's power to act, choose, and control their own experience."
+        }
+      ]
+    },
+    {
+      "n": 80,
+      "id": "level-80",
+      "title": "Deep Systems 5",
+      "chapter": "Deep Systems",
+      "difficulty": "Hard",
+      "words": [
+        "BREACH",
+        "EQUITY",
+        "COMPETENCE",
+        "MONOPOLY",
+        "INTEGRITY",
+        "ACCOUNTABILITY",
+        "STAKEHOLDER"
+      ],
+      "rows": 12,
+      "cols": 14,
+      "placements": [
+        {
+          "number": 7,
+          "dir": "across",
+          "word": "ACCOUNTABILITY",
+          "row": 7,
+          "col": 0,
+          "clue": "Taking responsibility for the ethical consequences of one's software and decisions."
+        },
+        {
+          "number": 3,
+          "dir": "down",
+          "word": "STAKEHOLDER",
+          "row": 0,
+          "col": 10,
+          "clue": "Any person or group affected by a system, not just its owners."
+        },
+        {
+          "number": 5,
+          "dir": "down",
+          "word": "COMPETENCE",
+          "row": 2,
+          "col": 12,
+          "clue": "Having and maintaining the skills needed to do professional work well."
+        },
+        {
+          "number": 2,
+          "dir": "down",
+          "word": "INTEGRITY",
+          "row": 0,
+          "col": 6,
+          "clue": "Acting honestly and consistently with moral principles, even when no one watches."
+        },
+        {
+          "number": 4,
+          "dir": "down",
+          "word": "MONOPOLY",
+          "row": 2,
+          "col": 3,
+          "clue": "A single company dominating a market with no real alternatives."
+        },
+        {
+          "number": 6,
+          "dir": "across",
+          "word": "BREACH",
+          "row": 5,
+          "col": 5,
+          "clue": "An incident where protected data is exposed to unauthorized parties."
+        },
+        {
+          "number": 1,
+          "dir": "across",
+          "word": "EQUITY",
+          "row": 0,
+          "col": 3,
+          "clue": "Giving people the resources they need so outcomes can be fair."
+        }
+      ]
+    },
+    {
+      "n": 81,
+      "id": "level-81",
+      "title": "Long Shadows 1",
+      "chapter": "Long Shadows",
+      "difficulty": "Hard",
+      "words": [
+        "AGENCY",
+        "DIVIDE",
+        "DECEPTION",
+        "ANONYMITY",
+        "PROFILING",
+        "MINIMIZATION",
+        "SUSTAINABILITY"
+      ],
+      "rows": 12,
+      "cols": 14,
+      "placements": [
+        {
+          "number": 3,
+          "dir": "across",
+          "word": "SUSTAINABILITY",
+          "row": 1,
+          "col": 0,
+          "clue": "Building software that meets present needs without harming future generations."
+        },
+        {
+          "number": 1,
+          "dir": "down",
+          "word": "MINIMIZATION",
+          "row": 0,
+          "col": 5,
+          "clue": "Collecting only the data strictly needed, and keeping it no longer than necessary."
+        },
+        {
+          "number": 6,
+          "dir": "across",
+          "word": "DECEPTION",
+          "row": 8,
+          "col": 0,
+          "clue": "Misleading users through false statements or dishonest interface design."
+        },
+        {
+          "number": 7,
+          "dir": "across",
+          "word": "ANONYMITY",
+          "row": 11,
+          "col": 4,
+          "clue": "The state of acting or contributing data without revealing who you are."
+        },
+        {
+          "number": 4,
+          "dir": "across",
+          "word": "PROFILING",
+          "row": 3,
+          "col": 1,
+          "clue": "Sorting people into categories from their data to predict or judge them."
+        },
+        {
+          "number": 5,
+          "dir": "down",
+          "word": "AGENCY",
+          "row": 6,
+          "col": 12,
+          "clue": "A user's power to act, choose, and control their own experience."
+        },
+        {
+          "number": 2,
+          "dir": "down",
+          "word": "DIVIDE",
+          "row": 0,
+          "col": 11,
+          "clue": "The gap between people who can access technology and those who cannot."
+        }
+      ]
+    },
+    {
+      "n": 82,
+      "id": "level-82",
+      "title": "Long Shadows 2",
+      "chapter": "Long Shadows",
+      "difficulty": "Hard",
+      "words": [
+        "PRIVACY",
+        "EQUITY",
+        "TRACKING",
+        "DISCLOSURE",
+        "BACKDOOR",
+        "STAKEHOLDER",
+        "ENCRYPTION"
+      ],
+      "rows": 14,
+      "cols": 11,
+      "placements": [
+        {
+          "number": 6,
+          "dir": "across",
+          "word": "STAKEHOLDER",
+          "row": 9,
+          "col": 0,
+          "clue": "Any person or group affected by a system, not just its owners."
+        },
+        {
+          "number": 4,
+          "dir": "down",
+          "word": "DISCLOSURE",
+          "row": 4,
+          "col": 6,
+          "clue": "Openly revealing conflicts, risks, or limitations that others should know."
+        },
+        {
+          "number": 3,
+          "dir": "down",
+          "word": "ENCRYPTION",
+          "row": 3,
+          "col": 1,
+          "clue": "Scrambling data so only authorized parties with the key can read it."
+        },
+        {
+          "number": 5,
+          "dir": "across",
+          "word": "TRACKING",
+          "row": 7,
+          "col": 3,
+          "clue": "Following users across apps and websites to record what they do."
+        },
+        {
+          "number": 1,
+          "dir": "down",
+          "word": "BACKDOOR",
+          "row": 0,
+          "col": 4,
+          "clue": "A hidden way to bypass normal authentication in a system."
+        },
+        {
+          "number": 2,
+          "dir": "across",
+          "word": "PRIVACY",
+          "row": 1,
+          "col": 0,
+          "clue": "The protection of personal information from unauthorized access or misuse."
+        },
+        {
+          "number": 7,
+          "dir": "across",
+          "word": "EQUITY",
+          "row": 11,
+          "col": 4,
+          "clue": "Giving people the resources they need so outcomes can be fair."
+        }
+      ]
+    },
+    {
+      "n": 83,
+      "id": "level-83",
+      "title": "Long Shadows 3",
+      "chapter": "Long Shadows",
+      "difficulty": "Hard",
+      "words": [
+        "CONSENT",
+        "TRUST",
+        "PHISHING",
+        "DEPENDENCY",
+        "LIABILITY",
+        "ATTRIBUTION",
+        "INCLUSION"
+      ],
+      "rows": 11,
+      "cols": 12,
+      "placements": [
+        {
+          "number": 7,
+          "dir": "across",
+          "word": "ATTRIBUTION",
+          "row": 8,
+          "col": 1,
+          "clue": "Giving proper credit to the creator of code, text, or media you reuse."
+        },
+        {
+          "number": 2,
+          "dir": "down",
+          "word": "DEPENDENCY",
+          "row": 1,
+          "col": 11,
+          "clue": "Outside code your project relies on, which can carry risks of its own."
+        },
+        {
+          "number": 3,
+          "dir": "down",
+          "word": "LIABILITY",
+          "row": 2,
+          "col": 5,
+          "clue": "Legal responsibility to pay for harm your software causes."
+        },
+        {
+          "number": 4,
+          "dir": "down",
+          "word": "INCLUSION",
+          "row": 2,
+          "col": 9,
+          "clue": "Actively involving people of all backgrounds in using and shaping software."
+        },
+        {
+          "number": 5,
+          "dir": "across",
+          "word": "PHISHING",
+          "row": 3,
+          "col": 0,
+          "clue": "Tricking people into revealing secrets by impersonating someone trustworthy."
+        },
+        {
+          "number": 1,
+          "dir": "down",
+          "word": "CONSENT",
+          "row": 0,
+          "col": 3,
+          "clue": "Freely given permission from a user before collecting or using their data."
+        },
+        {
+          "number": 6,
+          "dir": "down",
+          "word": "TRUST",
+          "row": 6,
+          "col": 7,
+          "clue": "Users' belief that software will behave reliably and in their interest."
+        }
+      ]
+    },
+    {
+      "n": 84,
+      "id": "level-84",
+      "title": "Long Shadows 4",
+      "chapter": "Long Shadows",
+      "difficulty": "Hard",
+      "words": [
+        "HONESTY",
+        "DILEMMA",
+        "DEEPFAKE",
+        "AUTONOMY",
+        "COPYLEFT",
+        "VULNERABILITY",
+        "ACCESSIBILITY"
+      ],
+      "rows": 13,
+      "cols": 13,
+      "placements": [
+        {
+          "number": 6,
+          "dir": "across",
+          "word": "VULNERABILITY",
+          "row": 8,
+          "col": 0,
+          "clue": "A weakness in software that attackers can exploit to cause harm."
+        },
+        {
+          "number": 2,
+          "dir": "down",
+          "word": "ACCESSIBILITY",
+          "row": 0,
+          "col": 8,
+          "clue": "Designing software so that people with disabilities can use it effectively."
+        },
+        {
+          "number": 1,
+          "dir": "across",
+          "word": "DEEPFAKE",
+          "row": 0,
+          "col": 3,
+          "clue": "A realistic fake video or audio generated by AI to impersonate someone."
+        },
+        {
+          "number": 3,
+          "dir": "down",
+          "word": "AUTONOMY",
+          "row": 1,
+          "col": 12,
+          "clue": "A person's right to make their own informed choices about technology."
+        },
+        {
+          "number": 5,
+          "dir": "down",
+          "word": "COPYLEFT",
+          "row": 3,
+          "col": 4,
+          "clue": "A license rule that shared improvements must stay shared and open."
+        },
+        {
+          "number": 7,
+          "dir": "across",
+          "word": "HONESTY",
+          "row": 12,
+          "col": 2,
+          "clue": "Telling the truth about what software can and cannot do."
+        },
+        {
+          "number": 4,
+          "dir": "down",
+          "word": "DILEMMA",
+          "row": 2,
+          "col": 6,
+          "clue": "A situation where every available choice violates some value."
+        }
+      ]
+    },
+    {
+      "n": 85,
+      "id": "level-85",
+      "title": "Long Shadows 5",
+      "chapter": "Long Shadows",
+      "difficulty": "Hard",
+      "words": [
+        "BREACH",
+        "LEAK",
+        "PLAGIARISM",
+        "ADDICTION",
+        "RANSOMWARE",
+        "MINIMIZATION",
+        "COMPLIANCE"
+      ],
+      "rows": 13,
+      "cols": 13,
+      "placements": [
+        {
+          "number": 5,
+          "dir": "across",
+          "word": "MINIMIZATION",
+          "row": 7,
+          "col": 0,
+          "clue": "Collecting only the data strictly needed, and keeping it no longer than necessary."
+        },
+        {
+          "number": 3,
+          "dir": "down",
+          "word": "PLAGIARISM",
+          "row": 3,
+          "col": 5,
+          "clue": "Presenting someone else's code or writing as if it were your own."
+        },
+        {
+          "number": 7,
+          "dir": "across",
+          "word": "RANSOMWARE",
+          "row": 12,
+          "col": 0,
+          "clue": "Malware that locks victims' files and demands payment for their release."
+        },
+        {
+          "number": 6,
+          "dir": "across",
+          "word": "COMPLIANCE",
+          "row": 10,
+          "col": 0,
+          "clue": "Following the laws, standards, and policies that apply to software."
+        },
+        {
+          "number": 2,
+          "dir": "down",
+          "word": "ADDICTION",
+          "row": 0,
+          "col": 10,
+          "clue": "Compulsive overuse of an app engineered through addictive design tricks."
+        },
+        {
+          "number": 1,
+          "dir": "across",
+          "word": "BREACH",
+          "row": 0,
+          "col": 7,
+          "clue": "An incident where protected data is exposed to unauthorized parties."
+        },
+        {
+          "number": 4,
+          "dir": "across",
+          "word": "LEAK",
+          "row": 4,
+          "col": 5,
+          "clue": "An accidental or deliberate release of confidential information."
+        }
+      ]
+    },
+    {
+      "n": 86,
+      "id": "level-86",
+      "title": "Glass Houses 1",
+      "chapter": "Glass Houses",
+      "difficulty": "Expert",
+      "words": [
+        "REFUSAL",
+        "CONFLICT",
+        "SECURITY",
+        "MODERATION",
+        "TRANSPARENCY",
+        "RESPONSIBILITY",
+        "DIVERSITY"
+      ],
+      "rows": 12,
+      "cols": 14,
+      "placements": [
+        {
+          "number": 6,
+          "dir": "across",
+          "word": "RESPONSIBILITY",
+          "row": 8,
+          "col": 0,
+          "clue": "The duty to take care that one's software does not cause foreseeable harm."
+        },
+        {
+          "number": 1,
+          "dir": "down",
+          "word": "TRANSPARENCY",
+          "row": 0,
+          "col": 1,
+          "clue": "Openness about how a system works, what data it uses, and how it makes decisions."
+        },
+        {
+          "number": 2,
+          "dir": "down",
+          "word": "MODERATION",
+          "row": 0,
+          "col": 4,
+          "clue": "Reviewing and controlling user content to keep a platform safe."
+        },
+        {
+          "number": 3,
+          "dir": "down",
+          "word": "DIVERSITY",
+          "row": 1,
+          "col": 12,
+          "clue": "Having many different kinds of people, views, and experiences represented."
+        },
+        {
+          "number": 5,
+          "dir": "down",
+          "word": "CONFLICT",
+          "row": 4,
+          "col": 10,
+          "clue": "A clash between your interests and your duty to users or clients."
+        },
+        {
+          "number": 7,
+          "dir": "across",
+          "word": "SECURITY",
+          "row": 11,
+          "col": 4,
+          "clue": "The practice of protecting systems, networks, and data from damage or attack."
+        },
+        {
+          "number": 4,
+          "dir": "across",
+          "word": "REFUSAL",
+          "row": 3,
+          "col": 3,
+          "clue": "Declining to build something you judge to be unethical."
+        }
+      ]
+    },
+    {
+      "n": 87,
+      "id": "level-87",
+      "title": "Glass Houses 2",
+      "chapter": "Glass Houses",
+      "difficulty": "Expert",
+      "words": [
+        "AUDIT",
+        "FAIRNESS",
+        "REGULATION",
+        "GOVERNANCE",
+        "ACCOUNTABILITY",
+        "SURVEILLANCE",
+        "COMPETENCE"
+      ],
+      "rows": 13,
+      "cols": 14,
+      "placements": [
+        {
+          "number": 2,
+          "dir": "across",
+          "word": "ACCOUNTABILITY",
+          "row": 1,
+          "col": 0,
+          "clue": "Taking responsibility for the ethical consequences of one's software and decisions."
+        },
+        {
+          "number": 1,
+          "dir": "down",
+          "word": "SURVEILLANCE",
+          "row": 0,
+          "col": 4,
+          "clue": "Close observation of users' behavior, often through tracking or monitoring software."
+        },
+        {
+          "number": 5,
+          "dir": "across",
+          "word": "REGULATION",
+          "row": 6,
+          "col": 0,
+          "clue": "Laws and rules that set boundaries for how technology may be built and used."
+        },
+        {
+          "number": 3,
+          "dir": "across",
+          "word": "GOVERNANCE",
+          "row": 3,
+          "col": 2,
+          "clue": "The structures and rules that steer how technology power is used."
+        },
+        {
+          "number": 7,
+          "dir": "across",
+          "word": "COMPETENCE",
+          "row": 10,
+          "col": 4,
+          "clue": "Having and maintaining the skills needed to do professional work well."
+        },
+        {
+          "number": 4,
+          "dir": "down",
+          "word": "FAIRNESS",
+          "row": 5,
+          "col": 13,
+          "clue": "Treating all users and stakeholders impartially, without bias or unjust outcomes."
+        },
+        {
+          "number": 6,
+          "dir": "across",
+          "word": "AUDIT",
+          "row": 8,
+          "col": 4,
+          "clue": "A systematic independent review of a system, process, or decision."
+        }
+      ]
+    },
+    {
+      "n": 88,
+      "id": "level-88",
+      "title": "Glass Houses 3",
+      "chapter": "Glass Houses",
+      "difficulty": "Expert",
+      "words": [
+        "PATENT",
+        "COPYRIGHT",
+        "OPENNESS",
+        "PLAGIARISM",
+        "SUSTAINABILITY",
+        "SURVEILLANCE",
+        "ACCESSIBILITY"
+      ],
+      "rows": 14,
+      "cols": 14,
+      "placements": [
+        {
+          "number": 6,
+          "dir": "across",
+          "word": "SUSTAINABILITY",
+          "row": 9,
+          "col": 0,
+          "clue": "Building software that meets present needs without harming future generations."
+        },
+        {
+          "number": 3,
+          "dir": "down",
+          "word": "ACCESSIBILITY",
+          "row": 1,
+          "col": 5,
+          "clue": "Designing software so that people with disabilities can use it effectively."
+        },
+        {
+          "number": 5,
+          "dir": "across",
+          "word": "SURVEILLANCE",
+          "row": 7,
+          "col": 0,
+          "clue": "Close observation of users' behavior, often through tracking or monitoring software."
+        },
+        {
+          "number": 2,
+          "dir": "down",
+          "word": "PLAGIARISM",
+          "row": 1,
+          "col": 2,
+          "clue": "Presenting someone else's code or writing as if it were your own."
+        },
+        {
+          "number": 4,
+          "dir": "across",
+          "word": "COPYRIGHT",
+          "row": 2,
+          "col": 5,
+          "clue": "Legal protection for the expression of original creative and written works."
+        },
+        {
+          "number": 1,
+          "dir": "down",
+          "word": "OPENNESS",
+          "row": 0,
+          "col": 0,
+          "clue": "Sharing code, data, and methods so others can inspect and reuse them."
+        },
+        {
+          "number": 7,
+          "dir": "across",
+          "word": "PATENT",
+          "row": 12,
+          "col": 0,
+          "clue": "An exclusive legal right granted for a novel invention for a limited time."
+        }
+      ]
+    },
+    {
+      "n": 89,
+      "id": "level-89",
+      "title": "Glass Houses 4",
+      "chapter": "Glass Houses",
+      "difficulty": "Expert",
+      "words": [
+        "HARM",
+        "TRACKING",
+        "MONOPOLY",
+        "REGULATION",
+        "STAKEHOLDER",
+        "MINIMIZATION",
+        "DECEPTION"
+      ],
+      "rows": 12,
+      "cols": 13,
+      "placements": [
+        {
+          "number": 2,
+          "dir": "across",
+          "word": "MINIMIZATION",
+          "row": 1,
+          "col": 1,
+          "clue": "Collecting only the data strictly needed, and keeping it no longer than necessary."
+        },
+        {
+          "number": 1,
+          "dir": "down",
+          "word": "STAKEHOLDER",
+          "row": 0,
+          "col": 9,
+          "clue": "Any person or group affected by a system, not just its owners."
+        },
+        {
+          "number": 5,
+          "dir": "across",
+          "word": "REGULATION",
+          "row": 6,
+          "col": 1,
+          "clue": "Laws and rules that set boundaries for how technology may be built and used."
+        },
+        {
+          "number": 3,
+          "dir": "down",
+          "word": "DECEPTION",
+          "row": 3,
+          "col": 2,
+          "clue": "Misleading users through false statements or dishonest interface design."
+        },
+        {
+          "number": 4,
+          "dir": "across",
+          "word": "TRACKING",
+          "row": 3,
+          "col": 5,
+          "clue": "Following users across apps and websites to record what they do."
+        },
+        {
+          "number": 7,
+          "dir": "across",
+          "word": "MONOPOLY",
+          "row": 11,
+          "col": 0,
+          "clue": "A single company dominating a market with no real alternatives."
+        },
+        {
+          "number": 6,
+          "dir": "down",
+          "word": "HARM",
+          "row": 8,
+          "col": 0,
+          "clue": "Injury, damage, or suffering caused to people by a system or decision."
+        }
+      ]
+    },
+    {
+      "n": 90,
+      "id": "level-90",
+      "title": "Glass Houses 5",
+      "chapter": "Glass Houses",
+      "difficulty": "Expert",
+      "words": [
+        "DIGNITY",
+        "PHISHING",
+        "INTEGRITY",
+        "SECURITY",
+        "TRANSPARENCY",
+        "VULNERABILITY",
+        "COMPETENCE"
+      ],
+      "rows": 12,
+      "cols": 14,
+      "placements": [
+        {
+          "number": 7,
+          "dir": "across",
+          "word": "VULNERABILITY",
+          "row": 7,
+          "col": 0,
+          "clue": "A weakness in software that attackers can exploit to cause harm."
+        },
+        {
+          "number": 2,
+          "dir": "down",
+          "word": "TRANSPARENCY",
+          "row": 0,
+          "col": 5,
+          "clue": "Openness about how a system works, what data it uses, and how it makes decisions."
+        },
+        {
+          "number": 1,
+          "dir": "down",
+          "word": "COMPETENCE",
+          "row": 0,
+          "col": 3,
+          "clue": "Having and maintaining the skills needed to do professional work well."
+        },
+        {
+          "number": 4,
+          "dir": "down",
+          "word": "INTEGRITY",
+          "row": 0,
+          "col": 11,
+          "clue": "Acting honestly and consistently with moral principles, even when no one watches."
+        },
+        {
+          "number": 5,
+          "dir": "down",
+          "word": "PHISHING",
+          "row": 2,
+          "col": 8,
+          "clue": "Tricking people into revealing secrets by impersonating someone trustworthy."
+        },
+        {
+          "number": 6,
+          "dir": "down",
+          "word": "SECURITY",
+          "row": 4,
+          "col": 1,
+          "clue": "The practice of protecting systems, networks, and data from damage or attack."
+        },
+        {
+          "number": 3,
+          "dir": "across",
+          "word": "DIGNITY",
+          "row": 0,
+          "col": 7,
+          "clue": "The inherent worth of every person that software must respect."
+        }
+      ]
+    },
+    {
+      "n": 91,
+      "id": "level-91",
+      "title": "Storm Season 1",
+      "chapter": "Storm Season",
+      "difficulty": "Expert",
+      "words": [
+        "FORK",
+        "DISCLOSURE",
+        "DEEPFAKE",
+        "FAIRNESS",
+        "RESPONSIBILITY",
+        "ATTRIBUTION",
+        "GOVERNANCE"
+      ],
+      "rows": 13,
+      "cols": 14,
+      "placements": [
+        {
+          "number": 5,
+          "dir": "across",
+          "word": "RESPONSIBILITY",
+          "row": 8,
+          "col": 0,
+          "clue": "The duty to take care that one's software does not cause foreseeable harm."
+        },
+        {
+          "number": 3,
+          "dir": "down",
+          "word": "ATTRIBUTION",
+          "row": 1,
+          "col": 12,
+          "clue": "Giving proper credit to the creator of code, text, or media you reuse."
+        },
+        {
+          "number": 1,
+          "dir": "down",
+          "word": "DISCLOSURE",
+          "row": 0,
+          "col": 0,
+          "clue": "Openly revealing conflicts, risks, or limitations that others should know."
+        },
+        {
+          "number": 4,
+          "dir": "down",
+          "word": "GOVERNANCE",
+          "row": 3,
+          "col": 5,
+          "clue": "The structures and rules that steer how technology power is used."
+        },
+        {
+          "number": 6,
+          "dir": "across",
+          "word": "DEEPFAKE",
+          "row": 12,
+          "col": 4,
+          "clue": "A realistic fake video or audio generated by AI to impersonate someone."
+        },
+        {
+          "number": 2,
+          "dir": "down",
+          "word": "FAIRNESS",
+          "row": 1,
+          "col": 2,
+          "clue": "Treating all users and stakeholders impartially, without bias or unjust outcomes."
+        },
+        {
+          "number": 2,
+          "dir": "across",
+          "word": "FORK",
+          "row": 1,
+          "col": 2,
+          "clue": "Splitting an open project into an independent copy with its own direction."
+        }
+      ]
+    },
+    {
+      "n": 92,
+      "id": "level-92",
+      "title": "Storm Season 2",
+      "chapter": "Storm Season",
+      "difficulty": "Expert",
+      "words": [
+        "PIRACY",
+        "COMPLIANCE",
+        "INCLUSION",
+        "PROFILING",
+        "SUSTAINABILITY",
+        "ACCOUNTABILITY",
+        "MODERATION"
+      ],
+      "rows": 15,
+      "cols": 14,
+      "placements": [
+        {
+          "number": 7,
+          "dir": "across",
+          "word": "SUSTAINABILITY",
+          "row": 12,
+          "col": 0,
+          "clue": "Building software that meets present needs without harming future generations."
+        },
+        {
+          "number": 1,
+          "dir": "down",
+          "word": "ACCOUNTABILITY",
+          "row": 0,
+          "col": 12,
+          "clue": "Taking responsibility for the ethical consequences of one's software and decisions."
+        },
+        {
+          "number": 2,
+          "dir": "across",
+          "word": "COMPLIANCE",
+          "row": 1,
+          "col": 4,
+          "clue": "Following the laws, standards, and policies that apply to software."
+        },
+        {
+          "number": 4,
+          "dir": "down",
+          "word": "MODERATION",
+          "row": 3,
+          "col": 6,
+          "clue": "Reviewing and controlling user content to keep a platform safe."
+        },
+        {
+          "number": 3,
+          "dir": "down",
+          "word": "INCLUSION",
+          "row": 1,
+          "col": 9,
+          "clue": "Actively involving people of all backgrounds in using and shaping software."
+        },
+        {
+          "number": 6,
+          "dir": "across",
+          "word": "PROFILING",
+          "row": 10,
+          "col": 0,
+          "clue": "Sorting people into categories from their data to predict or judge them."
+        },
+        {
+          "number": 5,
+          "dir": "down",
+          "word": "PIRACY",
+          "row": 9,
+          "col": 4,
+          "clue": "Illegally copying or distributing software and media."
+        }
+      ]
+    },
+    {
+      "n": 93,
+      "id": "level-93",
+      "title": "Storm Season 3",
+      "chapter": "Storm Season",
+      "difficulty": "Expert",
+      "words": [
+        "NUDGE",
+        "LIABILITY",
+        "ANONYMITY",
+        "ENCRYPTION",
+        "SURVEILLANCE",
+        "ACCESSIBILITY",
+        "CONFLICT"
+      ],
+      "rows": 13,
+      "cols": 13,
+      "placements": [
+        {
+          "number": 5,
+          "dir": "across",
+          "word": "ACCESSIBILITY",
+          "row": 5,
+          "col": 0,
+          "clue": "Designing software so that people with disabilities can use it effectively."
+        },
+        {
+          "number": 2,
+          "dir": "down",
+          "word": "SURVEILLANCE",
+          "row": 0,
+          "col": 10,
+          "clue": "Close observation of users' behavior, often through tracking or monitoring software."
+        },
+        {
+          "number": 4,
+          "dir": "down",
+          "word": "ENCRYPTION",
+          "row": 3,
+          "col": 1,
+          "clue": "Scrambling data so only authorized parties with the key can read it."
+        },
+        {
+          "number": 6,
+          "dir": "across",
+          "word": "LIABILITY",
+          "row": 10,
+          "col": 0,
+          "clue": "Legal responsibility to pay for harm your software causes."
+        },
+        {
+          "number": 7,
+          "dir": "across",
+          "word": "ANONYMITY",
+          "row": 12,
+          "col": 0,
+          "clue": "The state of acting or contributing data without revealing who you are."
+        },
+        {
+          "number": 1,
+          "dir": "down",
+          "word": "CONFLICT",
+          "row": 0,
+          "col": 8,
+          "clue": "A clash between your interests and your duty to users or clients."
+        },
+        {
+          "number": 3,
+          "dir": "down",
+          "word": "NUDGE",
+          "row": 1,
+          "col": 3,
+          "clue": "A subtle design push that steers users toward one choice over others."
+        }
+      ]
+    },
+    {
+      "n": 94,
+      "id": "level-94",
+      "title": "Storm Season 4",
+      "chapter": "Storm Season",
+      "difficulty": "Expert",
+      "words": [
+        "RISK",
+        "DEPENDENCY",
+        "AUTONOMY",
+        "OPENNESS",
+        "STAKEHOLDER",
+        "TRANSPARENCY",
+        "DIVERSITY"
+      ],
+      "rows": 12,
+      "cols": 12,
+      "placements": [
+        {
+          "number": 7,
+          "dir": "across",
+          "word": "TRANSPARENCY",
+          "row": 11,
+          "col": 0,
+          "clue": "Openness about how a system works, what data it uses, and how it makes decisions."
+        },
+        {
+          "number": 3,
+          "dir": "down",
+          "word": "STAKEHOLDER",
+          "row": 1,
+          "col": 7,
+          "clue": "Any person or group affected by a system, not just its owners."
+        },
+        {
+          "number": 6,
+          "dir": "across",
+          "word": "DEPENDENCY",
+          "row": 9,
+          "col": 2,
+          "clue": "Outside code your project relies on, which can carry risks of its own."
+        },
+        {
+          "number": 2,
+          "dir": "across",
+          "word": "DIVERSITY",
+          "row": 1,
+          "col": 2,
+          "clue": "Having many different kinds of people, views, and experiences represented."
+        },
+        {
+          "number": 5,
+          "dir": "across",
+          "word": "AUTONOMY",
+          "row": 7,
+          "col": 2,
+          "clue": "A person's right to make their own informed choices about technology."
+        },
+        {
+          "number": 4,
+          "dir": "across",
+          "word": "OPENNESS",
+          "row": 5,
+          "col": 2,
+          "clue": "Sharing code, data, and methods so others can inspect and reuse them."
+        },
+        {
+          "number": 1,
+          "dir": "down",
+          "word": "RISK",
+          "row": 0,
+          "col": 3,
+          "clue": "The possibility that building or deploying software causes harm or loss."
+        }
+      ]
+    },
+    {
+      "n": 95,
+      "id": "level-95",
+      "title": "Storm Season 5",
+      "chapter": "Storm Season",
+      "difficulty": "Expert",
+      "words": [
+        "JUSTICE",
+        "RANSOMWARE",
+        "ADDICTION",
+        "COPYRIGHT",
+        "ATTRIBUTION",
+        "MINIMIZATION",
+        "BACKDOOR"
+      ],
+      "rows": 13,
+      "cols": 12,
+      "placements": [
+        {
+          "number": 6,
+          "dir": "across",
+          "word": "MINIMIZATION",
+          "row": 9,
+          "col": 0,
+          "clue": "Collecting only the data strictly needed, and keeping it no longer than necessary."
+        },
+        {
+          "number": 3,
+          "dir": "down",
+          "word": "ATTRIBUTION",
+          "row": 1,
+          "col": 9,
+          "clue": "Giving proper credit to the creator of code, text, or media you reuse."
+        },
+        {
+          "number": 2,
+          "dir": "across",
+          "word": "RANSOMWARE",
+          "row": 1,
+          "col": 2,
+          "clue": "Malware that locks victims' files and demands payment for their release."
+        },
+        {
+          "number": 4,
+          "dir": "down",
+          "word": "ADDICTION",
+          "row": 3,
+          "col": 1,
+          "clue": "Compulsive overuse of an app engineered through addictive design tricks."
+        },
+        {
+          "number": 5,
+          "dir": "down",
+          "word": "COPYRIGHT",
+          "row": 4,
+          "col": 5,
+          "clue": "Legal protection for the expression of original creative and written works."
+        },
+        {
+          "number": 1,
+          "dir": "down",
+          "word": "BACKDOOR",
+          "row": 0,
+          "col": 3,
+          "clue": "A hidden way to bypass normal authentication in a system."
+        },
+        {
+          "number": 7,
+          "dir": "across",
+          "word": "JUSTICE",
+          "row": 12,
+          "col": 2,
+          "clue": "The moral principle that benefits and harms of technology should be shared fairly."
+        }
+      ]
+    },
+    {
+      "n": 96,
+      "id": "level-96",
+      "title": "Ethics Master 1",
+      "chapter": "Ethics Master",
+      "difficulty": "Expert",
+      "words": [
+        "CODE",
+        "COPYLEFT",
+        "RANSOMWARE",
+        "CONFLICT",
+        "ACCOUNTABILITY",
+        "VULNERABILITY",
+        "TRACKING"
+      ],
+      "rows": 13,
+      "cols": 14,
+      "placements": [
+        {
+          "number": 7,
+          "dir": "across",
+          "word": "ACCOUNTABILITY",
+          "row": 10,
+          "col": 0,
+          "clue": "Taking responsibility for the ethical consequences of one's software and decisions."
+        },
+        {
+          "number": 1,
+          "dir": "down",
+          "word": "VULNERABILITY",
+          "row": 0,
+          "col": 9,
+          "clue": "A weakness in software that attackers can exploit to cause harm."
+        },
+        {
+          "number": 2,
+          "dir": "down",
+          "word": "RANSOMWARE",
+          "row": 3,
+          "col": 0,
+          "clue": "Malware that locks victims' files and demands payment for their release."
+        },
+        {
+          "number": 4,
+          "dir": "down",
+          "word": "COPYLEFT",
+          "row": 3,
+          "col": 6,
+          "clue": "A license rule that shared improvements must stay shared and open."
+        },
+        {
+          "number": 5,
+          "dir": "down",
+          "word": "CONFLICT",
+          "row": 3,
+          "col": 12,
+          "clue": "A clash between your interests and your duty to users or clients."
+        },
+        {
+          "number": 3,
+          "dir": "across",
+          "word": "TRACKING",
+          "row": 3,
+          "col": 3,
+          "clue": "Following users across apps and websites to record what they do."
+        },
+        {
+          "number": 6,
+          "dir": "across",
+          "word": "CODE",
+          "row": 8,
+          "col": 3,
+          "clue": "A written set of ethical rules for a profession, such as the ACM rules."
+        }
+      ]
+    },
+    {
+      "n": 97,
+      "id": "level-97",
+      "title": "Ethics Master 2",
+      "chapter": "Ethics Master",
+      "difficulty": "Expert",
+      "words": [
+        "PATCH",
+        "REGULATION",
+        "DEPENDENCY",
+        "DIVERSITY",
+        "RESPONSIBILITY",
+        "SUSTAINABILITY",
+        "ANONYMITY"
+      ],
+      "rows": 14,
+      "cols": 14,
+      "placements": [
+        {
+          "number": 7,
+          "dir": "across",
+          "word": "RESPONSIBILITY",
+          "row": 11,
+          "col": 0,
+          "clue": "The duty to take care that one's software does not cause foreseeable harm."
+        },
+        {
+          "number": 1,
+          "dir": "down",
+          "word": "SUSTAINABILITY",
+          "row": 0,
+          "col": 9,
+          "clue": "Building software that meets present needs without harming future generations."
+        },
+        {
+          "number": 3,
+          "dir": "down",
+          "word": "REGULATION",
+          "row": 3,
+          "col": 4,
+          "clue": "Laws and rules that set boundaries for how technology may be built and used."
+        },
+        {
+          "number": 2,
+          "dir": "down",
+          "word": "DEPENDENCY",
+          "row": 2,
+          "col": 13,
+          "clue": "Outside code your project relies on, which can carry risks of its own."
+        },
+        {
+          "number": 6,
+          "dir": "down",
+          "word": "DIVERSITY",
+          "row": 5,
+          "col": 11,
+          "clue": "Having many different kinds of people, views, and experiences represented."
+        },
+        {
+          "number": 5,
+          "dir": "down",
+          "word": "ANONYMITY",
+          "row": 5,
+          "col": 7,
+          "clue": "The state of acting or contributing data without revealing who you are."
+        },
+        {
+          "number": 4,
+          "dir": "across",
+          "word": "PATCH",
+          "row": 3,
+          "col": 7,
+          "clue": "A small update that fixes a bug or closes a security hole."
+        }
+      ]
+    },
+    {
+      "n": 98,
+      "id": "level-98",
+      "title": "Ethics Master 3",
+      "chapter": "Ethics Master",
+      "difficulty": "Expert",
+      "words": [
+        "COMMONS",
+        "BACKDOOR",
+        "MONOPOLY",
+        "INCLUSION",
+        "MINIMIZATION",
+        "TRANSPARENCY",
+        "INTEGRITY"
+      ],
+      "rows": 12,
+      "cols": 15,
+      "placements": [
+        {
+          "number": 5,
+          "dir": "across",
+          "word": "MINIMIZATION",
+          "row": 3,
+          "col": 3,
+          "clue": "Collecting only the data strictly needed, and keeping it no longer than necessary."
+        },
+        {
+          "number": 2,
+          "dir": "down",
+          "word": "TRANSPARENCY",
+          "row": 0,
+          "col": 14,
+          "clue": "Openness about how a system works, what data it uses, and how it makes decisions."
+        },
+        {
+          "number": 4,
+          "dir": "down",
+          "word": "INCLUSION",
+          "row": 2,
+          "col": 5,
+          "clue": "Actively involving people of all backgrounds in using and shaping software."
+        },
+        {
+          "number": 3,
+          "dir": "down",
+          "word": "INTEGRITY",
+          "row": 1,
+          "col": 11,
+          "clue": "Acting honestly and consistently with moral principles, even when no one watches."
+        },
+        {
+          "number": 6,
+          "dir": "across",
+          "word": "BACKDOOR",
+          "row": 9,
+          "col": 0,
+          "clue": "A hidden way to bypass normal authentication in a system."
+        },
+        {
+          "number": 7,
+          "dir": "across",
+          "word": "MONOPOLY",
+          "row": 11,
+          "col": 7,
+          "clue": "A single company dominating a market with no real alternatives."
+        },
+        {
+          "number": 1,
+          "dir": "down",
+          "word": "COMMONS",
+          "row": 0,
+          "col": 7,
+          "clue": "Shared resources, like open knowledge and code, that everyone may use."
+        }
+      ]
+    },
+    {
+      "n": 99,
+      "id": "level-99",
+      "title": "Ethics Master 4",
+      "chapter": "Ethics Master",
+      "difficulty": "Expert",
+      "words": [
+        "SECRECY",
+        "DISCLOSURE",
+        "COPYLEFT",
+        "COPYRIGHT",
+        "RESPONSIBILITY",
+        "ACCESSIBILITY",
+        "DECEPTION"
+      ],
+      "rows": 13,
+      "cols": 14,
+      "placements": [
+        {
+          "number": 7,
+          "dir": "across",
+          "word": "RESPONSIBILITY",
+          "row": 7,
+          "col": 0,
+          "clue": "The duty to take care that one's software does not cause foreseeable harm."
+        },
+        {
+          "number": 1,
+          "dir": "down",
+          "word": "ACCESSIBILITY",
+          "row": 0,
+          "col": 8,
+          "clue": "Designing software so that people with disabilities can use it effectively."
+        },
+        {
+          "number": 2,
+          "dir": "down",
+          "word": "DISCLOSURE",
+          "row": 1,
+          "col": 6,
+          "clue": "Openly revealing conflicts, risks, or limitations that others should know."
+        },
+        {
+          "number": 3,
+          "dir": "down",
+          "word": "COPYRIGHT",
+          "row": 2,
+          "col": 11,
+          "clue": "Legal protection for the expression of original creative and written works."
+        },
+        {
+          "number": 5,
+          "dir": "down",
+          "word": "DECEPTION",
+          "row": 3,
+          "col": 3,
+          "clue": "Misleading users through false statements or dishonest interface design."
+        },
+        {
+          "number": 6,
+          "dir": "down",
+          "word": "COPYLEFT",
+          "row": 4,
+          "col": 13,
+          "clue": "A license rule that shared improvements must stay shared and open."
+        },
+        {
+          "number": 4,
+          "dir": "down",
+          "word": "SECRECY",
+          "row": 3,
+          "col": 1,
+          "clue": "Keeping sensitive information hidden from those who should not see it."
+        }
+      ]
+    },
+    {
+      "n": 100,
+      "id": "level-100",
+      "title": "Grand Master",
+      "chapter": "Ethics Master",
+      "difficulty": "Expert",
+      "words": [
+        "ERASURE",
+        "MODERATION",
+        "ENCRYPTION",
+        "OPENNESS",
+        "ACCOUNTABILITY",
+        "ATTRIBUTION",
+        "LIABILITY"
+      ],
+      "rows": 13,
+      "cols": 14,
+      "placements": [
+        {
+          "number": 6,
+          "dir": "across",
+          "word": "ACCOUNTABILITY",
+          "row": 8,
+          "col": 0,
+          "clue": "Taking responsibility for the ethical consequences of one's software and decisions."
+        },
+        {
+          "number": 1,
+          "dir": "down",
+          "word": "ATTRIBUTION",
+          "row": 0,
+          "col": 9,
+          "clue": "Giving proper credit to the creator of code, text, or media you reuse."
+        },
+        {
+          "number": 4,
+          "dir": "down",
+          "word": "MODERATION",
+          "row": 3,
+          "col": 0,
+          "clue": "Reviewing and controlling user content to keep a platform safe."
+        },
+        {
+          "number": 3,
+          "dir": "down",
+          "word": "ENCRYPTION",
+          "row": 1,
+          "col": 11,
+          "clue": "Scrambling data so only authorized parties with the key can read it."
+        },
+        {
+          "number": 2,
+          "dir": "down",
+          "word": "LIABILITY",
+          "row": 0,
+          "col": 13,
+          "clue": "Legal responsibility to pay for harm your software causes."
+        },
+        {
+          "number": 5,
+          "dir": "down",
+          "word": "OPENNESS",
+          "row": 5,
+          "col": 5,
+          "clue": "Sharing code, data, and methods so others can inspect and reuse them."
+        },
+        {
+          "number": 7,
+          "dir": "across",
+          "word": "ERASURE",
+          "row": 11,
+          "col": 2,
+          "clue": "A user's right to have their personal data permanently deleted."
+        }
+      ]
+    }
+  ]
+}
