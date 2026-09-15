@@ -4,8 +4,9 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-  // Repository name, so built asset URLs work under
-  // https://<user>.github.io/EthiCross/ (GitHub Pages project site).
-  base: '/EthiCross/',
+  // GitHub Pages serves the project site under /EthiCross/, so assets need
+  // that prefix there — but Vercel (and local preview) serve from the domain
+  // root. GITHUB_ACTIONS is only set inside the Pages workflow.
+  base: process.env.GITHUB_ACTIONS ? '/EthiCross/' : '/',
   plugins: [react(), tailwindcss()],
 })

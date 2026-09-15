@@ -16,7 +16,7 @@
 
 - `.github/workflows/deploy-pages.yml` builds `client/` and publishes `client/dist` on every push to `main`.
 - One-time repo setup: Settings → Pages → Source: **GitHub Actions**.
-- `client/vite.config.js` sets `base: '/EthiCross/'` so assets resolve under `https://<user>.github.io/EthiCross/`.
+- `client/vite.config.js` sets `base` conditionally: `/EthiCross/` inside GitHub Actions (Pages project site at `https://<user>.github.io/EthiCross/`), `/` everywhere else (Vercel serves from the domain root).
 
 ## Source of truth
 
