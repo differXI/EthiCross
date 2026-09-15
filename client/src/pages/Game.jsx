@@ -44,7 +44,7 @@ export default function Game({ puzzleData, onComplete, onQuit }) {
     wordAtCell(cells, placements, selected.row, selected.col, direction === 'across' ? 'down' : 'across')
 
   const activeSolved = active ? solved.has(active.index) : false
-  const score = solved.size * 100 - hinted.size * 25 + (completed ? 500 : 0)
+  const score = Math.max(0, solved.size * 100 - hinted.size * 25 + (completed ? 500 : 0))
 
   function selectCell(row, col) {
     const cell = cells.get(`${row},${col}`)

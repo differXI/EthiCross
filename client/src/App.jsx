@@ -6,6 +6,7 @@ import Levels from './pages/Levels'
 import Endless from './pages/Endless'
 import Daily from './pages/Daily'
 import Codex from './pages/Codex'
+import Quiz from './pages/Quiz'
 import { levels, LEVEL_COUNT, getLevel, puzzleFromLevel, todayKey, worlds, termList } from './lib/puzzle'
 
 const LEVELS_KEY = 'ethicross-levels-v1'
@@ -49,7 +50,10 @@ export default function App() {
   const [levelN, setLevelN] = useState(1)
   const [gameId, setGameId] = useState(0)
   const [result, setResult] = useState(null)
-  const [levelStars, setLevelStars] = useState(() => loadJson(LEVELS_KEY, { stars: {} }).stars ?? {})
+  const [levelStars, setLevelStars] = useState(() => {
+    const saved = loadJson(LEVELS_KEY, { stars: {} })
+    return saved && typeof saved.stars === 'object' ? saved.stars : {}
+  })
   const [endlessBest, setEndlessBest] = useState(() => loadJson(ENDLESS_KEY, 0))
   const [daily, setDaily] = useState(() => loadJson(DAILY_KEY, { lastPlayed: null, streak: 0 }))
   const [learned, setLearned] = useState(() => loadJson(LEARNED_KEY, []))
@@ -168,6 +172,7 @@ export default function App() {
           onEndless={() => setScreen('endless')}
           onDaily={() => setScreen('daily')}
           onStudy={() => setScreen('codex')}
+          onQuiz={() => setScreen('quiz')}
           theme={theme}
           onTheme={changeTheme}
         />
@@ -181,6 +186,7 @@ export default function App() {
           onBack={() => setScreen('home')}
         />
       )}
+      {screen === 'quiz' && <Quiz onBack={() => setScreen('home')} />}
       {screen === 'levels' && (
         <Levels
           levels={levels}

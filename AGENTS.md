@@ -12,6 +12,12 @@
 - `npm.cmd run lint` — oxlint (no config file; runs with defaults)
 - **Gotcha:** plain `npm` fails on this machine (PowerShell execution policy blocks `npm.ps1`). Always use `npm.cmd`.
 
+## Deployment (GitHub Pages)
+
+- `.github/workflows/deploy-pages.yml` builds `client/` and publishes `client/dist` on every push to `main`.
+- One-time repo setup: Settings → Pages → Source: **GitHub Actions**.
+- `client/vite.config.js` sets `base: '/EthiCross/'` so assets resolve under `https://<user>.github.io/EthiCross/`.
+
 ## Source of truth
 
 `EthiCross-README.md` is the authoritative spec for EthiCross (an educational crossword game teaching software-ethics terms for course 953420, CMU). Read it before implementing anything. It specifies:
@@ -29,7 +35,7 @@
 - `scripts/build-levels.mjs` (repo root) — regenerates all 100 levels: `node scripts/build-levels.mjs`. Deterministic from `MASTER_SEED` (bump it to deal a fresh set); word slots per difficulty tier and chapter names live at the top of the script. Level picks balance word reuse and it keeps the most compact of up to 8 candidate layouts per level. (`scripts/build-grid.mjs` is the legacy single-puzzle builder.)
 - `client/src/lib/crossword.js` — shared grid engine (`buildGrid`, `buildGridRetry`, `numberPlacements`, seeded `makeRng`) used by both the build script and the app (daily puzzles are built in-browser, deterministically from the date).
 - `client/src/lib/puzzle.js` — mode data helpers (`terms`, `levels`, `puzzleFromLevel`, `buildDailyPuzzle`) plus board derivation (`decoratePuzzle`, cell→letters, clue numbering). `Game.jsx` receives one crossword via the `puzzleData` prop (`{ title, rows, cols, placements, terms }`).
-- Modes: `pages/Home.jsx` (mode select), `pages/Levels.jsx` (100-level map grouped by chapter, with locks/stars), `pages/Game.jsx` (grid gameplay for Levels + Daily), `pages/Endless.jsx` (hearts/streak survival), `pages/Daily.jsx` (1-play-per-day gate + countdown), `pages/Codex.jsx` (📚 Study Index: per-world term reader + search, with ✓ learned marks), `pages/Result.jsx` (generic: stars, badge, buttons). App switches screens with local state — no router. Progress persists in `localStorage` (`ethicross-levels-v1`, `ethicross-endless-best-v1`, `ethicross-daily-v1`, `ethicross-learned-v1`).
+- Modes: `pages/Home.jsx` (mode select + 🎯 Learning Objectives), `pages/Levels.jsx` (100-level map grouped by chapter, with locks/stars), `pages/Game.jsx` (grid gameplay for Levels + Daily), `pages/Endless.jsx` (hearts/streak survival), `pages/Daily.jsx` (1-play-per-day gate + countdown), `pages/Codex.jsx` (📚 Study Index: per-world term reader + search, with ✓ learned marks), `pages/Quiz.jsx` (📝 Knowledge Test: required post-test + optional pre-test, attempt history, Copy-CSV export for data collection; attempts in `ethicross-quiz-v1`), `pages/Result.jsx` (generic: stars, badge, buttons). App switches screens with local state — no router. Progress persists in `localStorage` (`ethicross-levels-v1`, `ethicross-endless-best-v1`, `ethicross-daily-v1`, `ethicross-learned-v1`).
 - Themes: `client/src/theme.css` defines 4 themes (`scholar` default, `candy`, `neon`, `pixel`) scoped by `html[data-theme]`, consumed via semantic classes (`.t-page`, `.t-card`, `.t-soft`, `.t-btn`, `.t-ghost`, `.t-chip`, `.t-input`, `.t-title`, `.t-ink`, `.t-muted`, `.t-sub`). App owns the theme state (persisted as `ethicross-theme-v1`); `components/ThemeSwitcher.jsx` flips it. Gameplay-semantic colors (board cells, feedback boxes, difficulty chips) stay hardcoded and are never themed.
 
 ## Conventions / gotchas
