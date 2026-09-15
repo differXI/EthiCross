@@ -29,25 +29,27 @@ export default function Daily({ playedToday, streak, onComplete, onQuit }) {
 
   if (playedToday) {
     return (
-      <div className="mx-auto flex min-h-[70vh] max-w-md flex-col items-center justify-center px-4 py-12 text-center">
+      <div className="t-page">
+        <div className="mx-auto flex min-h-[70vh] max-w-md flex-col items-center justify-center px-4 py-12 text-center">
         <p className="text-5xl">📅</p>
-        <h1 className="mt-3 text-2xl font-extrabold text-slate-900">Today&apos;s puzzle done!</h1>
-        <p className="mt-2 text-slate-600">
+        <h1 className="t-ink mt-3 text-2xl font-extrabold">Today&apos;s puzzle done!</h1>
+        <p className="t-muted mt-2">
           You already played the daily. Come back tomorrow for a fresh crossword.
         </p>
         <p className="mt-4 rounded-full bg-orange-100 px-4 py-1 text-sm font-extrabold text-orange-700">
           🔥 {streak}-day streak
         </p>
-        <p className="mt-3 rounded-xl bg-slate-100 px-4 py-2 font-mono text-lg font-bold text-slate-800">
+        <p className="t-soft t-ink mt-3 px-4 py-2 font-mono text-lg font-bold">
           Next puzzle in {formatCountdown(left)}
         </p>
         <button
           type="button"
           onClick={onQuit}
-          className="mt-6 rounded-lg bg-blue-600 px-6 py-2 font-semibold text-white transition hover:bg-blue-700"
+          className="t-btn mt-6 px-6 py-2"
         >
           Back to Modes
         </button>
+        </div>
       </div>
     )
   }

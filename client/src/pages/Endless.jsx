@@ -140,19 +140,20 @@ export default function Endless({ best, onSaveBest, onQuit }) {
           : 'hidden'
 
   return (
-    <div className="mx-auto max-w-2xl px-4 py-6">
+    <div className="t-page">
+      <div className="mx-auto max-w-2xl px-4 py-6">
       <header className="flex flex-wrap items-center justify-between gap-2">
-        <h1 className="text-xl font-extrabold text-slate-900">♾️ Endless</h1>
-        <div className="flex items-center gap-3 text-sm font-bold text-slate-700">
+        <h1 className="t-title text-xl">♾️ Endless</h1>
+        <div className="t-muted flex items-center gap-3 text-sm font-bold">
           <Hearts left={hearts} />
           <span>
-            Score <span className="text-slate-900">{score}</span>
+            Score <span className="t-ink">{score}</span>
           </span>
-          <span className="rounded-md bg-slate-200 px-2 py-1">Best {Math.max(best, newBest ? score : best)}</span>
+          <span className="t-chip px-2 py-1">Best {Math.max(best, newBest ? score : best)}</span>
           <button
             type="button"
             onClick={onQuit}
-            className="rounded-md px-2 py-1 font-semibold text-slate-500 hover:bg-slate-200 hover:text-slate-800"
+            className="t-muted rounded-md px-2 py-1 font-semibold hover:brightness-90"
           >
             Quit
           </button>
@@ -166,11 +167,11 @@ export default function Endless({ best, onSaveBest, onQuit }) {
       )}
 
       {!over_ ? (
-        <div className="mt-4 rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
-          <p className="text-xs font-bold uppercase tracking-wide text-slate-500">
+        <div className="t-card mt-4 p-5">
+          <p className="t-muted text-xs font-bold uppercase tracking-wide">
             Term {solved + 1} · {key.length} letters · 🔥 streak {streak}
           </p>
-          <p className="mt-2 min-h-12 text-lg font-medium text-slate-800">{term.clue}</p>
+          <p className="t-ink mt-2 min-h-12 text-lg font-medium">{term.clue}</p>
           <form onSubmit={submit} className="mt-4 flex gap-2">
             <label htmlFor="endless-answer" className="sr-only">
               Your answer, {key.length} letters
@@ -183,11 +184,11 @@ export default function Endless({ best, onSaveBest, onQuit }) {
               autoComplete="off"
               autoCapitalize="characters"
               placeholder={`Answer (${key.length} letters)`}
-              className="w-full rounded-lg border border-slate-300 px-3 py-2 font-mono text-lg uppercase tracking-widest text-slate-900 focus:border-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-200"
+              className="t-input w-full px-3 py-2 font-mono text-lg uppercase tracking-widest focus:outline-none focus:ring-2 focus:ring-blue-500"
             />
             <button
               type="submit"
-              className="rounded-lg bg-blue-600 px-4 py-2 font-semibold text-white transition hover:bg-blue-700"
+              className="t-btn px-4 py-2"
             >
               Go
             </button>
@@ -201,7 +202,7 @@ export default function Endless({ best, onSaveBest, onQuit }) {
             >
               💡 Hint (−25)
             </button>
-            <span className="text-xs font-medium text-slate-500">
+            <span className="t-muted text-xs font-medium">
               Wrong answer = −1 ❤️ · 3 strikes and you&apos;re out
             </span>
           </div>
@@ -214,9 +215,9 @@ export default function Endless({ best, onSaveBest, onQuit }) {
           </p>
         </div>
       ) : (
-        <div className="mt-4 rounded-2xl border border-slate-200 bg-white p-6 text-center shadow-sm">
+        <div className="t-card mt-4 p-6 text-center">
           <p className="text-5xl">💀</p>
-          <h2 className="mt-2 text-2xl font-extrabold text-slate-900">Run Over!</h2>
+          <h2 className="t-ink mt-2 text-2xl font-extrabold">Run Over!</h2>
           {newBest && (
             <p className="mt-1 inline-block rounded-full bg-amber-100 px-3 py-1 text-sm font-extrabold text-amber-800">
               🏆 NEW BEST!
@@ -228,9 +229,9 @@ export default function Endless({ best, onSaveBest, onQuit }) {
               ['Solved', solved],
               ['Best 🔥', bestStreak],
             ].map(([label, value]) => (
-              <div key={label} className="rounded-xl bg-slate-100 p-3">
-                <p className="text-[11px] font-bold uppercase tracking-wide text-slate-500">{label}</p>
-                <p className="text-2xl font-extrabold text-slate-900">{value}</p>
+              <div key={label} className="t-soft p-3">
+                <p className="t-muted text-[11px] font-bold uppercase tracking-wide">{label}</p>
+                <p className="t-ink text-2xl font-extrabold">{value}</p>
               </div>
             ))}
           </div>
@@ -238,20 +239,21 @@ export default function Endless({ best, onSaveBest, onQuit }) {
             <button
               type="button"
               onClick={restart}
-              className="rounded-lg bg-blue-600 px-6 py-2 font-semibold text-white transition hover:bg-blue-700"
+              className="t-btn px-6 py-2"
             >
               Play Again
             </button>
             <button
               type="button"
               onClick={onQuit}
-              className="rounded-lg border border-slate-300 bg-white px-6 py-2 font-semibold text-slate-700 transition hover:bg-slate-100"
+              className="t-ghost px-6 py-2"
             >
               Modes
             </button>
           </div>
         </div>
       )}
+      </div>
     </div>
   )
 }

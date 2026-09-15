@@ -1,7 +1,7 @@
 function ClueList({ title, words, solved, hinted, active, onSelectWord }) {
   return (
     <div>
-      <h3 className="text-sm font-bold uppercase tracking-wide text-slate-500">{title}</h3>
+      <h3 className="t-muted text-sm font-bold uppercase tracking-wide">{title}</h3>
       <ul className="mt-2 space-y-1">
         {words.map((p) => {
           const isSolved = solved.has(p.index)
@@ -9,8 +9,8 @@ function ClueList({ title, words, solved, hinted, active, onSelectWord }) {
           const style = isActive
             ? 'bg-blue-100 font-semibold text-blue-900'
             : isSolved
-              ? 'text-slate-400 line-through'
-              : 'text-slate-700 hover:bg-slate-100'
+              ? 't-muted line-through'
+              : 't-ink hover:brightness-95'
           return (
             <li key={`${p.dir}-${p.number}`}>
               <button

@@ -7,29 +7,29 @@ export default function ExplanationCard({ term, onDismiss }) {
       onClick={onDismiss}
       className="fixed inset-0 z-20 flex items-center justify-center bg-slate-900/60 p-4"
     >
-      <div
-        className="w-full max-w-lg rounded-xl bg-white p-6 shadow-xl"
+        <div
+        className="t-card w-full max-w-lg p-6 shadow-xl"
         onClick={(e) => e.stopPropagation()}
       >
-        <h3 className="text-xl font-bold text-slate-900">{term.term}</h3>
-        <dl className="mt-3 space-y-3 text-sm text-slate-700">
+        <h3 className="t-ink text-xl font-bold">{term.term}</h3>
+        <dl className="t-muted mt-3 space-y-3 text-sm">
           <div>
-            <dt className="font-semibold text-slate-900">Definition</dt>
+            <dt className="t-ink font-semibold">Definition</dt>
             <dd>{term.definition}</dd>
           </div>
           <div>
-            <dt className="font-semibold text-slate-900">Why it matters</dt>
+            <dt className="t-ink font-semibold">Why it matters</dt>
             <dd>{term.importance}</dd>
           </div>
           <div>
-            <dt className="font-semibold text-slate-900">Real-world example</dt>
+            <dt className="t-ink font-semibold">Real-world example</dt>
             <dd>{term.example}</dd>
           </div>
         </dl>
         <button
           type="button"
           onClick={onDismiss}
-          className="mt-5 w-full rounded-lg bg-blue-600 px-4 py-2 font-semibold text-white transition hover:bg-blue-700 focus-visible:ring-2 focus-visible:ring-blue-600 focus-visible:ring-offset-2"
+          className="t-btn mt-5 w-full px-4 py-2 focus-visible:ring-2 focus-visible:ring-blue-600 focus-visible:ring-offset-2"
         >
           Continue
         </button>

@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import Home from './pages/Home'
 import Game from './pages/Game'
 import Result from './pages/Result'
@@ -12,6 +12,8 @@ const LEVELS_KEY = 'ethicross-levels-v1'
 const ENDLESS_KEY = 'ethicross-endless-best-v1'
 const DAILY_KEY = 'ethicross-daily-v1'
 const LEARNED_KEY = 'ethicross-learned-v1'
+const THEME_KEY = 'ethicross-theme-v1'
+const THEMES = ['scholar', 'candy', 'neon', 'pixel']
 
 function loadJson(key, fallback) {
   try {
@@ -51,6 +53,19 @@ export default function App() {
   const [endlessBest, setEndlessBest] = useState(() => loadJson(ENDLESS_KEY, 0))
   const [daily, setDaily] = useState(() => loadJson(DAILY_KEY, { lastPlayed: null, streak: 0 }))
   const [learned, setLearned] = useState(() => loadJson(LEARNED_KEY, []))
+  const [theme, setTheme] = useState(() => {
+    const saved = loadJson(THEME_KEY, 'scholar')
+    return THEMES.includes(saved) ? saved : 'scholar'
+  })
+
+  useEffect(() => {
+    document.documentElement.dataset.theme = theme
+  }, [theme])
+
+  function changeTheme(next) {
+    setTheme(next)
+    saveJson(THEME_KEY, next)
+  }
 
   const clearedCount = Object.keys(levelStars).length
   const totalStars = Object.values(levelStars).reduce((a, b) => a + b, 0)
@@ -153,6 +168,8 @@ export default function App() {
           onEndless={() => setScreen('endless')}
           onDaily={() => setScreen('daily')}
           onStudy={() => setScreen('codex')}
+          theme={theme}
+          onTheme={changeTheme}
         />
       )}
       {screen === 'codex' && (

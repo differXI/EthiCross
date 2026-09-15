@@ -137,25 +137,26 @@ export default function Game({ puzzleData, onComplete, onQuit }) {
           : 'hidden'
 
   return (
-    <div className="mx-auto max-w-6xl px-4 py-6">
+    <div className="t-page">
+      <div className="mx-auto max-w-6xl px-4 py-6">
       <header className="mb-6 flex flex-wrap items-center justify-between gap-3">
         <div className="flex items-baseline gap-3">
-          <h1 className="text-2xl font-extrabold text-slate-900">
-            Ethi<span className="text-blue-600">Cross</span>
+          <h1 className="t-title text-2xl">
+            Ethi<span className="t-sub">Cross</span>
           </h1>
-          <span className="text-sm font-medium text-slate-500">{puzzleData.title}</span>
+          <span className="t-muted text-sm font-medium">{puzzleData.title}</span>
         </div>
-        <div className="flex items-center gap-3 text-sm font-semibold text-slate-700">
+        <div className="t-muted flex items-center gap-3 text-sm font-semibold">
           <span>
-            Score <span className="text-slate-900">{score}</span>
+            Score <span className="t-ink">{score}</span>
           </span>
-          <span className="rounded-md bg-slate-200 px-2 py-1 tabular-nums">
+          <span className="t-chip px-2 py-1 tabular-nums">
             ⏱ {formatTime(elapsed)}
           </span>
           <button
             type="button"
             onClick={onQuit}
-            className="rounded-md px-2 py-1 text-slate-500 hover:bg-slate-200 hover:text-slate-800"
+            className="t-muted rounded-md px-2 py-1 hover:brightness-90"
           >
             Quit
           </button>
@@ -183,7 +184,7 @@ export default function Game({ puzzleData, onComplete, onQuit }) {
             <button
               type="button"
               onClick={toggleDirection}
-              className="rounded-lg border border-slate-300 bg-white px-4 py-2 text-sm font-semibold text-slate-700 transition hover:bg-slate-100"
+              className="t-ghost px-4 py-2 text-sm"
             >
               Direction: {direction === 'across' ? 'Across' : 'Down'} (↔ / ↕)
             </button>
@@ -197,11 +198,11 @@ export default function Game({ puzzleData, onComplete, onQuit }) {
         </div>
 
         <div className="flex flex-col gap-4">
-          <div className="rounded-xl border border-slate-200 bg-white p-4">
-            <p className="text-xs font-bold uppercase tracking-wide text-slate-500">
+          <div className="t-card p-4">
+            <p className="t-muted text-xs font-bold uppercase tracking-wide">
               {active ? `${active.number} ${active.dir}` : 'Select a clue'}
             </p>
-            <p className="mt-1 min-h-10 font-medium text-slate-800">
+            <p className="t-ink mt-1 min-h-10 font-medium">
               {active ? active.clue : 'Click a clue or a cell on the grid to begin.'}
             </p>
 
@@ -218,12 +219,12 @@ export default function Game({ puzzleData, onComplete, onQuit }) {
                 autoComplete="off"
                 autoCapitalize="characters"
                 placeholder={active && !activeSolved ? `Answer (${active.word.length} letters)` : ''}
-                className="w-full rounded-lg border border-slate-300 px-3 py-2 font-mono text-lg uppercase tracking-widest text-slate-900 disabled:bg-slate-100 disabled:text-slate-400 focus:border-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-200"
+                className="t-input w-full px-3 py-2 font-mono text-lg uppercase tracking-widest disabled:opacity-60 focus:outline-none focus:ring-2 focus:ring-blue-500"
               />
               <button
                 type="submit"
                 disabled={!active || activeSolved}
-                className="rounded-lg bg-blue-600 px-4 py-2 font-semibold text-white transition hover:bg-blue-700 disabled:cursor-not-allowed disabled:opacity-50"
+                className="t-btn px-4 py-2 disabled:cursor-not-allowed disabled:opacity-50"
               >
                 Check
               </button>
@@ -238,7 +239,7 @@ export default function Game({ puzzleData, onComplete, onQuit }) {
             </p>
           </div>
 
-          <div className="rounded-xl border border-slate-200 bg-white p-4">
+          <div className="t-card p-4">
             <CluePanel
               acrossWords={acrossWords}
               downWords={downWords}
@@ -262,22 +263,23 @@ export default function Game({ puzzleData, onComplete, onQuit }) {
           aria-label="Puzzle complete"
           className="fixed inset-0 z-20 flex items-center justify-center bg-slate-900/60 p-4"
         >
-          <div className="w-full max-w-md rounded-xl bg-white p-6 text-center shadow-xl">
-            <h2 className="text-2xl font-extrabold text-slate-900">Puzzle Complete!</h2>
-            <p className="mt-2 text-slate-600">
+          <div className="t-card w-full max-w-md p-6 text-center shadow-xl">
+            <h2 className="t-ink text-2xl font-extrabold">Puzzle Complete!</h2>
+            <p className="t-muted mt-2">
               You solved all {total} terms. A completion bonus of +500 points has been added.
             </p>
-            <p className="mt-4 text-3xl font-extrabold text-blue-600">{score} points</p>
+            <p className="t-sub mt-4 text-3xl font-extrabold">{score} points</p>
             <button
               type="button"
               onClick={finish}
-              className="mt-6 w-full rounded-lg bg-blue-600 px-4 py-2 font-semibold text-white transition hover:bg-blue-700"
+              className="t-btn mt-6 w-full px-4 py-2"
             >
               View Results
             </button>
           </div>
         </div>
       )}
+      </div>
     </div>
   )
 }
