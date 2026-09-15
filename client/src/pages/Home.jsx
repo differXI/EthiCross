@@ -37,7 +37,6 @@ export default function Home({
   onEndless,
   onDaily,
   onStudy,
-  onQuiz,
 }) {
   return (
     <div className="t-page">
@@ -87,31 +86,7 @@ export default function Home({
             action="Read the Worlds"
             onPlay={onStudy}
           />
-          <ModeCard
-            emoji="📝"
-            title="Knowledge Test"
-            blurb="Required post-test (and optional pre-test): 10 questions that check what you learned. Results can be copied for your group."
-            status="Pre + Post"
-            action="Take the Test"
-            onPlay={onQuiz}
-          />
         </div>
-
-        <section
-          aria-label="Learning objectives"
-          className="t-card mt-4 w-full p-6 text-left"
-        >
-          <h2 className="t-ink text-lg font-bold">🎯 Learning Objectives</h2>
-          <p className="t-muted mt-1 text-sm">
-            After playing EthiCross, you will be able to:
-          </p>
-          <ol className="t-muted mt-3 list-decimal space-y-2 pl-5 text-sm">
-            <li><strong className="t-ink">Define</strong> core software-ethics terms (privacy, security, fairness, accountability, and more).</li>
-            <li><strong className="t-ink">Explain</strong> why each principle matters in real software engineering work.</li>
-            <li><strong className="t-ink">Recognize</strong> ethical issues in realistic scenarios, from dark patterns to data breaches.</li>
-            <li><strong className="t-ink">Apply</strong> ethical reasoning to judge design decisions — then prove it in the Knowledge Test.</li>
-          </ol>
-        </section>
 
         <section
           aria-label="How to play"
